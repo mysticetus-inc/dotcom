@@ -2,7 +2,7 @@
 
 **A Hugo site for Mysticetus DotCom**
 
-This is a super quick, Static Site built using [Hugo](https://gohugo.io/) and [Webpack](https://webpack.js.org/).
+This is a super quick Static Site built using [Hugo](https://gohugo.io/), [Now UI Kit](https://demos.creative-tim.com/now-ui-kit/index.html), and [Webpack](https://webpack.js.org/).
 
 Mysticetus DotCom uses [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling.
 
@@ -12,9 +12,10 @@ Mysticetus DotCom uses [PostCSS](http://postcss.org/) and [Babel](https://babelj
 
 Ensure you have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Mysticetus DotCom.
 
-Next step, clone this repository and run:
+Next step, clone this repository and setup npm dependencies:
 
 ```bash
+git clone git@github.com:Entiat/mysticetusdotcom.git
 npm install
 ```
 
@@ -34,7 +35,7 @@ or for developing your website with `hugo server --buildDrafts --buildFuture`, u
 npm run preview
 ```
 
-Then visit http://localhost:3000/ _- or a new browser windows popped-up already -_ to preview your new website. Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
+Then visit http://localhost:3000/ to preview the website. Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
 
 ### :package: Static build
 
@@ -44,29 +45,27 @@ To build a static version of the website inside the `/dist` folder, run:
 npm run build
 ```
 
-To get a preview of posts or articles not yet published, run:
-
-```bash
-npm run build:preview
-```
-
 See [package.json](package.json#L8) for all tasks.
 
 ## Structure
 
 ```
-|--site                // Everything in here will be built with hugo
-|  |--content          // Pages and collections
-|  |--data             // YAML/JSON/md/HTML data files with any data for site
-|  |--static           // Files in here ends up in the public folder
-|  |--resources        // 
-|  |--config.json      // Site configuration including theme, menus, and params
-|--src                 // Files that will pass through the asset pipeline
-|  |--css              // Webpack will bundle imported css seperately
-|  |--index.js         // index.js is the webpack entry for your css & js assets
-|--themes              // Contains all the theme options
-|  |--mysti            // The Mysticetus theme (in dev)
-|  |--now-ui           // The Now-UI theme which we are porting theme logic to 'mysti' from
+|--site                		// Everything in here will be built with hugo
+|  |--content          		// Pages and collections
+|  |--data             		// YAML/JSON/md/HTML data files with any data for site
+|  |--layouts          		// This is where all templates go
+|  |  |--_default      		// This is where the base templates go
+|  |  |--partials      		// This is where includes live
+|  |  |--[filename].html	// These are template files
+|  |--static           		// Files in here ends up in the public folder
+|  |--config.toml      		// Site configuration. Can include theme, menus, and global params
+|--src                 		// Files that will pass through the asset pipeline
+|  |--fonts              	// This is where our fonts live
+|  |--styles              	// Webpack will bundle imported sass seperately
+|  |  |--theme      			// This is where Now UI Kit lives
+|  |--custom.scss          // Overrides for Now UI Kit
+|  |--main.scss          	// Customization styling
+|  |--index.js         		// index.js is the webpack entry for your sass & js assets
 ```
 
 ## Basic Concepts
@@ -80,9 +79,9 @@ The most useful page there is the one about the available functions:
 https://gohugo.io/templates/functions/
 
 For assets that are completely static and don't need to go through the asset pipeline,
-use the `themes/[theme]/static` folder. Images, font-files, etc, all go there.
+use the `site/static` folder. Images, font-files, etc, all go there.
 
-Files in the static folder end up in the web root. So a file called `/themes/[theme]/static/favicon.ico` will end up being available as `/favicon.ico` and so on...
+Files in the static folder end up in the web root. So a file called `/site/static/favicon.ico` will end up being available as `/favicon.ico` and so on...
 
 The `src/index.js` file is the entrypoint for webpack and will be built to `/dist/main.js`
 

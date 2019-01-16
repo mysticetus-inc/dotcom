@@ -1,6 +1,4 @@
 // Vender JS
-// import 'bootstrap/js/dist/dropdown';
-
 
 //vendor SASS
 import "./styles/theme/now-ui-kit.scss";

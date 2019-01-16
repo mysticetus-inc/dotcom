@@ -4,10 +4,10 @@
     "js": "main.js"
   },
   "": {
-    "": "dist/fonts/.gitkeep",
-    "eot": "/53a1bed7a3ec86d010fe100873828a89.eot",
     "ttf": "/22a0bffe789c286a9d78eb52670996a7.ttf",
     "woff": "/24e2d6b43b1b0f84fdfaa06a4032f154.woff",
-    "woff2": "/8ebec31f5ce59f908db84d86aed5947f.woff2"
+    "eot": "/53a1bed7a3ec86d010fe100873828a89.eot",
+    "woff2": "/8ebec31f5ce59f908db84d86aed5947f.woff2",
+    "": "dist/fonts/.gitkeep"
   }
 }
