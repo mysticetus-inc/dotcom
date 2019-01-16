@@ -1,0 +1,19 @@
+# FE Setup
+/node_modules/
+/npm-debug.log.*
+/npm-debug.log
+/npm-debug.log*
+/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+public/
+nbproject/
