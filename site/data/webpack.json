@@ -1,0 +1,8 @@
+{
+  "main": {
+    "js": "main.js"
+  },
+  "": {
+    "": "fonts/.gitkeep"
+  }
+}
