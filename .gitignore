@@ -1,3 +1,6 @@
+#Mysticetus
+/site/data/webpack.json
+
 # FE Setup
 /node_modules/
 /npm-debug.log.*
