@@ -1,3 +1,10 @@
-//index.js - main entry point for webpack
+// Vender JS
+// import 'bootstrap/js/dist/dropdown';
 
-import "./css/main.css";
+
+//vendor SASS
+import "./styles/theme/now-ui-kit.scss";
+
+//custom SASS
+import "./styles/custom.scss";
+import "./styles/main.scss";

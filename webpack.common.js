@@ -6,11 +6,15 @@ const AssetsPlugin = require("assets-webpack-plugin");
 
 module.exports = {
   entry: {
-    main: path.join(__dirname, "src", "index.js")
+    main: path.join(
+      __dirname, "src", "index.js"
+    )
   },
 
   output: {
-    path: path.join(__dirname, "dist")
+    path: path.join(
+      __dirname, "dist"
+    )
   },
 
   module: {
@@ -18,21 +22,43 @@ module.exports = {
       {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
         loader: "file-loader?name=/[hash].[ext]"
-      },
-
-      {test: /\.json$/, loader: "json-loader"},
-
+      }, 
+      {
+        test: /\.json$/, loader: "json-loader"
+      }, 
       {
         loader: "babel-loader",
         test: /\.js?$/,
-        exclude: /node_modules/,
-        query: {cacheDirectory: true}
+        query: {
+          cacheDirectory: true
+        }
       },
-
       {
         test: /\.(sa|sc|c)ss$/,
-        exclude: /node_modules/,
-        use: ["style-loader", MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"]
+        use: [
+        {
+          loader: 'style-loader',
+        },
+        {
+          loader: MiniCssExtractPlugin.loader, 
+        }, 
+        {
+          loader: 'css-loader',
+        },
+        {
+          loader: 'postcss-loader',
+          options: {
+            plugins: function () {
+              return [
+                require('precss'),
+                require('autoprefixer')
+              ];
+            }
+          }
+        },
+        {
+          loader: 'sass-loader'
+        }]
       }
     ]
   },
@@ -51,7 +77,7 @@ module.exports = {
     new CopyWebpackPlugin([
       {
         from: "./src/fonts/",
-        to: "fonts/",
+        to: "./dist/fonts/",
         flatten: true
       }
     ])
