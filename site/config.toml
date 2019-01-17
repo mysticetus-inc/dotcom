@@ -3,7 +3,7 @@ languageCode = "en-us"
 languageLang = "en"
 title = "Mysticetus - we're the best!"
 
-assetDir = "static/img"
+# assetDir = "static/img"
 
 googleAnalytics = ""
 
@@ -115,7 +115,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [params]
 	logo = "/img/mysticetus.png"
   background = "/img/bg11.jpg"
-  tint = "blue"
+  tint = "orange"
   custom_css = []
   custom_js = []
   date_format = "Mon, Jan 2, 2006"
