@@ -1,22 +1,22 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
-	{{ partial "head/base.html" . }}
+	{{ partial "head/head-base.html" . }}
 	<body class="{{ .Params.class | default "profile-page" }} sidebar-collapse">
 		{{ block "header" . }}
-			{{ partial "header/base.html" . }}
+			{{ partial "header/header-base.html" . }}
 		{{ end }}
 
 		<div class="{{ .Params.wrapper | default "wrapper" }}">
 			{{ block "hero" . }}
 			{{ end }}
-			
+
 			<div class="{{ .Params.section | default "section"}}">
 				<div class="container">
 					{{ block "main" . }}{{end}}
 				</div>
 			</div>
 			{{ block "footer" . }}
-				{{ partial "footer/base.html" . }}
+				{{ partial "footer/footer-base.html" . }}
 			{{end}}
 		</div>
 		{{ partial "footer/scripts.html" . }} 

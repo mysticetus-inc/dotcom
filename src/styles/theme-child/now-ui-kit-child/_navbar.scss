@@ -1,0 +1,22 @@
+.navbar {
+	.navbar-nav {
+		a.nav-link {
+			&.btn,
+			&:not(.btn) {
+				text-transform: capitalize;
+				font-size: $font-size-navbar;
+			}
+
+			&:not(.btn) {
+				padding: $navbar-padding-base-vertical $navbar-padding-base-horizontal;
+			}
+
+			&.btn {
+				&:not(.btn-neutral),
+				&:not(.btn-link) {
+					color: $white-color;
+				}
+			}
+		}
+	}
+}

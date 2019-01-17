@@ -77,14 +77,6 @@ module.exports = {
       filename: "webpack.json",
       path: path.join(process.cwd(), "site/data"),
       prettyPrint: true
-    }),
-
-    new CopyWebpackPlugin([
-      {
-        from: "./src/fonts/",
-        to: "./dist/fonts/",
-        flatten: true
-      }
-    ])
+    })
   ]
 };

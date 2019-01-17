@@ -14,9 +14,11 @@ import 'bootstrap';
 // custom js
 import './js/now-ui-kit';
 
-// vendor SASS
-import "./styles/theme/now-ui-kit.scss";
+// vendor Sass
+import 'bootstrap/scss/bootstrap.scss';
 
-// custom SASS
-import "./styles/custom.scss";
-import "./styles/main.scss";
+// theme Sass
+import './styles/theme/now-ui-kit.scss';
+
+// child theme (theme override) Sass
+import './styles/theme-child/now-ui-kit-child.scss';
