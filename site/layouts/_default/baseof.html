@@ -1,15 +1,26 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
-	{{ partial "head/head-base.html" . }}
-	<body class="{{ .Params.class | default "profile-page" }} sidebar-collapse">
-		{{ block "header" . }}{{ partial "header/header-base.html" . }}{{ end }}
+	<head>
+			{{ partial "head/head-base.html" . }}
+	</head>
+
+	<body class="{{ .Params.class | default "" }} sidebar-collapse">
+
+		{{ block "header" . }}
+			{{ partial "header/header-base.html" . }}
+		{{ end }}
 
 		<div class="{{ .Params.wrapper | default "wrapper" }}">
 
-			{{ block "main" . }}{{ end }}
+			{{ block "main" . }}
+				{{ .Content }}
+			{{ end }}
 				
-			{{ block "footer" . }}{{ partial "footer/footer-base.html" . }}{{end}}
+			{{ block "footer" . }}
+				{{ partial "footer/footer-base.html" . }}
+			{{ end }}
 		</div>
+
 		{{ partial "footer/scripts.html" . }} 
 	</body>
 </html>

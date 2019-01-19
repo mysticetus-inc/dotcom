@@ -1,9 +1,7 @@
 ---
-class: "landing-page"
-background: "img/bg6.jpg"
-title: "Write the best title for your page."
-description:  |
-              <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fa fa-facebook-square"></i></a><a href="#pablo" class="btn btn-primary btn-icon btn-round"> <i class="fa fa-twitter"></i></a><a href="#pablo" class="btn btn-primary btn-icon btn-round"> <i class="fa fa-google-plus"></i></a>
+title: ""
+date: 2019-01-19T13:46:13-08:00
+draft: false
 ---
 
 <h2 class="title">Hello world, from a markdown file.</h2>

@@ -16,25 +16,25 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [[menu.main]]
   name = "Industries"
-  url = "#"
+  url = "/industries/"
   weight = 1
   identifier = "industries"
 [[menu.main]]
   name = "Prime Client"
   pre = "<i class='now-ui-icons files_paper'></i>"
-  url = "#"
+  url = "/industries/prime-client/"
   weight = 1
   parent = "industries"
 [[menu.main]]
   name = "PSO Providers"
   pre = "<i class='now-ui-icons ui-1_calendar-60'></i>"
-  url = "#"
+  url = "/industries/pso-provider/"
   weight = 2
   parent = "industries"
 [[menu.main]]
   name = "Research"
   pre = "<i class='now-ui-icons shopping_tag-content'></i>"
-  url = "#"
+  url = "/industries/academia/"
   weight = 3
   parent = "industries"
 
@@ -64,30 +64,30 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [[menu.main]]
   name = "Product"
-  url = "#"
+  url = "/product/"
   weight = 2
 
 [[menu.main]]
   name = "Company"
-  url = "/profile/"
+  url = "/company/"
   weight = 3
 	identifier = "company"
 [[menu.main]]
   name = "About"
   pre = "<i class='now-ui-icons shopping_tag-content'></i>"
-  url = "#"
+  url = "/company/about/"
   weight = 1
   parent = "company"
 [[menu.main]]
   name = "Contact"
   pre = "<i class='now-ui-icons shopping_tag-content'></i>"
-  url = "#"
+  url = "/contact/"
   weight = 2
   parent = "company"
 
 [[menu.main]]
   name = "Pricing"
-  url = "#"
+  url = "/pricing/"
   weight = 4
 
 # [[menu.main]]
