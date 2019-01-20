@@ -120,4 +120,4 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   custom_js = []
   date_format = "Mon, Jan 2, 2006"
   description = "A website built through Hugo for Mysticetus."
-	cta = "Request a Demo"
+	cta_text = "Request a Demo"

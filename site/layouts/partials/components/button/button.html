@@ -1,0 +1,13 @@
+<!-- 
+	text: string
+	type: ["link", "button", "reset", "submit"],
+	style: ["primary", "success", "info", "warning", "danger", "link"],
+	size: ["lg", "large", "sm", "small", "xs", "xsmall"],
+	class: string
+	href: string
+	isNav: boolean
+-->
+
+<a class="{{if .isNav}}nav-link{{end}} btn {{if .style}}btn-{{.style}}{{end}}" href="{{ .url | relURL }}">
+	<span>{{ .text }}</span>
+</a>
