@@ -1,0 +1,50 @@
+/*!
+
+ =========================================================
+ * Styling
+ =========================================================
+
+ * > Custom Variables (overrides)
+ * > Now UI Kit (broken down)
+
+*/
+
+// custom Now UI Kit overrides
+@import 'custom/variables';
+
+// Now UI Kit mixins
+@import 'now-ui-kit/scss/mixins';
+
+// Now UI Kit Core CSS
+@import "now-ui-kit/scss/buttons";
+@import "now-ui-kit/scss/inputs";
+@import "now-ui-kit/scss/checkboxes-radio";
+@import "now-ui-kit/scss/progress";
+@import "now-ui-kit/scss/badges";
+@import "now-ui-kit/scss/pagination";
+@import "now-ui-kit/scss/typography";
+@import "now-ui-kit/scss/misc";
+@import "now-ui-kit/scss/pills";
+
+// Now UI Kit Components
+@import "now-ui-kit/scss/social-buttons";
+@import "now-ui-kit/scss/tabs";
+@import "now-ui-kit/scss/navbar";
+@import "now-ui-kit/scss/dropdown";
+@import "now-ui-kit/scss/alerts";
+@import "now-ui-kit/scss/images";
+@import "now-ui-kit/scss/popups";
+@import "now-ui-kit/scss/nucleo-outline";
+@import "now-ui-kit/scss/modals";
+@import "now-ui-kit/scss/carousel";
+@import "now-ui-kit/scss/cards";
+@import "now-ui-kit/scss/footers";
+
+// Now UI Kit example sections
+@import "now-ui-kit/scss/sections";
+
+// Now UI Kit responsive classes
+@import "now-ui-kit/scss/responsive";
+
+// custom Now UI Kit overrides
+@import 'custom/navbar';

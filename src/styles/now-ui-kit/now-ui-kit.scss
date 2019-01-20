@@ -1,0 +1,57 @@
+/*!
+
+ =========================================================
+ * Now-ui-kit - v1.1.0
+ =========================================================
+
+ * Product Page: http://www.creative-tim.com/product/now-ui-kit
+ * Copyright 2017 Creative Tim (http://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/creativetimofficial/scss/blob/master/LICENSE.md)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+@import 'scss/variables';
+@import 'scss/mixins';
+
+// Plugins CSS
+@import "scss/plugins/plugin-bootstrap-switch";
+@import "scss/plugins/plugin-nouislider";
+@import "scss/plugins/plugin-datepicker";
+
+// Core CSS
+@import "scss/buttons";
+@import "scss/inputs";
+@import "scss/checkboxes-radio";
+@import "scss/progress";
+@import "scss/badges";
+@import "scss/pagination";
+@import "scss/typography";
+@import "scss/misc";
+@import "scss/pills";
+
+// components
+@import "scss/social-buttons";
+@import "scss/tabs";
+@import "scss/navbar";
+@import "scss/dropdown";
+@import "scss/alerts";
+@import "scss/images";
+@import "scss/popups";
+@import "scss/nucleo-outline";
+@import "scss/modals";
+@import "scss/carousel";
+@import "scss/cards";
+@import "scss/footers";
+
+// example pages and sections
+@import "scss/example-pages";
+@import "scss/sections";
+
+
+@import "scss/responsive";
