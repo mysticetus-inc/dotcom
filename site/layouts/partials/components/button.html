@@ -2,12 +2,12 @@
 	text: string
 	type: ["link", "button", "reset", "submit"],
 	style: ["primary", "success", "info", "warning", "danger", "link"],
-	size: ["lg", "large", "sm", "small", "xs", "xsmall"],
+	size: ["lg", "sm", "xs"],
 	class: string
 	href: string
 	isNav: boolean
 -->
 
-<a class="{{if .isNav}}nav-link{{end}} btn {{if .style}}btn-{{.style}}{{end}}" href="{{ .url | relURL }}">
+<a class="{{if .isNav}}nav-link{{end}} btn {{if .style}}btn-{{.style}}{{end}} {{if .size}}btn-{{.size}}{{end}}" href="{{ .url | relURL }}">
 	<span>{{ .text }}</span>
 </a>

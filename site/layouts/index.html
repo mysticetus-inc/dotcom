@@ -1,8 +1,9 @@
 {{ define "header" }}
+	{{ partial "header/header-fixed-base.html" . }}
 {{ end }}
 
 {{ define "main" }}
-	{{ .Content }}
+	{{.Content}}
 {{ end }}
 
 {{ define "footer" }}

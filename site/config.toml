@@ -96,21 +96,11 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 #   weight = 5
 
 [[menu.footer]]
-  identifier = "twitter"
-  pre = "<i class='fa fa-twitter'></i>"
-  url = "https://twitter.com/cboettig"
-  weight = 1
-[[menu.footer]]
-  identifier = "github"
-  pre = "<i class='fa fa-github'></i>"
-  url = "https://github.com/cboettig"
-  weight = 2
-[[menu.footer]]
 	identifier = "copyright"
-	name = "MIT"
+	name = "2019 Copyright"
 	pre = "<i class='fa fa-balance-scale'></i>"
 	url = "https://spdx.org/licenses/MIT"
-	weight = 3
+	weight = 1
 
 [params]
 	logo = "/img/mysticetus.png"

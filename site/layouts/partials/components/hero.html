@@ -1,0 +1,13 @@
+<div class="page-header">
+		<div class="page-header-image" style="background-image: url('{{ .backgroundImg }}');">
+		</div>
+		<div class="container">
+				<div class="content-center brand">
+					<h1 class="h1-seo">{{ .title }}</h1>
+					<h3>{{.subTitle}}</h3>
+					{{ $buttonVars := dict "text" .buttonText "url" .buttonUrl "isNav" "false" "style" "primary" "size" "lg"}}
+					{{ partial "components/button.html" $buttonVars }}
+					<small>{{.supportingText}}</small>
+				</div>
+		</div>
+</div>

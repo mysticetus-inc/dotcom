@@ -1,4 +1,9 @@
 .navbar {
+
+	&.navbar-transparent {
+		padding-top: $navbar-padding-base;
+	}
+
 	.navbar-nav {
 		a.nav-link {
 			&.btn,
