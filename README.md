@@ -12,14 +12,17 @@ Mysticetus DotCom uses [PostCSS](http://postcss.org/) and [Babel](https://babelj
 
 Ensure you have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Mysticetus DotCom.
 
-Next step, clone this repository and setup npm dependencies:
+Next step, clone this repository
 
 ```bash
 git clone git@github.com:Entiat/mysticetusdotcom.git
-npm install
 ```
 
-This will take some time and will install all packages necessary to run Mysticetus DotCom and its tasks.
+Setup npm dependencies:
+```bash
+npm install
+```
+Npm install will take some time (few minutes) and will install all packages necessary to run Mysticetus DotCom and its tasks.
 
 ### :construction_worker: Development
 
