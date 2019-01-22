@@ -2,7 +2,7 @@
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-$sans-serif-family:          'Montserrat', 'Helvetica Neue',  Arial, sans-serif;
+$sans-serif-family:          'Open Sans', 'Helvetica Neue',  Arial, sans-serif;
 
 $none:                       0   !default;
 $border-thin:                1px !default;
@@ -105,6 +105,9 @@ $padding-round-horizontal:     23px !default;
 $padding-simple-vertical:      10px !default;
 $padding-simple-horizontal:    17px !default;
 
+$padding-extra-large-vertical:       20px !default;
+$padding-extra-large-horizontal:     58px !default;
+
 $padding-large-vertical:       15px !default;
 $padding-large-horizontal:     48px !default;
 
@@ -117,8 +120,8 @@ $padding-small-horizontal:     15px !default;
 $padding-label-vertical:        2px !default;
 $padding-label-horizontal:     12px !default;
 
-$margin-large-vertical:        30px !default;
-$margin-base-vertical:         15px !default;
+$margin-large-vertical:        20px !default;
+$margin-base-vertical:         10px !default;
 
 $margin-base-horizontal:       15px !default;
 
@@ -127,6 +130,7 @@ $border:                        1px solid   !default;
 $border-radius-extra-small:     0.125rem    !default;
 $border-radius-small:           0.1875rem   !default;
 $border-radius-large:           0.25rem     !default;
+$border-radius-extra-large:			0.33rem 			!default;
 $border-radius-extreme:         0.875rem    !default;
 
 $border-radius-large-top:      $border-radius-large $border-radius-large 0 0 !default;
@@ -157,6 +161,7 @@ $font-size-mini:               0.7142em     !default;
 $font-size-small:              0.8571em     !default;
 $font-size-base:               14px         !default;
 $font-size-large:              1em          !default;
+$font-size-extra-large:				 1.25em				!default;
 $font-size-large-navbar:       20px         !default;
 $font-size-blockquote:         1.1em        !default; // ~ 15px
 
@@ -171,6 +176,8 @@ $btn-icon-line-height:       2.4em          !default;
 $line-height:                1.35em         !default;
 $line-height-lg:             54px           !default;
 
+$lead-font-size:						1.25rem !default;
+$lead-font-weight:					400 !default;
 
 $border-radius-top:        10px 10px 0 0     !default;
 $border-radius-bottom:     0 0 10px 10px     !default;

@@ -8,6 +8,6 @@
 	isNav: boolean
 -->
 
-<a class="{{if .isNav}}nav-link{{end}} btn {{if .style}}btn-{{.style}}{{end}} {{if .size}}btn-{{.size}}{{end}}" href="{{ .url | relURL }}">
+<a class="{{if .isNav}}nav-link{{end}} btn {{if .style}}btn-{{.style}}{{end}} {{if .size}}btn-{{.size}}{{end}} {{if .class}}{{.class}}{{end}}" href="{{ .url | relURL }}">
 	<span>{{ .text }}</span>
 </a>

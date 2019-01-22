@@ -47,5 +47,7 @@
 @import "now-ui-kit/scss/responsive";
 
 // custom Now UI Kit overrides
+@import 'custom/buttons';
 @import 'custom/navbar';
 @import "custom/sections";
+@import "custom/typography";

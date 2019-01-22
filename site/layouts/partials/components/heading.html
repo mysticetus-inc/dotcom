@@ -1,0 +1,11 @@
+{{ if eq .size "1" }}
+	<h1 class="{{ if .bold }} bold {{end}}">{{.text}}</h1>
+{{ else if eq .size "2" }}
+	<h2 class="{{ if .bold }} bold {{end}}">{{.text}}</h2>
+{{ else if eq .size "3" }}
+	<h3 class="{{ if .bold }} bold {{end}}">{{.text}}</h3>
+{{ else if eq .size "4" }}
+	<h4 class="{{ if .bold }} bold {{end}}">{{.text}}</h4>
+{{ else if eq .size "5" }}
+	<h5 class="{{ if .bold }} bold {{end}}">{{.text}}</h5>
+{{end}}
