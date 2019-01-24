@@ -15,7 +15,7 @@ Ensure you have the latest/LTS [node](https://nodejs.org/en/download/) and [npm]
 Next step, clone this repository
 
 ```bash
-git clone git@github.com:Entiat/mysticetusdotcom.git
+git clone git@github.com:mysticetus-inc/dotcom.git
 ```
 
 Setup npm dependencies:
