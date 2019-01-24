@@ -64,6 +64,11 @@ module.exports = {
   },
 
   plugins: [
+		new webpack.ProvidePlugin({
+			$: "jquery",
+			jQuery: "jquery"
+		}),
+
     new webpack.ProvidePlugin({
       fetch: "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
     }),
@@ -72,12 +77,12 @@ module.exports = {
       filename: "webpack.json",
       path: path.join(process.cwd(), "site/data"),
       prettyPrint: true
-    }),
-
-    new CopyWebpackPlugin([
+		}),
+		
+		new CopyWebpackPlugin([
       {
         from: "./src/fonts/",
-        to: "./dist/fonts/",
+        to: "./fonts/",
         flatten: true
       }
     ])

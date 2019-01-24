@@ -1,8 +1,24 @@
-// Vender JS
+/* Sass imports
+========================================================= */
 
-//vendor SASS
-import "./styles/theme/now-ui-kit.scss";
+// Bootstrap @import
+import 'bootstrap/scss/bootstrap.scss';
 
-//custom SASS
-import "./styles/custom.scss";
-import "./styles/main.scss";
+// Now UI Kit and Overrides
+import './styles/theme.scss';
+
+
+/* javascript imports
+========================================================= */
+
+// setup jQuery, because it's special
+import $ from 'jquery';
+window.jQuery = $;
+window.$ = $;
+
+// Bootstrap JS
+import 'popper.js';
+import 'bootstrap';
+
+// Now UI Kit js
+import './js/now-ui-kit';

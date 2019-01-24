@@ -1,10 +1,104 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Mysticetus - we're the best!"
+
+# assetDir = "static/img"
+
+googleAnalytics = ""
+
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
+[[menu.main]]
+  name = "Industries"
+  url = "/industries/"
+  weight = 1
+  identifier = "industries"
+[[menu.main]]
+  name = "Prime Client"
+  url = "/industries/prime-client/"
+  weight = 1
+  parent = "industries"
+[[menu.main]]
+  name = "PSO Providers"
+  url = "/industries/pso-provider/"
+  weight = 2
+  parent = "industries"
+[[menu.main]]
+  name = "Research"
+  url = "/industries/academia/"
+  weight = 3
+  parent = "industries"
+
+# [[menu.main]]
+#   name = "Case Studies"
+#   url = "#"
+#   weight = 0
+#   identifier = "case-studies"
+# [[menu.main]]
+#   name = "Case Study 1"
+#   url = "#"
+#   weight = 1
+#   parent = "case-studies"
+# [[menu.main]]
+#   name = "Case Study 2"
+#   url = "#"
+#   weight = 2
+#   parent = "case-studies"
+# [[menu.main]]
+#   name = "Case Study 3"
+#   url = "#"
+#   weight = 3
+#   parent = "case-studies"
+
+[[menu.main]]
+  name = "Product"
+  url = "/product/"
+  weight = 2
+
+[[menu.main]]
+  name = "Company"
+  url = "/company/"
+  weight = 3
+	identifier = "company"
+[[menu.main]]
+  name = "About"
+  url = "/company/about/"
+  weight = 1
+  parent = "company"
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 2
+  parent = "company"
+
+[[menu.main]]
+  name = "Pricing"
+  url = "/pricing/"
+  weight = 4
+
+# [[menu.main]]
+#   name = "Docs"
+#   url = "#"
+#   weight = 5
+
+[[menu.footer]]
+	identifier = "copyright"
+	name = "2019 Copyright"
+	url = "https://spdx.org/licenses/MIT"
+	weight = 1
+
+[params]
+	logo = "/img/mysticetus.png"
+  background = "/img/bg11.jpg"
+  tint = "orange"
+  custom_css = []
+  custom_js = []
+  date_format = "Mon, Jan 2, 2006"
+  description = "A website built through Hugo for Mysticetus."
+	cta_text = "Request a Demo"

@@ -1,0 +1,34 @@
+<div class="collapse navbar-collapse justify-content-end" id="navigation">
+	<ul class="navbar-nav ml-auto">
+		{{ range .Site.Menus.main }}
+			{{ if .HasChildren }}
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+						{{ .Pre }}
+						<span>{{ .Name }}</span>
+						<span class="caret"></span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right">
+						{{ range .Children }}
+							<a class="dropdown-item" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+								{{ .Pre }}
+								<span>{{ .Name }}</span>
+							</a>
+						{{end}}
+					</div>
+				</li>
+			{{ else }}
+				<li class="nav-item">
+					<a class="nav-link" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+						{{ .Pre }}
+						<span>{{ .Name }}</span>
+					</a>
+				</li>
+			{{ end }}
+		{{ end }}
+		<li class="nav-item">
+			{{ $buttonVars := dict "text" .Site.Params.cta_text "url" "demo" "isNav" "true" "style" "primary" }}
+			{{ partial "components/button.html" $buttonVars }}
+		</li>
+	</ul>
+</div>

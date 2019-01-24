@@ -1,0 +1,11 @@
+{{ $script := .Site.Data.webpack.main }}
+{{ with $script.js }}
+  <script src="{{ relURL . }}"></script>
+{{ end }}
+
+<script type="text/javascript">
+	$(document).ready(function() {
+			// the body of this function is in js/now-ui-kit.js
+			// nowuiKit.initSliders();
+	});
+</script>

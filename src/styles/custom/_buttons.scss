@@ -1,0 +1,24 @@
+.btn-xl {
+	@include btn-size(
+		$padding-extra-large-vertical,
+		$padding-extra-large-horizontal,
+		$font-size-extra-large,
+		$border-radius-extra-large
+	);
+}
+
+.btn,
+.navbar .navbar-nav > a.btn{
+	&.btn-icon {
+		&.btn-lg{
+			height: $btn-icon-size-lg;
+			min-width: $btn-icon-size-lg;
+			width: $btn-icon-size-lg;
+		
+			i.now-ui-icons,
+			i.fa{
+					font-size: $btn-icon-font-size-lg;
+			}
+		}
+	}
+}
