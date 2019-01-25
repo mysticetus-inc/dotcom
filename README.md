@@ -93,6 +93,39 @@ You can use **ES6** and use both relative imports or import libraries from npm.
 Any CSS file imported into the `index.js` will be run through Webpack, compiled with [PostCSS Next](http://cssnext.io/), and
 minified to `/dist/[name].[hash:5].css`. Import statements will be resolved as part of the build.
 
-## Deploying to Netlify
+## [Netlify](https://netlify.com)
 
-Coming soon
+### Account Access
+
+To access the Mysticetus site on Netlify:
+
+- Go to https://www.netlify.com
+- Click the "Login" button on the top right.
+- Enter the Mysticetus login credentials (see Dave)
+- Find "Mysticetus" in the site list
+- Click it
+
+From here you have complete control over the Mysticetus site server. For more information of what you can do here, please continue reading or visit the [Netlify Docs](https://www.netlify.com/docs/).
+
+### Deploying to Netflify
+
+> For a quick intro into publishing a site using Netlify, watch this YouTube Video: [Netlify Tutorial – Deploying from Git](https://youtu.be/mN9oI98As_4)
+
+The Mysticetus website uses [continuous integration](https://www.netlify.com/docs/continuous-deployment/) with Github and Netlify. That means the code that lives in the Mysticetus `master` branch is automatically deployed to Netlify upon every commit. More information about how Netlify and Github interact can be found [here](https://www.netlify.com/docs/github-permissions/).
+
+_"Continuous deployment works by connecting a Git repository to a Netlify site and keeping the two in sync."_
+
+### [Branches & Deploys](https://www.netlify.com/docs/continuous-deployment/#branches-deploys)
+
+**Production branch:** the Git branch that Netlify uses to build and deploy changes to the Mysticetus site’s main URL (e.g. www.mysticetus.com and mysticetus.netlify.com).
+**Production deploy:** a deploy from the production branch. Auto publishing is enabled so each new production deploy will update what is published at the Mysticetus site’s main URL.
+**Branch deploy:** a deploy generated from a branch that is not your production branch, like `test`. Branch deploys are published to a URL which includes the branch name as a prefix. For example, if a branch is called `test`, it will deploy to `test--mysticetus.netlify.com`. Soon we will use Netlify DNS so the `test` branch example would deploy to `test.mysticetus.com`.
+
+
+### [Rolling Back Version](https://www.netlify.com/docs/manual-deploys/#rolling-back-versions)
+
+> For a quick intro into rolling back versions on Netlify, watch this YouTube Video: [Netlify Tutorial – Versioning and rollbacks](https://youtu.be/wKPu2B3hVtQ)
+
+Did something go :boom:? No worries, any previous deploy can be selected as the live version of your site in production using the Publish Deploy button on the Deploys page. For full instructions, please visit [**Rolling Back Version**](https://www.netlify.com/docs/manual-deploys/#rolling-back-versions) in the Netlify Docs. Additional reading can be found [here](https://www.netlify.com/docs/versioning-and-rollbacks/).
+
+> Note: This will only happen if something outside of the build process fails. If the build fails, for example let's say an node module doesn't intall properly, Netlify will not publish that deploy.
