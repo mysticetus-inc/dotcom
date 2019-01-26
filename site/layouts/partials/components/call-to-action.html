@@ -1,0 +1,31 @@
+<section class="section section-lg bg-secondary text-white">
+	<div class="container">
+		<div class="row">
+			<div class="column col-md-12 text-center">
+				<h2 class="bold">
+					{{ .title }}
+				</h2>
+				{{ if .subTitle }}
+					<p class="lead">
+						{{ .subTitle }}
+					</p>
+				{{ end }}
+				<p class="pt-4 mb-0">
+					{{ if .button1Text }}
+						{{ $button1Vars := dict "text" .button1Text "url" .button1Link "style" "primary"}}
+						{{ partial "components/button.html" $button1Vars }}
+					{{ end }}
+					{{ if .button2Text }}
+						{{ $button2Vars := dict "text" .button2Text "url" .button2Link "style" "secondary"}}
+						{{ partial "components/button.html" $button2Vars }}
+					{{ end }}
+				</p>
+				{{ if .supportingText }}
+					<p>
+						<small>{{ .supportingText }}</small>
+					</p>
+				{{end}}
+			</div>
+		</div>
+	</div>
+</section>

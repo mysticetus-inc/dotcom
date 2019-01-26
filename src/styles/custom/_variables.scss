@@ -250,6 +250,12 @@ $nc-background-color:     #eee !default;
 $nc-li-width:         (30em / 14) !default;
 $nc-padding-width:    (1em/3) !default;
 
+// Sections
+$section-padding-small: 35px 0px;
+$section-padding-base: 70px 0;
+$section-padding-large: 100px 0px;
+$section-padding-extra-large: 150px 0px;
+
 // Social icons color
 $social-twitter:                   #55acee !default;
 $social-twitter-state-color:       darken(#55acee, 5%) !default;

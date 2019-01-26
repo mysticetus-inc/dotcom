@@ -5,7 +5,7 @@
 import 'bootstrap/scss/bootstrap.scss';
 
 // Now UI Kit and Overrides
-import './styles/theme.scss';
+import './styles/styles.scss';
 
 
 /* javascript imports

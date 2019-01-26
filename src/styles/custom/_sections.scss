@@ -1,3 +1,19 @@
+.section {
+	padding: $section-padding-base;
+	
+	&.section-sm {
+		padding: $section-padding-small;
+	}
+
+	&.section-lg {
+		padding: $section-padding-large;
+	}
+
+	&.section-xl {
+		padding: $section-padding-extra-large;
+	}
+}
+
 .page-header {
 	&:before{
 		background-color: rgba(0,0,0,.6);
