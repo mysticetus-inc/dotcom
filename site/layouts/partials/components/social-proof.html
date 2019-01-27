@@ -1,0 +1,19 @@
+<section class="section section-lg bg-light mt-5">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-8 text-center">
+				<h2 class="bold">{{ .title }}</h2>
+				<p class="lead">{{ .subTitle }}</p>
+			</div>
+			<div class="col-5 mt-3">
+				<div class="media">
+					<img class="align-self-start mr-3" src="{{ .testimonialImage }}" alt="{{ .testimonialName }}" />
+					<div class="media-body">
+						<p class="my-0">"{{ .testimonialText }}"</p>
+						<p><small><em>- {{ .testimonialName }}</em></small></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
