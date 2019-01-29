@@ -11,21 +11,21 @@
 			<div class="column col-md-8">
 				<div class="card bg-light pt-2 px-2">
 					<div class="card-body">
-						<form name="request-demo" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+						<form name="request-demo" method="POST" data-netlify="true" netlify-honeypot="bot-field" action='{{ "/demo/success/" | relURL }}'>
 							<p class="hidden" hidden>
 								<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
 							</p>
 							<div class="form-group">
-								<label for="first-name">Full Name</label>
-								<input type="text" class="form-control" id="name" required />
+								<label for="first-name">Full name</label>
+								<input type="text" class="form-control" id="name" name="Full Name" required />
 							</div>
 							<div class="form-group">
-								<label for="company-name">Company Name</label>
-								<input type="text" class="form-control" id="company-name" />
+								<label for="company-name">Company name</label>
+								<input type="text" class="form-control" id="company-name" name="Company Name" />
 							</div>
 							<div class="form-group">
 								<label for="industry">Industry</label>
-								<select id="industry" class="custom-select" required>
+								<select class="custom-select" id="industry" name="Industry" required>
 									<option selected></option>
 									<option value="oil-and-water">Oil & Water</option>
 									<option value="pso-provider">PSO Provider</option>
@@ -34,17 +34,17 @@
 								</select>
 							</div>
 							<div class="form-group d-none">
-								<label for="industry-other">What Industry are you in?</label>
-								<input type="text" class="form-control" id="industry-other" />
+								<label for="industry-other">What industry are you in?</label>
+								<input type="text" class="form-control" id="industry-other" name="Industry (other)" />
 							</div>
 							<div class="form-group">
 								<label for="company-name">Email</label>
-								<input type="email" class="form-control" id="company-email" aria-describedby="companyEmailHelp" required />
+								<input type="email" class="form-control" id="company-email" name="Email" aria-describedby="companyEmailHelp" required />
 								<small id="companyEmailHelp" class="form-text text-muted">We will only use your email to help schedule your demo. We will never share your information with anyone else.</small>
 							</div>
 							<div class="form-group">
 								<label for="preferred-times">Preferred date(s) and time(s)</label>
-								<textarea class="form-control" id="preferred-times" rows="3" aria-describedby="preferredTimeHelp"></textarea>
+								<textarea class="form-control" id="preferred-times" rows="3" name="Preferred date(s) and time(s)" aria-describedby="preferredTimeHelp"></textarea>
 								<small id="preferredTimeHelp" class="form-text text-muted">List 3 dates and times in the coming week when you're available for 30 minutes. If that doesn't work, don't worry, just put a few dates and times that do and we'll get in touch with you.</small>
 							</div>
 							<div class="text-center mt-5">
