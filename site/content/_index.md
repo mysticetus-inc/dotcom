@@ -3,6 +3,7 @@ title: "Mysticetus"
 ---
 
 {{< components/hero
+	size="full"
 	backgroundImg="mysticetus.jpg"
 	title="Some. Huge. Text."
 	subTitle="Short and sweet value prop"

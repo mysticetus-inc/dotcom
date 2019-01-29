@@ -10,14 +10,14 @@
 */
 
 // custom Now UI Kit overrides
-@import 'custom/variables';
+@import "custom/variables";
 
 // Now UI Kit mixins
-@import 'now-ui-kit/scss/mixins';
+@import "now-ui-kit/scss/mixins";
 
 // Now UI Kit Core CSS
 @import "now-ui-kit/scss/buttons";
-@import "now-ui-kit/scss/inputs";
+// @import "now-ui-kit/scss/inputs";
 @import "now-ui-kit/scss/checkboxes-radio";
 @import "now-ui-kit/scss/progress";
 @import "now-ui-kit/scss/badges";
@@ -37,7 +37,7 @@
 @import "now-ui-kit/scss/nucleo-outline";
 @import "now-ui-kit/scss/modals";
 @import "now-ui-kit/scss/carousel";
-@import "now-ui-kit/scss/cards";
+// @import "now-ui-kit/scss/cards";
 @import "now-ui-kit/scss/footers";
 
 // Now UI Kit example sections
@@ -47,7 +47,7 @@
 @import "now-ui-kit/scss/responsive";
 
 // custom Now UI Kit overrides
-@import 'custom/buttons';
-@import 'custom/navbar';
+@import "custom/buttons";
+@import "custom/navbar";
 @import "custom/sections";
 @import "custom/typography";

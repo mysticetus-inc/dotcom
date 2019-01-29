@@ -8,6 +8,12 @@
 	isNav: boolean
 -->
 
-<a class="{{if .isNav}}nav-link{{end}} btn {{if .style}}btn-{{.style}}{{end}} {{if .size}}btn-{{.size}}{{end}} {{if .class}}{{.class}}{{end}}" href="{{ .url | relURL }}">
-	<span>{{ .text }}</span>
-</a>
+{{ if or (eq .type "button") (eq .type "submit") }}
+	<button type="{{ if .type }}{{ .type }}{{ else }}button{{end}}" class="btn {{if .style}}btn-{{.style}}{{end}} {{if .size}}btn-{{.size}}{{end}} {{if .class}}{{.class}}{{end}}">
+		{{ .text }}
+	</button>
+{{ else }}
+	<a class="{{if .isNav}}nav-link{{end}} btn {{if .style}}btn-{{.style}}{{end}} {{if .size}}btn-{{.size}}{{end}} {{if .class}}{{.class}}{{end}}" href="{{ .url | relURL }}">
+		<span>{{ .text }}</span>
+	</a>
+{{ end }}

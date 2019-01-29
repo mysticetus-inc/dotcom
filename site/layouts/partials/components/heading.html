@@ -1,3 +1,7 @@
+{{ if .section }}
+	test
+{{ end }}
+
 {{ if eq .size "1" }}
 	<h1 class="{{ if .bold }} bold {{end}}">{{.text}}</h1>
 {{ else if eq .size "2" }}

@@ -1,23 +1,33 @@
-<section class="page-header {{if .isSmall}}page-header-small{{end}}">
+<section class="page-header{{ if .backgroundImg }} has-image{{ end }}{{ if .size }} page-header-{{ .size }}{{ end }}">
+	{{ if .backgroundImg }}
 		<div class="page-header-image" style="background-image: url('{{ .backgroundImg }}');">
 		</div>
-		<div class="container">
-				<div class="content-center">
-					<h1 class="display-4 bold">{{ .title }}</h1>
-					<p class="lead">{{.subTitle}}</p>
-					{{ if or .buttonText .supportingText }}
-					<div class="mt-4">
-						{{ if .buttonText }}
-							{{ $buttonVars := dict "text" .buttonText "url" .buttonUrl "style" "primary" "size" "lg"}}
-							{{ partial "components/button.html" $buttonVars }}
-						{{ end }}
-						{{ if .supportingText}}
-							<p>
-								<small class="text-muted">{{.supportingText}}</small>
-							</p>
-						{{end}}
-					</div>
+	{{ end }}
+	<div class="container">
+		<div class="content-center">
+			{{ if eq .size "full" }}
+				<h1 class="display-3 bold">{{ .title }}</h1>
+			{{ else if eq .size "large" }}
+				<h1 class="bold">{{ .title }}</h2>
+			{{ else if eq .size "small" }}
+				<h3 class="bold">{{ .title }}</h2>
+			{{ else }}
+				<h2 class="bold">{{ .title }}</h2>
+			{{ end }}
+			<p class="lead">{{.subTitle}}</p>
+			{{ if or .buttonText .supportingText }}
+				<div class="mt-4">
+					{{ if .buttonText }}
+						{{ $buttonVars := dict "text" .buttonText "url" .buttonUrl "style" "primary" "size" "lg"}}
+						{{ partial "components/button.html" $buttonVars }}
 					{{ end }}
+					{{ if .supportingText}}
+						<p>
+							<small class="text-muted">{{.supportingText}}</small>
+						</p>
+					{{end}}
 				</div>
+			{{ end }}
 		</div>
-	</section>
+	</div>
+</section>

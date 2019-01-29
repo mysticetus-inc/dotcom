@@ -15,7 +15,43 @@
 }
 
 .page-header {
-	&:before{
-		background-color: rgba(0,0,0,.6);
+	height: 50vh;
+	max-height: 524px;
+		
+	&:before {
+		background-color: transparent;
+	}
+
+	&.has-image {
+		&:before {
+			background-color: rgba(0,0,0,.6);
+		}
+
+		.container {
+			> .content-center {
+				color: $white-color;
+			}
+		}
+	}
+
+	&.page-header-small {
+		height: 35vh;
+		max-height: 262px;
+	}
+
+	&.page-header-large {
+		height: 75vh;
+		max-height: 786px;
+	}
+
+	&.page-header-full {
+		height: 100vh;
+    max-height: 1048px;
+	}
+
+	.container {
+		> .content-center {
+			color: $black-color
+		}
 	}
 }
