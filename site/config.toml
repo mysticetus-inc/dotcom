@@ -30,7 +30,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   weight = 2
   parent = "industries"
 [[menu.main]]
-  name = "Research"
+  name = "Academia"
   url = "/industries/academia/"
   weight = 3
   parent = "industries"
@@ -76,14 +76,18 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	weight = 2
 	parent = "mysticetus"
 [[menu.footer]]
-	name = "Research"
-	url = "/industries/research/"
+	name = "Academia"
+	url = "/industries/academia/"
 	weight = 3
 	parent = "mysticetus"
 [[menu.footer]]
-	name = "Features"
-	url = "/product/"
-	weight = 4
+	name = "----"
+	weight = 5
+	parent= "mysticetus"
+[[menu.footer]]
+	name = "Request a Demo"
+	url = "/demo/"
+	weight = 6
 	parent = "mysticetus"
 # [[menu.footer]]
 # 	name = "Pricing"
@@ -96,25 +100,30 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	name = "Resource"
 	weight = 2
 [[menu.footer]]
-	name="Report an issue"
-	url = "/contact/"
+	name = "Features"
+	url = "/product/"
 	weight = 1
 	parent = "resources"
 [[menu.footer]]
-	name="Privacy"
-	url = "/privacy/"
+	name="Help"
+	url = "/contact/"
 	weight = 2
 	parent = "resources"
-[[menu.footer]]
-	name="Terms & Use"
-	url = "/terms/"
-	weight = 3
-	parent = "resources"
-[[menu.footer]]
-	name="Security"
-	url = "/security/"
-	weight = 4
-	parent = "resources"
+# [[menu.footer]]
+# 	name="Privacy"
+# 	url = "/privacy/"
+# 	weight = 2
+# 	parent = "resources"
+# [[menu.footer]]
+# 	name="Terms & Use"
+# 	url = "/terms/"
+# 	weight = 3
+# 	parent = "resources"
+# [[menu.footer]]
+# 	name="Security"
+# 	url = "/security/"
+# 	weight = 4
+# 	parent = "resources"
 
 [[menu.footer]]
 	identifier = "company"

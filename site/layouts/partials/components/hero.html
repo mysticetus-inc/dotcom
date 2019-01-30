@@ -13,13 +13,17 @@
 			{{ if eq .size "full" }}
 				<h1 class="bold">{{ .title }}</h1>
 			{{ else if eq .size "large" }}
-				<h1 class="bold">{{ .title }}</h2>
+				<h2 class="bold">{{ .title }}</h2>
 			{{ else if eq .size "small" }}
 				<h3 class="bold">{{ .title }}</h2>
+			{{ else if eq .size "extra-small" }}
+				<h4 class="bold">{{ .title }}</h4>
 			{{ else }}
 				<h2 class="bold">{{ .title }}</h2>
 			{{ end }}
-			<p class="lead">{{.subTitle}}</p>
+			{{ if .subTitle }}
+				<p class="lead">{{.subTitle}}</p>
+			{{ end }}
 			{{ if or .buttonText .supportingText }}
 				<div class="mt-4">
 					{{ if .buttonText }}
