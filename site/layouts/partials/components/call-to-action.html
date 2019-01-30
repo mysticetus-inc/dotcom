@@ -1,7 +1,7 @@
 <section class="section section-lg bg-secondary text-white">
 	<div class="container">
-		<div class="row">
-			<div class="column col-md-12 text-center">
+		<div class="row justify-content-center">
+			<div class="column col-md-10 text-center">
 				<h2 class="bold">
 					{{ .title }}
 				</h2>
@@ -12,11 +12,11 @@
 				{{ end }}
 				<p class="pt-4 mb-0">
 					{{ if .button1Text }}
-						{{ $button1Vars := dict "text" .button1Text "url" .button1Link "style" "primary"}}
+						{{ $button1Vars := dict "text" .button1Text "url" .button1Link "style" "primary" "size" "lg"}}
 						{{ partial "components/button.html" $button1Vars }}
 					{{ end }}
 					{{ if .button2Text }}
-						{{ $button2Vars := dict "text" .button2Text "url" .button2Link "style" "secondary"}}
+						{{ $button2Vars := dict "text" .button2Text "url" .button2Link "style" "secondary"  "size" "lg"}}
 						{{ partial "components/button.html" $button2Vars }}
 					{{ end }}
 				</p>

@@ -20,8 +20,8 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   weight = 1
   identifier = "industries"
 [[menu.main]]
-  name = "Prime Client"
-  url = "/industries/prime-client/"
+  name = "Oil & Wind"
+  url = "/industries/oil-and-wind/"
   weight = 1
   parent = "industries"
 [[menu.main]]
@@ -66,8 +66,8 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	name = "Mysticetus"
 	weight = 1
 [[menu.footer]]
-	name = "Oil & Water"
-	url = "/industries/prime-client/"
+	name = "Oil & Wind"
+	url = "/industries/oil-and-wind/"
 	weight = 1
 	parent = "mysticetus"
 [[menu.footer]]

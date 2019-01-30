@@ -24,6 +24,55 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	display: inline-block;
+
+	&.unstyled {
+		text-decoration: none;
+	}
+
+	&.text-primary-inverted {
+		color: $light-black;
+
+		&:hover {
+			color: $brand-primary;
+		}
+	}
+
+	&.text-secondary-inverted {
+		color: $light-black;
+
+		&:hover {
+			color: $brand-secondary;
+		}
+	}
+
+	&.text-info-inverted {
+		color: $light-black;
+		
+		&:hover {
+			color: $brand-info;
+		}
+	}
+	&.text-success-inverted {
+		color: $light-black;
+		
+		&:hover {
+			color: $brand-success;
+		}
+	}
+	&.text-warning-inverted {
+		color: $light-black;
+		
+		&:hover {
+			color: $brand-warning;
+		}
+	}
+	&.text-danger-inverted {
+		color: $light-black;
+		
+		&:hover {
+			color: $brand-danger;
+		}
+	}
 }
 
 .lead {
