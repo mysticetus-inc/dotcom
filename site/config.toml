@@ -56,10 +56,10 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   weight = 2
   parent = "company"
 
-[[menu.main]]
-  name = "Pricing"
-  url = "/pricing/"
-  weight = 4
+# [[menu.main]]
+#   name = "Pricing"
+#   url = "/pricing/"
+#   weight = 4
 
 [[menu.footer]]
 	identifier = "mysticetus"
@@ -85,11 +85,11 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	url = "/product/"
 	weight = 4
 	parent = "mysticetus"
-[[menu.footer]]
-	name = "Pricing"
-	url = "/pricing/"
-	weight = 5
-	parent = "mysticetus"
+# [[menu.footer]]
+# 	name = "Pricing"
+# 	url = "/pricing/"
+# 	weight = 5
+# 	parent = "mysticetus"
 
 [[menu.footer]]
 	identifier = "resources"

@@ -7,7 +7,7 @@
 			</div>
 			<div class="col-6 mt-4">
 				<div class="media">
-					<img class="align-self-start mr-3" width="80" src="{{ .testimonialImage }}" alt="{{ .testimonialName }}" />
+					<img class="align-self-start mr-3" width="80" src="{{ .testimonialImage | relURL }}" alt="{{ .testimonialName }}" />
 					<div class="media-body">
 						<p class="my-0">"{{ .testimonialText }}"</p>
 						<p><small><em>- {{ .testimonialName }}</em></small></p>

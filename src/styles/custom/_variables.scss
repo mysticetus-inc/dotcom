@@ -28,13 +28,11 @@ $opacity-gray-3:             rgba(222,222,222, .3) !default;
 $opacity-gray-5:             rgba(222,222,222, .5) !default;
 $opacity-gray-8:             rgba(222,222,222, .8) !default;
 
-
 $opacity-5:                  rgba(255,255,255, .5) !default;
 $opacity-8:                  rgba(255,255,255, .8) !default;
 
 $datepicker-color-days:             rgba(255,255,255, .8)  !default;
 $datepicker-color-old-new-days:     rgba(255,255,255, .4)  !default;
-
 
 $opacity-1:                  rgba(255,255,255, .1) !default;
 $opacity-2:                  rgba(255,255,255, .2) !default;
@@ -278,6 +276,7 @@ $nc-li-width:         (30em / 14) !default;
 $nc-padding-width:    (1em/3) !default;
 
 // Sections
+$section-padding-extra-small: 0px 0px;
 $section-padding-small: 35px 0px;
 $section-padding-base: 70px 0;
 $section-padding-large: 100px 0px;

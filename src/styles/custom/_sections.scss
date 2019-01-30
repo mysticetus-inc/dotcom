@@ -1,15 +1,19 @@
 .section {
 	padding: $section-padding-base;
+
+	&.section-extra-small {
+		padding: $section-padding-extra-small;
+	}
 	
-	&.section-sm {
+	&.section-small {
 		padding: $section-padding-small;
 	}
 
-	&.section-lg {
+	&.section-large {
 		padding: $section-padding-large;
 	}
 
-	&.section-xl {
+	&.section-extra-large {
 		padding: $section-padding-extra-large;
 	}
 }
@@ -17,6 +21,7 @@
 .page-header {
 	height: 50vh;
 	max-height: 524px;
+	color: $black-color;
 		
 	&:before {
 		background-color: transparent;

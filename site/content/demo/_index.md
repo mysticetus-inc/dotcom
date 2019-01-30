@@ -2,19 +2,20 @@
 title: "Demo"
 ---
 
-{{< components/hero
-	size="small"
-	vcentered="true"
+{{< components/sub-hero
+	static="true"
+	size="extra-small"
+	centered="true"
 	title="Request a Demo"
-	subTitle="Request a personalized demonstration to see what Mysticetus can do for you."
+	subTitle="Request a personalized walk-through of Mysticetus to see how we can help in your next anthropogenic operation."
 >}}
 
 {{< components/demo-form >}}
 
 {{< components/social-proof 
-	title = "A Social Proof Header"
-	subTitle = "A section sub header that may have a bit more text, extend further, and maybe even extend to a second line if needed."
-	testimonialText = "Mysticetus has helped me save time, money, and improved the way I run my business."
-	testimonialName = "Advocate User, CEO"
-	testimonialImage = "https://via.placeholder.com/80x80"
+	title = "Customers see the value in Mysticetus"
+	subTitle = "Experience the difference in your next anthropogenic operation with the dedicated Mysticetus team by your side."
+	testimonialText = "Mysticetus has been incredibly valuable as a tool to associate sightings and telemetry data with GIS data. Not only will Mysticetus tell us an animal in question is within an area, it will tell us the distance for locations both within, and outside the boundary."
+	testimonialName = "Grey, Marine Scientist"
+	testimonialImage = "img/testimonials/grey.jpg"
 >}}

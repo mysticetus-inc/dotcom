@@ -72,7 +72,7 @@ Icons:
 	subTitle = "Experience the difference in your next anthropogenic operation with the dedicated Mysticetus team by your side."
 	testimonialText = "We had operational issues at 4:30 in the morning. The Mysticetus team immediately responded to our call and helped us address our issues quickly."
 	testimonialName = "Rick, Seismic Operations Director"
-	testimonialImage = "https://mysticetus.com/wp-content/uploads/2016/02/March-30-1.jpg"
+	testimonialImage = "img/testimonials/rick.jpg"
 >}}
 
 {{< components/call-to-action
