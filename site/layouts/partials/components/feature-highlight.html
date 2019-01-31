@@ -12,7 +12,7 @@
 				<p>{{.text}}</p>
 				<p>
 					{{ if .buttonText }}
-						{{ $buttonVars := dict "text" .buttonText "url" .buttonUrl "style" "outline-primary"}}
+						{{ $buttonVars := dict "text" .buttonText "url" .buttonLink "style" "outline-primary"}}
 						{{ partial "components/button.html" $buttonVars }}
 					{{ end }}
 				</p>

@@ -41,7 +41,7 @@ Icons:
 	text="Prevent unnecessary operational delays and shutdowns. Mysticetus builds a comprehensive, crystal clear picture for all project oberservers - whether on vessel, in aircraft, or stationed on land - to see the same picture, in real time."
 	image="mysticetus-data-driven-decisions.png"
 	buttonText="Learn more"
-	buttonLink="/product/#data-driven-decision"
+	buttonLink="/product/#data-driven-mitigation"
 >}}
 
 {{< components/page-line >}}
