@@ -1,0 +1,14 @@
+<section class="section{{ if .size }} section-{{ .size }}{{ end }}">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="column col-md-9{{ if .centered }} text-center{{ end }}">
+				{{ if .title }}
+					{{ partial "components/heading.html" . }}
+				{{ end }}
+				{{ if .subTitle }}
+					<p class="lead">{{ .subTitle }}</p>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</section>

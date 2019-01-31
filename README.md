@@ -129,3 +129,9 @@ _"Continuous deployment works by connecting a Git repository to a Netlify site a
 Did something go :boom:? No worries, any previous deploy can be selected as the live version of your site in production using the Publish Deploy button on the Deploys page. For full instructions, please visit [**Rolling Back Version**](https://www.netlify.com/docs/manual-deploys/#rolling-back-versions) in the Netlify Docs. Additional reading can be found [here](https://www.netlify.com/docs/versioning-and-rollbacks/).
 
 > Note: This will only happen if something outside of the build process fails. If the build fails, for example let's say an node module doesn't intall properly, Netlify will not publish that deploy.
+
+### Forms
+
+We're using Netlify for all of our [form submissions](https://www.netlify.com/docs/form-handling/) for two reasons. 1.) We get up to 100 form submission per month for free, and 2.) They have built in [spam filtering](https://www.netlify.com/docs/form-handling/#spam-filtering) without the need for captchas
+
+There is an automatic trigger setup to alert Slack when a new form submission happens. Based on the form submitted is which channel will be notified. For example, if the "Request a Demo" for is submitted the #demo-requests Slack channel will be notified.

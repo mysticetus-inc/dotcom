@@ -4,6 +4,77 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+// Type display classes
+.display-1 {
+  font-size: $display1-size;
+  font-weight: $display1-weight;
+}
+.display-2 {
+  font-size: $display2-size;
+  font-weight: $display2-weight;
+}
+.display-3 {
+  font-size: $display3-size;
+  font-weight: $display3-weight;
+}
+.display-4 {
+  font-size: $display4-size;
+  font-weight: $display4-weight;
+}
+
+a {
+	display: inline-block;
+
+	&.unstyled {
+		text-decoration: none;
+	}
+
+	&.text-primary-inverted {
+		color: $light-black;
+
+		&:hover {
+			color: $brand-primary;
+		}
+	}
+
+	&.text-secondary-inverted {
+		color: $light-black;
+
+		&:hover {
+			color: $brand-secondary;
+		}
+	}
+
+	&.text-info-inverted {
+		color: $light-black;
+		
+		&:hover {
+			color: $brand-info;
+		}
+	}
+	&.text-success-inverted {
+		color: $light-black;
+		
+		&:hover {
+			color: $brand-success;
+		}
+	}
+	&.text-warning-inverted {
+		color: $light-black;
+		
+		&:hover {
+			color: $brand-warning;
+		}
+	}
+	&.text-danger-inverted {
+		color: $light-black;
+		
+		&:hover {
+			color: $brand-danger;
+		}
+	}
+}
+
 .lead {
   font-size: $lead-font-size;
   font-weight: $font-weight-normal;

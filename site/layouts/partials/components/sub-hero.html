@@ -1,0 +1,35 @@
+<section class="section{{ if .size }} section-{{ .size }}{{ end }}{{ if .backgroundImg }} has-image{{ end }}" style="background-image: url('{{ .backgroundImg }}');">
+	<div class="container{{ if .centered }} text-center{{ end }}">
+		<div class="row justify-content-center mt-5">
+			<div class="col-8">
+				{{ if eq .size "full" }}
+					<h1 class="bold">{{ .title }}</h1>
+				{{ else if eq .size "large" }}
+					<h1 class="bold">{{ .title }}</h2>
+				{{ else if eq .size "small" }}
+					<h3 class="bold">{{ .title }}</h2>
+				{{ else if eq .size "extra-small" }}
+					<h4 class="bold">{{ .title }}</h4>
+				{{ else }}
+					<h2 class="bold">{{ .title }}</h2>
+				{{ end }}
+				{{ if .subTitle }}
+					<p class="lead">{{.subTitle}}</p>
+				{{ end }}
+				{{ if or .buttonText .supportingText }}
+					<div class="mt-4">
+						{{ if .buttonText }}
+							{{ $buttonVars := dict "text" .buttonText "url" .buttonUrl "style" "primary" "size" "lg"}}
+							{{ partial "components/button.html" $buttonVars }}
+						{{ end }}
+						{{ if .supportingText}}
+							<p>
+								<small class="text-muted">{{.supportingText}}</small>
+							</p>
+						{{end}}
+					</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</section>
