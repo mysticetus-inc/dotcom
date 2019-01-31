@@ -5,7 +5,7 @@
 import 'bootstrap/scss/bootstrap.scss';
 
 // Now UI Kit and Overrides
-import './styles/theme.scss';
+import './styles/styles.scss';
 
 
 /* javascript imports
@@ -22,3 +22,9 @@ import 'bootstrap';
 
 // Now UI Kit js
 import './js/now-ui-kit';
+
+//SumoMe 
+import './js/plugins/sumo-snippet.js';
+
+//HotJar
+import './js/plugins/hotjar.js';

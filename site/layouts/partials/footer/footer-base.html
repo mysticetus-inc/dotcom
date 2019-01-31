@@ -1,13 +1,47 @@
-<footer class="footer" data-background-color="black">
+<footer class="section" data-background-color="black">
   <div class="container">
-    <nav>
-	    <ul>
-	    {{ range .Site.Menus.footer }}
-        <li>
-          <a href="{{ .URL | relURL }}">{{ .Pre }} {{ .Name }}</a>
-        </li>
-      {{ end }}
-      </ul>
-    </nav>
+		<div class="row">
+			<div class="col-12 col-md-4">
+				<a class="mb-2" href="{{ .Site.BaseURL | relURL }}">
+					<img src="{{ .Site.Params.footerLogo }}" height="60px" alt="{{ .Site.Title }}" />
+				</a>
+				{{ if .Site.Params.footerText }}
+					<p class="text-muted">
+						{{ .Site.Params.footerText }}
+					</p>
+				{{ end }}
+				<p>
+					<small class="d-block mb-3 text-muted">
+						&copy; {{ now.Year }} {{ .Site.Params.fullName }}
+						<br />
+						Icons made by <a class="text-muted" href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a class="text-muted" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+					</small>
+				</p>
+			</div>
+			{{ range .Site.Menus.footer }}
+				<div class="col-12 col-md">
+					{{ if .HasChildren }}
+						<h5>{{ .Name }}</h5>
+						<ul class="list-unstyled text-small">
+							{{ range .Children }}
+								<li>
+									<a class="text-muted" href="{{ .URL | relLangURL }}">
+										{{ .Name }}
+									</a>
+								</li>
+							{{ end }}
+						</ul>
+					{{ else }}
+						<ul class="list-unstyled text-small">
+							<li>
+								<a class="text-muted" href="{{ .URL | relLangURL }}">
+									{{ .Name }}
+								</a>
+							</li>
+						</ul>
+					{{ end }}
+				</div>
+			{{ end }}
+		</div>
   </div>
 </footer>

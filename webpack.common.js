@@ -82,7 +82,7 @@ module.exports = {
 		new CopyWebpackPlugin([
       {
         from: "./src/fonts/",
-        to: "./fonts/",
+        to: "fonts/",
         flatten: true
       }
     ])

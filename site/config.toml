@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Mysticetus - we're the best!"
+title = "Mysticetus"
 
 # assetDir = "static/img"
 
@@ -20,8 +20,8 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   weight = 1
   identifier = "industries"
 [[menu.main]]
-  name = "Prime Client"
-  url = "/industries/prime-client/"
+  name = "Oil & Wind"
+  url = "/industries/oil-and-wind/"
   weight = 1
   parent = "industries"
 [[menu.main]]
@@ -30,31 +30,10 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   weight = 2
   parent = "industries"
 [[menu.main]]
-  name = "Research"
+  name = "Academia"
   url = "/industries/academia/"
   weight = 3
   parent = "industries"
-
-# [[menu.main]]
-#   name = "Case Studies"
-#   url = "#"
-#   weight = 0
-#   identifier = "case-studies"
-# [[menu.main]]
-#   name = "Case Study 1"
-#   url = "#"
-#   weight = 1
-#   parent = "case-studies"
-# [[menu.main]]
-#   name = "Case Study 2"
-#   url = "#"
-#   weight = 2
-#   parent = "case-studies"
-# [[menu.main]]
-#   name = "Case Study 3"
-#   url = "#"
-#   weight = 3
-#   parent = "case-studies"
 
 [[menu.main]]
   name = "Product"
@@ -77,24 +56,93 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   weight = 2
   parent = "company"
 
-[[menu.main]]
-  name = "Pricing"
-  url = "/pricing/"
-  weight = 4
-
 # [[menu.main]]
-#   name = "Docs"
-#   url = "#"
-#   weight = 5
+#   name = "Pricing"
+#   url = "/pricing/"
+#   weight = 4
 
 [[menu.footer]]
-	identifier = "copyright"
-	name = "2019 Copyright"
-	url = "https://spdx.org/licenses/MIT"
+	identifier = "mysticetus"
+	name = "Mysticetus"
 	weight = 1
+[[menu.footer]]
+	name = "Oil & Wind"
+	url = "/industries/oil-and-wind/"
+	weight = 1
+	parent = "mysticetus"
+[[menu.footer]]
+	name = "PSO Providers"
+	url = "/industries/pso-provider/"
+	weight = 2
+	parent = "mysticetus"
+[[menu.footer]]
+	name = "Academia"
+	url = "/industries/academia/"
+	weight = 3
+	parent = "mysticetus"
+[[menu.footer]]
+	name = "----"
+	weight = 5
+	parent= "mysticetus"
+[[menu.footer]]
+	name = "Request a Demo"
+	url = "/demo/"
+	weight = 6
+	parent = "mysticetus"
+# [[menu.footer]]
+# 	name = "Pricing"
+# 	url = "/pricing/"
+# 	weight = 5
+# 	parent = "mysticetus"
+
+[[menu.footer]]
+	identifier = "resources"
+	name = "Resource"
+	weight = 2
+[[menu.footer]]
+	name = "Features"
+	url = "/product/"
+	weight = 1
+	parent = "resources"
+[[menu.footer]]
+	name="Help"
+	url = "/contact/"
+	weight = 2
+	parent = "resources"
+# [[menu.footer]]
+# 	name="Privacy"
+# 	url = "/privacy/"
+# 	weight = 2
+# 	parent = "resources"
+# [[menu.footer]]
+# 	name="Terms & Use"
+# 	url = "/terms/"
+# 	weight = 3
+# 	parent = "resources"
+# [[menu.footer]]
+# 	name="Security"
+# 	url = "/security/"
+# 	weight = 4
+# 	parent = "resources"
+
+[[menu.footer]]
+	identifier = "company"
+	name = "Company"
+	weight = 3
+[[menu.footer]]
+	name = "About"
+	url = "/about/"
+	weight = 1
+	parent = "company"
+[[menu.footer]]
+	name = "Contact"
+	url = "/contact/"
+	weight = 2
+	parent = "company"
 
 [params]
 	logo = "/img/mysticetus.png"
+	fullName = "Mysticetus, LLC."
   background = "/img/bg11.jpg"
   tint = "orange"
   custom_css = []
@@ -102,3 +150,5 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   date_format = "Mon, Jan 2, 2006"
   description = "A website built through Hugo for Mysticetus."
 	cta_text = "Request a Demo"
+	footerLogo = "/img/mysticetus.png"
+	footerText = "Mysticetus ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper."
