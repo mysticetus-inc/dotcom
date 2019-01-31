@@ -1,0 +1,84 @@
+<section class="section section-small">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="column col-md-8">
+					<div class="card">
+						<div class="card-header">
+							This form is for technical support only. If you'd like to learn more about Mysticetus try <a href="{{ "demo" | relURL }}">requesting a demo</a>.
+						</div>
+						<div class="card-body">
+							<form name="technical-support" method="POST" data-netlify="true" netlify-honeypot="bot-field" subject="A new technical support question was submitted!" class="pt-2 px-2">
+								<p class="hidden" hidden>
+									<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+								</p>
+								<div class="form-group">
+									<label for="first-name">Full name</label>
+									<input type="text" class="form-control" id="name" name="Full Name" required />
+								</div>
+								<div class="form-group">
+									<label for="company-name">Company name</label>
+									<input type="text" class="form-control" id="company-name" name="Company Name" />
+								</div>
+								<div class="form-group">
+									<label for="industry">Industry</label>
+									<select class="custom-select" id="industry" name="Industry" required>
+										<option selected></option>
+										<option value="oil-and-wind">Oil & Wind</option>
+										<option value="pso-provider">PSO Provider</option>
+										<option value="Academia">Academia</option>
+										<option value="other">Other...</option>
+									</select>
+								</div>
+								<div class="form-group d-none">
+									<label for="industry-other">What industry are you in?</label>
+									<input type="text" class="form-control" id="industry-other" name="Industry (other)" />
+								</div>
+								<div class="form-group">
+									<label for="company-name">Email</label>
+									<input type="email" class="form-control" id="company-email" name="Email" aria-describedby="companyEmailHelp" required />
+									<small id="companyEmailHelp" class="form-text text-muted">We will only use your email to communicate about support issues. We will never share your information with anyone else.</small>
+								</div>
+								<div class="form-group">
+									<label for="how-can-we-help">How can we help?</label>
+									<textarea class="form-control" id="how-can-we-help" rows="3" name="How can we help?" required></textarea>
+								</div>
+								<div class="text-center mt-5">
+									{{ $buttonVars := dict "text" "Submit support request" "type" "submit" "style" "primary" "size" "xl" }}
+									{{ partial "components/button.html" $buttonVars }}
+									<p>
+										<small class="text-muted">We will never share your info with anyone else.</small>
+									</p>
+								</div>
+							</form>
+							<script>
+								(function() {
+									'use strict';
+	
+									window.addEventListener('load', function() {
+										const forms = document.getElementsByName('request-demo');
+	
+										Array.prototype.filter.call(forms, function(form) {
+											const industryInput = form.elements.namedItem('industry'),
+														industryOtherInput = form.elements.namedItem('industry-other'),
+														industryOtherInputGroup = industryOtherInput.parentElement;
+											
+											industryInput.addEventListener('change', function(event) {
+												if (industryInput.value === "other") {
+													industryOtherInputGroup.classList.remove("d-none");
+													industryOtherInput.focus();
+													industryOtherInput.setAttribute('required', true);
+												} else {
+													industryOtherInputGroup.classList.add("d-none");
+													industryOtherInput.removeAttribute('required');
+												}
+											}, false);
+										})
+									}, false);
+								})();
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
