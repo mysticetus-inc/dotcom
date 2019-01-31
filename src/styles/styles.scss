@@ -28,7 +28,7 @@
 @import "now-ui-kit/scss/pagination";
 @import "now-ui-kit/scss/typography";
 @import "now-ui-kit/scss/misc";
-@import "now-ui-kit/scss/pills";
+// @import "now-ui-kit/scss/pills";
 
 // Now UI Kit Components
 @import "now-ui-kit/scss/social-buttons";
@@ -53,5 +53,6 @@
 // custom Now UI Kit overrides
 @import "custom/buttons";
 @import "custom/navbar";
+@import "custom/pills";
 @import "custom/sections";
 @import "custom/typography";

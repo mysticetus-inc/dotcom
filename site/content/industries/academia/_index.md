@@ -11,22 +11,22 @@ title: "Academia"
 	supportingText="Requesting a demo is easy and only takes 30 seconds."
 >}}
 
-{{< components/feature-section
+{{< components/feature-highlight
 	title="Focus on your research"
 	subTitle="Data collection"
 	text="Map animal locations quickly and easily without distraction. Your sighting data is accurate and readily validated."
 	image="mysticetus-reporting.png"
 >}}
 
-{{< components/feature-section
+{{< components/feature-highlight
 	title="Simplify everyday operations"
-	subTitle="Custom"
+	subTitle="Custom Reporting"
 	text="Aggregates data across days, weeks, months, etc. into a single, integrated cloud database including your pictures and sighting notes. Reports are customized by you to meet your requirements."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 >}}
 
-{{< components/feature-section
+{{< components/feature-highlight
 	title="But wait... there's more!"
 	subTitle="Feature"
 	text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed rutrum sapien, vel finibus ipsum. Praesent nec sagittis odio. Ut nec commodo lacus."

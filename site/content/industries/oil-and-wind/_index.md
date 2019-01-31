@@ -11,14 +11,14 @@ title: "Oil & Wind"
 	supportingText="Requesting a demo is easy and only takes 30 seconds."
 >}}
 
-{{< components/feature-section
+{{< components/feature-highlight
 	title="Increase operational efficiency"
 	subTitle="Prevent delays"
 	text="Merged technologies such as GPS integration, passive acoustic monitoring, IR cameras, real time mapping, and internet connectivity reduce false shutdowns."
 	image="mysticetus-data-driven-decisions.png"
 >}}
 
-{{< components/feature-section
+{{< components/feature-highlight
 	title="Reduce risks"
 	subTitle="Reduce PSO errors"
 	text="Mysticetus eliminates manual calculations for PSOs (e.g. distance to animal) reducing the likeliness of human error and increasing accurate monitoring and mitigation."
@@ -26,7 +26,7 @@ title: "Oil & Wind"
 	imagePosition="right"
 >}}
 
-{{< components/feature-section
+{{< components/feature-highlight
 	title="Focus on what's important"
 	subTitle="Protect your permit"
 	text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet eleifend lacinia. Proin eleifend, eros a feugiat imperdiet, felis ligula cursus ante, nec malesuada purus risus ut sapien."

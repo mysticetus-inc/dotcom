@@ -11,14 +11,14 @@ title: "Pso Provider"
 	supportingText="Requesting a demo is easy and only takes 30 seconds."
 >}}
 
-{{< components/feature-section
+{{< components/feature-highlight
 	title="Make better decisions"
 	subTitle="Data driven mitigation"
 	text="Prevent unnecessary operational delays and shutdowns. Mysticetus builds a comprehensive, crystal clear picture for all project oberservers - whether on vessel, in aircraft, or stationed on land - to see the same picture, in real time."
 	image="mysticetus-data-driven-decisions.png"
 >}}
 
-{{< components/feature-section
+{{< components/feature-highlight
 	title="Increase accuracy"
 	subTitle="Data collection"
 	text="Map animal and vessel locations, viewable and shared across connected computers around the world. Your sighting data is accurate and readily validated."
@@ -26,7 +26,7 @@ title: "Pso Provider"
 	imagePosition="right"
 >}}
 
-{{< components/feature-section
+{{< components/feature-highlight
 	title="Simplify everyday operations"
 	subTitle="Reporting"
 	text="Aggregates data across days, weeks, months, etc. into a single, integrated cloud database including your pictures and sighting notes. Reports are generated with a single button push."
