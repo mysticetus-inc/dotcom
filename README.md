@@ -1,5 +1,7 @@
 # Mysticetus DotCom
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cdb9701d-456b-4284-8bae-5e91d63e9f91/deploy-status)](https://app.netlify.com/sites/mysticetus/deploys)
+
 **A Hugo site for Mysticetus DotCom**
 
 This is a super quick Static Site built using [Hugo](https://gohugo.io/), [Now UI Kit](https://demos.creative-tim.com/now-ui-kit/index.html), and [Webpack](https://webpack.js.org/).
