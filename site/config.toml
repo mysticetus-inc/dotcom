@@ -39,11 +39,22 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   name = "Product"
   url = "/product/"
   weight = 2
+	identifier = "product"
+
+[[menu.main]]
+	name = "Features"
+	weight = 3
+	identifier = "features"
+[[menu.main]]
+	name = "Example Feature"
+	url = "/feature/example/"
+	weight = 1
+	parent = "features"
 
 [[menu.main]]
   name = "Company"
   url = "/company/"
-  weight = 3
+  weight = 4
 	identifier = "company"
 [[menu.main]]
   name = "About"
@@ -100,7 +111,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	name = "Resource"
 	weight = 2
 [[menu.footer]]
-	name = "Features"
+	name = "Product"
 	url = "/product/"
 	weight = 1
 	parent = "resources"

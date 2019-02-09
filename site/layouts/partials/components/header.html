@@ -3,7 +3,16 @@
 		<div class="row justify-content-center">
 			<div class="column col-md-9{{ if .centered }} text-center{{ end }}">
 				{{ if .title }}
-					{{ partial "components/heading.html" . }}
+					{{ $size := "2" }}	
+					{{ if eq .size "large" }}
+						{{ $size = "1" }}
+					{{ else if eq .size "small" }}
+						{{ $size = "3" }}
+					{{ else if eq .size "extra-small" }}
+						{{ $size = "4" }}
+					{{ end }}
+					{{ $headingVars := dict "size" $size "title" .title }}
+					{{ partial "components/heading.html" $headingVars }}
 				{{ end }}
 				{{ if .subTitle }}
 					<p class="lead">{{ .subTitle }}</p>

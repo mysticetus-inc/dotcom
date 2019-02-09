@@ -1,11 +1,13 @@
-{{ if (not (isset . "size")) | or (eq .size "") |  or (eq .size "1") }}
-	<h1 class="{{ if .bold }} bold {{end}}">{{.title}}</h1>
+{{ if eq .size "1" }}
+	<h1 class="{{ if .bold }}bold{{end}}">{{.title}}</h1>
 {{ else if eq .size "2" }}
-	<h2 class="{{ if .bold }} bold {{end}}">{{.title}}</h2>
+	<h2 class="{{ if .bold }}bold{{end}}">{{.title}}</h2>
 {{ else if eq .size "3" }}
-	<h3 class="{{ if .bold }} bold {{end}}">{{.title}}</h3>
+	<h3 class="{{ if .bold }}bold{{end}}">{{.title}}</h3>
 {{ else if eq .size "4" }}
-	<h4 class="{{ if .bold }} bold {{end}}">{{.title}}</h4>
+	<h4 class="{{ if .bold }}bold{{end}}">{{.title}}</h4>
 {{ else if eq .size "5" }}
-	<h5 class="{{ if .bold }} bold {{end}}">{{.title}}</h5>
+	<h5 class="{{ if .bold }}bold{{end}}">{{.title}}</h5>
+{{ else }}
+	<h2 class="{{if .bold}}bold{{end}}">{{.title}}</h2>
 {{end}}
