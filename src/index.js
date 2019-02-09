@@ -11,11 +11,6 @@ import './styles/styles.scss';
 /* javascript imports
 ========================================================= */
 
-// setup jQuery, because it's special
-import $ from 'jquery';
-window.jQuery = $;
-window.$ = $;
-
 // Bootstrap JS
 import 'popper.js';
 import 'bootstrap';
