@@ -15,7 +15,7 @@
 			<div class="col-9">
 				<ul class="nav nav-pills nav-pills-neutral nav-fill" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
 					<li class="nav-item">
-						<a class="nav-link active" id="v-pills-oil-and-wind-tab" data-toggle="pill" href="#v-pills-oil-and-wind" role="tab" aria-controls="v-pills-oil-and-wind" aria-selected="true">Oil & Wind</a>
+						<a class="nav-link active" id="v-pills-energy-tab" data-toggle="pill" href="#v-pills-energy" role="tab" aria-controls="v-pills-energy" aria-selected="true">Energy</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id="v-pills-pso-provider-tab" data-toggle="pill" href="#v-pills-pso-provider" role="tab" aria-controls="v-pills-pso-provider" aria-selected="false">PSO Provider</a>
@@ -25,17 +25,17 @@
 					</li>
 				</ul>
 				<div class="tab-content my-5" id="v-pills-tabContent">
-					<div class="tab-pane fade show active" id="v-pills-oil-and-wind" role="tabpanel" aria-labelledby="v-pills-oil-and-wind-tab">
+					<div class="tab-pane fade show active" id="v-pills-energy" role="tabpanel" aria-labelledby="v-pills-energy-tab">
 						<div class="row justify-content-center">
 							<div class="col-7">
 								<p>Merged technologies such as GPS integration, passive acoustic monitoring, IR cameras, real time mapping, internet connectivity, and cloud storage with monitoring and mitigation requirements.</p>
 								<p>
-									{{ $buttonVars := dict "text" "Learn more for Oil & Water" "url" "/industries/oil-and-wind" "style" "outline-light" }}
+									{{ $buttonVars := dict "text" "Learn more for Energy" "url" "/industry/energy" "style" "outline-light" }}
 									{{ partial "components/button.html" $buttonVars }}
 								</p>
 							</div>
 							<div class="col-4">
-								<img src="{{ "img/industries/oil-and-wind.svg" | relURL }}" width="75%" />
+								<img src="{{ "img/industry/energy.svg" | relURL }}" width="75%" />
 							</div>
 						</div>
 					</div>
@@ -46,12 +46,12 @@
 										Map animal and vessel locations, viewable and shared across connected computers around the world. Your sighting data is accurate and readily validated.
 								</p>
 								<p>
-									{{ $buttonVars := dict "text" "Learn more for PSO Providers" "url" "/industries/pso-provider" "style" "outline-light"}}
+									{{ $buttonVars := dict "text" "Learn more for PSO Providers" "url" "/industry/pso-provider" "style" "outline-light"}}
 									{{ partial "components/button.html" $buttonVars }}
 								</p>
 							</div>
 							<div class="col-4">
-								<img src="{{ "img/industries/pso-provider.svg" | relURL }}" width="75%" />
+								<img src="{{ "img/industry/pso-provider.svg" | relURL }}" width="75%" />
 							</div>
 						</div>
 					</div>
@@ -62,12 +62,12 @@
 										Provide situational awareness of vessel locations relative to animal sightings. Track and record whales, walruses, polar bears, dolphins, otters... All marine mammals.
 								</p>
 								<p>
-									{{ $buttonVars := dict "text" "Learn more for Academia" "url" "/industries/academia" "style" "outline-light" }}
+									{{ $buttonVars := dict "text" "Learn more for Academia" "url" "/industry/academia" "style" "outline-light" }}
 									{{ partial "components/button.html" $buttonVars }}
 								</p>
 							</div>
 							<div class="col-4">
-								<img src="{{ "img/industries/academia.svg" | relURL }}" width="75%" />
+								<img src="{{ "img/industry/academia.svg" | relURL }}" width="75%" />
 							</div>
 						</div>
 					</div>

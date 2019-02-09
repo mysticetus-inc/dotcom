@@ -1,10 +1,10 @@
 ---
-title: "Oil & Wind"
+title: "Energy"
 ---
 
 {{< components/sub-hero
 	centered="true"
-	backgroundImg="oil-and-wind.jpg"
+	backgroundImg="energy.jpg"
 	title="Prevent Delays. Reduce PSO errors. Protect your permit."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
@@ -34,7 +34,7 @@ title: "Oil & Wind"
 >}}
 
 {{< components/social-proof 
-	title = "Oil & Wind benefit from Mysticetus"
+	title = "Energy benefit from Mysticetus"
 	subTitle = "Experience the difference in your next anthropogenic operation with the dedicated Mysticetus team by your side."
 	testimonialText = "Greatly frees me up from reviewing reports and allows me to focus on generating new business for my organization."
 	testimonialName = "Kat, Marine Researcher"
@@ -46,7 +46,7 @@ title: "Oil & Wind"
 	size="extra-small"
 	centered="true"
 	title="Request a Demo"
-	subTitle="Let us show you how Mysticetus can greatly improve your next oil or wind operation with a personalized walk-through."
+	subTitle="Let us show you how Mysticetus can greatly improve your next Energy operation with a personalized walk-through."
 >}}
 
 {{< components/demo-form >}}
