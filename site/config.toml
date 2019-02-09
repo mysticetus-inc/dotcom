@@ -18,22 +18,22 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   name = "Industries"
   url = "/industry/"
   weight = 1
-  identifier = "industries"
+  identifier = "industry"
 [[menu.main]]
   name = "Energy"
   url = "/industry/energy/"
   weight = 1
-  parent = "industries"
+  parent = "industry"
 [[menu.main]]
   name = "PSO Providers"
   url = "/industry/pso-provider/"
   weight = 2
-  parent = "industries"
+  parent = "industry"
 [[menu.main]]
   name = "Academia"
   url = "/industry/academia/"
   weight = 3
-  parent = "industries"
+  parent = "industry"
 
 [[menu.main]]
   name = "Product"
