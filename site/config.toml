@@ -16,22 +16,22 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [[menu.main]]
   name = "Industries"
-  url = "/industries/"
+  url = "/industry/"
   weight = 1
   identifier = "industries"
 [[menu.main]]
-  name = "Oil & Wind"
-  url = "/industries/oil-and-wind/"
+  name = "Energy"
+  url = "/industry/energy/"
   weight = 1
   parent = "industries"
 [[menu.main]]
   name = "PSO Providers"
-  url = "/industries/pso-provider/"
+  url = "/industry/pso-provider/"
   weight = 2
   parent = "industries"
 [[menu.main]]
   name = "Academia"
-  url = "/industries/academia/"
+  url = "/industry/academia/"
   weight = 3
   parent = "industries"
 
@@ -66,18 +66,18 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	name = "Mysticetus"
 	weight = 1
 [[menu.footer]]
-	name = "Oil & Wind"
-	url = "/industries/oil-and-wind/"
+	name = "Energy"
+	url = "/industry/energy/"
 	weight = 1
 	parent = "mysticetus"
 [[menu.footer]]
 	name = "PSO Providers"
-	url = "/industries/pso-provider/"
+	url = "/industry/pso-provider/"
 	weight = 2
 	parent = "mysticetus"
 [[menu.footer]]
 	name = "Academia"
-	url = "/industries/academia/"
+	url = "/industry/academia/"
 	weight = 3
 	parent = "mysticetus"
 [[menu.footer]]
@@ -140,6 +140,9 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	weight = 2
 	parent = "company"
 
+[taxonomy]
+	industry = "industry"
+
 [params]
 	logo = "/img/mysticetus.png"
 	fullName = "Mysticetus, LLC."
@@ -152,3 +155,4 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	cta_text = "Request a Demo"
 	footerLogo = "/img/mysticetus.png"
 	footerText = "Mysticetus ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper."
+	slugs = ["industry", "energy"]
