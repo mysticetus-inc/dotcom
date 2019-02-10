@@ -46,8 +46,18 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	weight = 3
 	identifier = "features"
 [[menu.main]]
-	name = "Example Feature"
-	url = "/feature/example/"
+	name = "Automatic Reporting"
+	url = "/feature/reporting/"
+	weight = 1
+	parent = "features"
+[[menu.main]]
+	name = "Data Collection"
+	url = "/feature/data-collection/"
+	weight = 1
+	parent = "features"
+[[menu.main]]
+	name = "Data Driven Mitigation"
+	url = "/feature/mitigation/"
 	weight = 1
 	parent = "features"
 

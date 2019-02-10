@@ -41,7 +41,7 @@ Icons:
 	text="Prevent unnecessary operational delays and shutdowns. Mysticetus builds a comprehensive, crystal clear picture for all project oberservers - whether on vessel, in aircraft, or stationed on land - to see the same picture, in real time."
 	image="mysticetus-data-driven-decisions.png"
 	buttonText="Learn more"
-	buttonLink="/product/#data-driven-mitigation"
+	buttonLink="/feature/mitigation/"
 >}}
 
 {{< components/page-line >}}
@@ -53,7 +53,7 @@ Icons:
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
-	buttonLink="/product/#data-collection"
+	buttonLink="/feature/data-collection/"
 >}}
 
 {{< components/page-line >}}
@@ -64,7 +64,7 @@ Icons:
 	text="Generate repeatable, consistent, and publication ready reports in seconds - not hours. Save time, eliminate data interpretation (short hand notes anyone?!), and eliminate dependencies on expensive GIS services."
 	image="mysticetus-reporting.png"
 	buttonText="Learn more"
-	buttonLink="/product/#reporting"
+	buttonLink="/feature/reporting/"
 >}}
 
 {{< components/social-proof 
