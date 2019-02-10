@@ -1,12 +1,12 @@
 <section class="section">
 	<div class="container">
 		<div class="row">
-			<div class="column col-md-6 {{ if eq .imagePosition "right" }}order-2{{end}}">
+			<div class="column col-md-6 {{ if eq .imagePosition "right" }}order-2 reveal-right{{else}}reveal-left{{end}}">
 				<img class="img-fluid mx-auto" src="{{ .image | relURL }}">
 			</div>
 			<div class="column col-md-6">
 				<p class="text-muted text-uppercase"><small>{{ .subTitle }}</small></p>
-				<h3>
+				<h3 class="reveal-bottom">
 					{{ .title }}
 				</h3>
 				<p>{{.text}}</p>
