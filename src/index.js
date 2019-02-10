@@ -11,20 +11,12 @@ import './styles/styles.scss';
 /* javascript imports
 ========================================================= */
 
-// setup jQuery, because it's special
-import $ from 'jquery';
-window.jQuery = $;
-window.$ = $;
-
 // Bootstrap JS
 import 'popper.js';
 import 'bootstrap';
 
+// Custom Scroll Reveal
+import './js/scroll-reveal';
+
 // Now UI Kit js
 import './js/now-ui-kit';
-
-//SumoMe 
-import './js/plugins/sumo-snippet.js';
-
-//HotJar
-import './js/plugins/hotjar.js';

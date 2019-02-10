@@ -1,10 +1,6 @@
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
 {{ $script := .Site.Data.webpack.main }}
 {{ with $script.js }}
-  <script src="{{ relURL . }}"></script>
+<script src="{{ relURL . }}" async></script>
 {{ end }}
-
-<script type="text/javascript">
-	$(document).ready(function() {
-			// nowuiKit.initSliders();
-	});
-</script>
