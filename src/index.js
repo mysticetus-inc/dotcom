@@ -15,5 +15,8 @@ import './styles/styles.scss';
 import 'popper.js';
 import 'bootstrap';
 
+// Custom Scroll Reveal
+import './js/scroll-reveal';
+
 // Now UI Kit js
 import './js/now-ui-kit';
