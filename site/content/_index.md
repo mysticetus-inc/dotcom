@@ -5,8 +5,8 @@ title: "Mysticetus"
 {{< components/hero
 	size="full"
 	backgroundImg="mysticetus.jpg"
-	title="Collect. Mitigate. Protect."
-	subTitle="Intelligent mitigation for Anthropogenic operations."
+	title="Monitor. Mitigate. Protect."
+	subTitle="Protect your permit, your operations and your bottom line."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Requesting a demo is easy and only takes 30 seconds."
@@ -20,8 +20,8 @@ Icons:
 	- Academia: https://www.flaticon.com/free-icon/book_854861
 -->
 {{< components/three-up
-	title= "Mysticetus is an Anthropogenic Mitigation Platform"
-	subTitle= "Our tools help teams make real time, intelligent, data driven mitigation decisions. Simple data collection. Streamlined reporting."
+	title= "Mysticetus System Solves Real-World Problems"
+	subTitle= "Our system enable teams make real time, intelligent, data-driven decisions. It standardizes data collection and systematic reporting."
 	image1= "img/industry/energy.svg"
 	text1= "Energy"
 	link1= "industry/energy"
