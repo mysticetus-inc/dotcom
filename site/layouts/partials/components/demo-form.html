@@ -8,7 +8,7 @@
 					To request a demo, <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/tyler-goelz/');return false;">schedule a time that works for you</a> or fill out the form below
 				</p>
 			</div> -->
-			<div class="column col-md-8">
+			<div class="column col-md-10 col-lg-8">
 				<div class="card bg-light pt-2 px-2">
 					<div class="card-body">
 						<form name="request-demo" method="POST" data-netlify="true" netlify-honeypot="bot-field">
@@ -49,7 +49,7 @@
 								<small id="preferredTimeHelp" class="form-text text-muted">List 3 dates and times in the coming week when you're available for 30 minutes. If that doesn't work, don't worry, just put a few dates and times that do and we'll get in touch with you.</small>
 							</div>
 							<div class="text-center mt-5">
-								{{ $buttonVars := dict "text" "Submit request for demo" "type" "submit" "style" "primary" "size" "xl" }}
+								{{ $buttonVars := dict "text" "Submit demo request" "type" "submit" "style" "primary" "size" "lg" }}
 								{{ partial "components/button.html" $buttonVars }}
 								<p>
 									<small class="text-muted">We will never share your info with anyone else.</small>
