@@ -1,10 +1,10 @@
 <section class="section">
 	<div class="container">
-		<div class="row">
-			<div class="column col-md-3 {{ if eq .imagePosition "right" }}order-2{{end}}">
+		<div class="row {{if eq .imagePosition "right"}}flex-sm-row-reverse{{end}}">
+			<div class="column col-md-5 col-lg-3 mb-4 mb-sm-0 text-center text-sm-left">
 				<img class="img-fluid mx-auto" src="{{ .image }}">
 			</div>
-			<div class="column col-md-9 {{ if eq .imagePosition "right" }}text-right reveal-right{{else}}reveal-left{{end}}">
+			<div class="column col-md-7 col-lg-9 {{ if eq .imagePosition "right" }}text-center text-sm-right reveal-right{{else}}reveal-left{{end}}">
 				<h4 class="mt-0">
 					{{ .name }}
 				</h4>
