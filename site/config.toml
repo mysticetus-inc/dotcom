@@ -102,6 +102,11 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	weight = 3
 	parent = "mysticetus"
 [[menu.footer]]
+	name = "Product"
+	url = "/product/"
+	weight = 4
+	parent = "mysticetus"
+[[menu.footer]]
 	name = "----"
 	weight = 5
 	parent= "mysticetus"
@@ -117,34 +122,25 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 # 	parent = "mysticetus"
 
 [[menu.footer]]
-	identifier = "resources"
-	name = "Resource"
+	identifier = "features"
+	name = "Features"
 	weight = 2
 [[menu.footer]]
-	name = "Product"
-	url = "/product/"
+	name = "Automatic Reporting"
+	url = "/feature/reporting/"
 	weight = 1
-	parent = "resources"
+	parent = "features"
 [[menu.footer]]
-	name="Help"
-	url = "/contact/"
-	weight = 2
-	parent = "resources"
-# [[menu.footer]]
-# 	name="Privacy"
-# 	url = "/privacy/"
-# 	weight = 2
-# 	parent = "resources"
-# [[menu.footer]]
-# 	name="Terms & Use"
-# 	url = "/terms/"
-# 	weight = 3
-# 	parent = "resources"
-# [[menu.footer]]
-# 	name="Security"
-# 	url = "/security/"
-# 	weight = 4
-# 	parent = "resources"
+	name = "Data Collection"
+	url = "/feature/data-collection/"
+	weight = 1
+	parent = "features"
+[[menu.footer]]
+	name = "Data Driven Mitigation"
+	url = "/feature/mitigation/"
+	weight = 1
+	parent = "features"
+
 
 [[menu.footer]]
 	identifier = "company"
@@ -156,10 +152,30 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	weight = 1
 	parent = "company"
 [[menu.footer]]
-	name = "Contact"
+	name="Help"
 	url = "/contact/"
 	weight = 2
 	parent = "company"
+[[menu.footer]]
+	name = "Contact"
+	url = "/contact/"
+	weight = 3
+	parent = "company"
+# [[menu.footer]]
+# 	name="Privacy"
+# 	url = "/privacy/"
+# 	weight = 2
+# 	parent = "company"
+# [[menu.footer]]
+# 	name="Terms & Use"
+# 	url = "/terms/"
+# 	weight = 3
+# 	parent = "company"
+# [[menu.footer]]
+# 	name="Security"
+# 	url = "/security/"
+# 	weight = 4
+# 	parent = "company"
 
 [taxonomy]
 	industry = "industry"
@@ -167,13 +183,6 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [params]
 	logo = "/img/mysticetus.png"
 	fullName = "Mysticetus, LLC."
-  background = "/img/bg11.jpg"
-  tint = "orange"
-  custom_css = []
-  custom_js = []
-  date_format = "Mon, Jan 2, 2006"
-  description = "A website built through Hugo for Mysticetus."
 	cta_text = "Request a Demo"
 	footerLogo = "/img/mysticetus.png"
-	footerText = "Mysticetus ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper."
-	slugs = ["industry", "energy"]
+	footerText = "Changing the way teams observe, protect, and manage Anthropogenic operations near protected marine wildlife."

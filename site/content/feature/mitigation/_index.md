@@ -13,6 +13,7 @@ title: "Mitigation"
 	subTitle="Build a comprehensive, crystal clear picture for all project oberservers to see the same picture, in real time."
 	buttonText="Request a Demo"
 	buttonUrl="/demo/"
+	bold="true"
 >}}
 
 {{% components/section-container %}}
@@ -42,6 +43,7 @@ The MMOs can now collectively see that the right decision is to keep the operati
 	centered="true"
 	title="Request a Demo"
 	subTitle="Let us show you how Mysticetus can greatly improve your next research project with a personalized walk-through."
+	bold="true"
 >}}
 
 {{< components/demo-form >}}
