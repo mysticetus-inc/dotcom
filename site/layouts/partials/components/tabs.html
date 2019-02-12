@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="row justify-content-center mt-4">
-			<div class="col-9">
+			<div class="col-lg-9">
 				<ul class="nav nav-pills nav-pills-neutral nav-fill" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
 					<li class="nav-item">
 						<a class="nav-link active" id="v-pills-energy-tab" data-toggle="pill" href="#v-pills-energy" role="tab" aria-controls="v-pills-energy" aria-selected="true">Energy</a>
@@ -27,21 +27,21 @@
 				<div class="tab-content my-5" id="v-pills-tabContent">
 					<div class="tab-pane fade show active" id="v-pills-energy" role="tabpanel" aria-labelledby="v-pills-energy-tab">
 						<div class="row justify-content-center">
-							<div class="col-7">
+							<div class="col-sm-7">
 								<p>Merged technologies such as GPS integration, passive acoustic monitoring, IR cameras, real time mapping, internet connectivity, and cloud storage with monitoring and mitigation requirements.</p>
 								<p>
 									{{ $buttonVars := dict "text" "Learn more about Energy" "url" "/industry/energy" "style" "outline-light" }}
 									{{ partial "components/button.html" $buttonVars }}
 								</p>
 							</div>
-							<div class="col-4">
+							<div class="col-4 d-none d-sm-block">
 								<img src="{{ "img/industry/energy.svg" | relURL }}" width="75%" />
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane fade" id="v-pills-pso-provider" role="tabpanel" aria-labelledby="v-pills-pso-provider-tab">
 						<div class="row justify-content-center">
-							<div class="col-7">
+							<div class="col-sm-7">
 								<p>
 										Map animal and vessel locations, viewable and shared across connected computers around the world. Your sighting data is accurate and readily validated.
 								</p>
@@ -50,14 +50,14 @@
 									{{ partial "components/button.html" $buttonVars }}
 								</p>
 							</div>
-							<div class="col-4">
+							<div class="col-4 d-none d-sm-block">
 								<img src="{{ "img/industry/pso-provider.svg" | relURL }}" width="75%" />
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane fade" id="v-pills-academia" role="tabpanel" aria-labelledby="v-pills-academia-tab">
 						<div class="row justify-content-center">
-							<div class="col-7">
+							<div class="col-sm-7">
 								<p>
 										Provide situational awareness of vessel locations relative to animal sightings. Track and record whales, walruses, polar bears, dolphins, otters... All marine mammals.
 								</p>
@@ -66,7 +66,7 @@
 									{{ partial "components/button.html" $buttonVars }}
 								</p>
 							</div>
-							<div class="col-4">
+							<div class="col-4 d-none d-sm-block">
 								<img src="{{ "img/industry/academia.svg" | relURL }}" width="75%" />
 							</div>
 						</div>

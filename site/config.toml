@@ -148,7 +148,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	weight = 3
 [[menu.footer]]
 	name = "About"
-	url = "/about/"
+	url = "/company/about/"
 	weight = 1
 	parent = "company"
 [[menu.footer]]

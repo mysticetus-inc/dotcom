@@ -9,7 +9,7 @@ title: "Automatic Reporting"
 {{< components/sub-hero
 	size="extra-small"
 	centered="true"
-	title="Automatic Report"
+	title="Automatic Reporting"
 	subTitle="Generate repeatable, consistent, and publication ready reports in seconds, not hours."
 	buttonText="Request a Demo"
 	buttonUrl="/demo/"
