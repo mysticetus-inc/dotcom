@@ -9,6 +9,7 @@ title: "Academia"
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Requesting a demo is easy and only takes 30 seconds."
+	bold="true"
 >}}
 
 {{< components/feature-highlight
@@ -47,6 +48,7 @@ title: "Academia"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Let us show you how Mysticetus can greatly improve your next research project with a personalized walk-through."
+	bold="true"
 >}}
 
 {{< components/demo-form >}}

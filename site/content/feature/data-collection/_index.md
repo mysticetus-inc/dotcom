@@ -13,6 +13,7 @@ title: "Data Collection"
 	subTitle="Collect crystal clear data and identifications with common and predefined formatting."
 	buttonText="Request a Demo"
 	buttonUrl="/demo/"
+	bold="true"
 >}}
 
 {{% components/section-container %}}
@@ -66,6 +67,7 @@ _Identify and fix the crazy stuff_
 	centered="true"
 	title="Request a Demo"
 	subTitle="Let us show you how Mysticetus can greatly improve your next research project with a personalized walk-through."
+	bold="true"
 >}}
 
 {{< components/demo-form >}}

@@ -13,6 +13,7 @@ title: "Product"
 	subTitle="Map vessel and marine life locations to provide situational awareness of their proximity to one another - viewable and shared across connected computers. Mysticetus provides you with a superior solution for protecting permits to operate, as well as marine life."
 	buttonText="Request a Demo"
 	buttonUrl="/demo/"
+	bold="true"
 >}}
 
 {{< components/tabs
@@ -64,6 +65,7 @@ title: "Product"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Let us show you how Mysticetus can greatly improve your next research project with a personalized walk-through."
+	bold="true"
 >}}
 
 {{< components/demo-form >}}

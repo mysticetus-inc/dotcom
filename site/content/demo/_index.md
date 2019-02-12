@@ -8,6 +8,7 @@ title: "Demo"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Request a personalized walk-through of Mysticetus to see how we can help in your next anthropogenic operation."
+	bold="true"
 >}}
 
 {{< components/demo-form >}}

@@ -8,6 +8,7 @@ title: "Contact"
 	centered="true"
 	title="Mysticetus Support"
 	subTitle="Get answers to technical questions about Mysticetus."
+	bold="true"
 >}}
 
 {{< components/contact-form >}}
