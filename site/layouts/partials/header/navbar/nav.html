@@ -2,7 +2,7 @@
 	<ul class="navbar-nav ml-auto">
 		{{ range .Site.Menus.main }}
 			{{ if .HasChildren }}
-				<li class="nav-item dropdown">
+				<li class="nav-item mr-2 dropdown">
 					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
 						{{ .Pre }}
 						<span>{{ .Name }}</span>
@@ -18,7 +18,7 @@
 					</div>
 				</li>
 			{{ else }}
-				<li class="nav-item">
+				<li class="nav-item mr-2">
 					<a class="nav-link" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
 						{{ .Pre }}
 						<span>{{ .Name }}</span>
