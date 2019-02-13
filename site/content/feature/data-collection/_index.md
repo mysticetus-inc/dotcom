@@ -18,7 +18,7 @@ title: "Data Collection"
 
 {{% components/section-container %}}
 
-_Paper? Excel spreadsheets? You're gonna trust your entire operation - millions of dollars on the line - to a spilled cup of coffee or an un-traceable spreadsheet altered by a disgruntled person? Seriously?_
+_Paper? Excel spreadsheets? You're gonna trust your entire operation - millions of dollars on the line - to a spilled cup of coffee or an un-traceable spreadsheet altered by a disgruntled employee? Seriously?_
 
 ### Modern Professional Data Recording Methods
 
@@ -60,7 +60,7 @@ All platforms are synchronized and plotted on a heads-up map and can participate
 
 ##### Automatic Cloud Storage in Secure Content Management System
 
-_Never Ever lose Data_
+_Never Ever Lose Data_
 
 Never again worry about backing up observer data. Never worry about whether it is on some hard drive or Sharepoint or Dropbox or in some email. And, of course, never worry about someone spilling a cup of coffee on your paper forms.
 
