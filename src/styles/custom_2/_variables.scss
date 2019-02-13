@@ -117,3 +117,11 @@ $navbar-transparent-toggler-border-color:  rgba($white, .1);
 
 $navbar-transparent-brand-color:                 $navbar-transparent-active-color;
 $navbar-transparent-brand-hover-color:           $navbar-transparent-active-color;
+
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+$dropdown-item-padding-y:           .5rem;
+
+$dropdown-item-font-size:           $font-size-base * .875;
