@@ -11,7 +11,9 @@
 @import "custom_2/variables";
 
 @import "../../node_modules/bootstrap/scss/variables";
+
 @import "../../node_modules/bootstrap/scss/mixins";
+@import "custom_2/mixins";
 
 // Base
 @import "../../node_modules/bootstrap/scss/root";
@@ -60,3 +62,5 @@
 @import "../../node_modules/bootstrap/scss/utilities";
 @import "../../node_modules/bootstrap/scss/print";
 
+@import "custom_2/section";
+@import "custom_2/utilities";

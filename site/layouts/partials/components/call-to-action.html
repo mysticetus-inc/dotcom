@@ -2,9 +2,9 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="column col-md-10 col-lg-9 text-center">
-				<h2 class="bold">
+				<h1 class="font-weight-bold">
 					{{ .title }}
-				</h2>
+				</h1>
 				{{ if .subTitle }}
 					<p class="lead">
 						{{ .subTitle }}
@@ -16,7 +16,7 @@
 						{{ partial "components/button.html" $button1Vars }}
 					{{ end }}
 					{{ if .button2Text }}
-						{{ $button2Vars := dict "text" .button2Text "url" .button2Link "style" "secondary"  "size" "lg"}}
+						{{ $button2Vars := dict "text" .button2Text "url" .button2Link "style" "outline-light"  "size" "lg"}}
 						{{ partial "components/button.html" $button2Vars }}
 					{{ end }}
 				</p>

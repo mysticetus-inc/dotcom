@@ -6,15 +6,6 @@
 // Color system
 
 $white:    #fff;
-$gray-100: #f8f9fa;
-$gray-200: #e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
 $black:    #000;
 
 $theme-colors: (
@@ -40,6 +31,14 @@ $spacers: map-merge(
   ),
   $spacers
 );
+
+
+// Links
+//
+// Style anchor elements.
+
+$inverted-link-hover-decoration:                   none;
+
 
 
 // Components
@@ -125,3 +124,23 @@ $navbar-transparent-brand-hover-color:           $navbar-transparent-active-colo
 $dropdown-item-padding-y:           .5rem;
 
 $dropdown-item-font-size:           $font-size-base * .875;
+
+
+// Sections
+//
+// For each section define padding.
+
+$section-padding-y:               4em;
+$section-padding-x:               0;
+
+$section-padding-y-xs:						$section-padding-y * .125;
+$section-padding-x-xs:						0;
+
+$section-padding-y-sm:            $section-padding-y * .5;
+$section-padding-x-sm:            0;
+
+$section-padding-y-lg:            $section-padding-y * 1.25;
+$section-padding-x-lg:            0;
+
+$section-padding-y-xl:            $section-padding-y * 1.5;
+$section-padding-x-xl:            0;
