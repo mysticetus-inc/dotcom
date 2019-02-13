@@ -18,7 +18,7 @@ title: "Mitigation"
 
 {{% components/section-container %}}
 
-### Remote Monitoring and Management of All Operations, From Anywhere
+### Remote Monitoring of All Operations, From Anywhere
 
 **Mysticetus Tracks All Vessels, Aircraft and Animal Sightings**  
 Mysticetus plots and shares all vessels, aircraft and any animal sightings on a shared map display. All Observers, managers and anyone with the appropriate passwords can monitor every project action, in real-time. Observers record when equipment is being deployed, when vessels are on or off work effort (survey, construction, etc.), and when and where animals are.
@@ -27,7 +27,9 @@ Mysticetus plots and shares all vessels, aircraft and any animal sightings on a 
 Every animal sighting is accurately and instantly plotted on the map. Mysticetus predicts future motion as well, and all viewers everywhere see this in real-time. It is obvious when an animal is (or is not) within or approaching an exclusion/mitigation zone. All ambiguity and human error are replaced with clear, concise information displays.
 
 **SecureAudit**  
-Everything(!) that happens - vessel motion, workboat operational status, animal sightings, safety mitigations - is stored with state-of-the-art AES-256 encryption in a replayable and unalterable audit log. All data edits are logged and audited. Should it ever become necessary to prove something happened - or did not happen - Mysticetus gives you those tools.
+Environmental Mitigation is Legal Business. If you do it wrong, you could lose your very permit to operate.
+
+_Everything_ that happens in the field - vessel movement, workboat operational status, animal sightings, environmental mitigations - is time stamped and recorded with state-of-the-art AES-256 encryption in a replayable and unalterable audit log. All data edits are logged and audited. Should it ever become necessary to prove something happened - or did not happen - Mysticetus gives you the ability. Easily forged Excel spreadsheets and paper forms provide no such audit capability, and will be laughed out of court. 
 
 ![Data Driven Mitigation](https://mysticetus.com/wp-content/uploads/2016/02/Mysticetus-map-view.png)
 
