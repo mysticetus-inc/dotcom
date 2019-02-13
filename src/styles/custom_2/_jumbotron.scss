@@ -1,0 +1,7 @@
+.jumbotron {
+	&.overlay {
+		box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+		background-position: 50%;
+		background-size: cover;
+	}
+}

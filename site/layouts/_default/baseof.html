@@ -3,24 +3,10 @@
 	<head>
 			{{ partial "head/head-base.html" . }}
 	</head>
-
 	<body class="{{ .Params.class | default "" }} sidebar-collapse">
-
-		{{ block "header" . }}
-			{{ partial "header/header-base.html" . }}
-		{{ end }}
-
-		<div class="{{ .Params.wrapper | default "wrapper" }}">
-
-			{{ block "main" . }}
-				{{ .Content }}
-			{{ end }}
-				
-			{{ block "footer" . }}
-				{{ partial "footer/footer-base.html" . }}
-			{{ end }}
-		</div>
-
+		{{ block "header" . }}{{ partial "header/header-base.html" . }}{{ end }}
+		{{ block "main" . }}{{ .Content }}{{ end }}
+		{{ block "footer" . }}{{ partial "footer/footer-base.html" . }}{{ end }}
 		{{ partial "footer/scripts.html" . }} 
 	</body>
 </html>
