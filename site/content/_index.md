@@ -6,7 +6,7 @@ title: "Mysticetus"
 	size="full"
 	backgroundImg="mysticetus.jpg"
 	title="Monitor. Mitigate. Protect."
-	subTitle="Protect your permit, your operations and your bottom line."
+	subTitle="Protect your permit, your operations, and your bottom line."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Requesting a demo is easy and only takes 30 seconds."
@@ -21,7 +21,7 @@ Icons:
 -->
 {{< components/three-up
 	title= "Mysticetus System Solves Real-World Problems"
-	subTitle= "Our system enable teams to make real time, intelligent, data-driven decisions. It standardizes mitigation decisions, data collection and reporting."
+	subTitle= "Our system enable teams to make real time, intelligent, data-driven decisions. It standardizes mitigation decisions, data collection, and reporting."
 	image1= "img/industry/energy.svg"
 	text1= "Energy"
 	link1= "industry/energy"
