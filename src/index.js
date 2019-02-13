@@ -2,10 +2,11 @@
 ========================================================= */
 
 // Bootstrap @import
-import 'bootstrap/scss/bootstrap.scss';
+// import 'bootstrap/scss/bootstrap.scss';
 
 // Now UI Kit and Overrides
-import './styles/styles.scss';
+// import './styles/styles.scss';
+import './styles/styles_2.scss';
 
 
 /* javascript imports

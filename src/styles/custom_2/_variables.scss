@@ -1,0 +1,69 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$theme-colors: (
+	"primary": #1e9e6b
+);
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3)
+  ),
+  $spacers
+);
+
+// Navbar
+
+$navbar-padding-y:                  	$spacer / 1.75;
+
+$navbar-transition:										.3s ease 0s;
+
+$navbar-white-color:                 	rgba($black, .5);
+$navbar-white-hover-color:           	rgba($black, .75);
+$navbar-white-active-color:          	$black;
+$navbar-white-disabled-color:        	rgba($black, .25);
+$navbar-white-toggler-icon-bg:       	str-replace(url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='#{$navbar-white-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"), "#", "%23");
+$navbar-white-toggler-border-color:  	rgba($black, .1);
+$navbar-white-box-shadow:							0 0 20px 0 rgba($black, .15);
+
+$navbar-white-brand-color:                 $navbar-white-active-color;
+$navbar-white-brand-hover-color:           $navbar-white-active-color;
+
+$navbar-transparent-color:                 rgba($white, .5);
+$navbar-transparent-hover-color:           rgba($white, .75);
+$navbar-transparent-active-color:          $white;
+$navbar-transparent-disabled-color:        rgba($white, .25);
+$navbar-transparent-toggler-icon-bg:       str-replace(url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='#{$navbar-transparent-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"), "#", "%23");
+$navbar-transparent-toggler-border-color:  rgba($white, .1);
+
+$navbar-transparent-brand-color:                 $navbar-transparent-active-color;
+$navbar-transparent-brand-hover-color:           $navbar-transparent-active-color;

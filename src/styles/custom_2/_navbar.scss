@@ -1,0 +1,122 @@
+// Contents
+//
+// Navbar transition
+// Navbar themes
+
+
+// Navbar transition
+.navbar {
+	transition: background $navbar-transition, color $navbar-transition;
+}
+
+// Navbar themes
+//
+// Styles for switching between navbars with light or dark background.
+
+// White links against a transparent background
+.navbar-transparent {
+  .navbar-brand {
+    color: $navbar-transparent-brand-color;
+
+    @include hover-focus {
+      color: $navbar-transparent-brand-hover-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-transparent-color;
+
+      @include hover-focus {
+        color: $navbar-transparent-hover-color;
+      }
+
+      &.disabled {
+        color: $navbar-transparent-disabled-color;
+      }
+    }
+
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      color: $navbar-transparent-active-color;
+    }
+  }
+
+  .navbar-toggler {
+    color: $navbar-transparent-color;
+    border-color: $navbar-transparent-toggler-border-color;
+  }
+
+  .navbar-toggler-icon {
+    background-image: $navbar-transparent-toggler-icon-bg;
+  }
+
+  .navbar-text {
+    color: $navbar-transparent-color;
+    a {
+      color: $navbar-transparent-active-color;
+
+      @include hover-focus {
+        color: $navbar-transparent-active-color;
+      }
+    }
+  }
+}
+
+// Dark links against a white background
+.navbar-white {
+	&.fixed-top {
+		box-shadow: $navbar-white-box-shadow;
+	}
+
+  .navbar-brand {
+    color: $navbar-white-brand-color;
+
+    @include hover-focus {
+      color: $navbar-white-brand-hover-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-white-color;
+
+      @include hover-focus {
+        color: $navbar-white-hover-color;
+      }
+
+      &.disabled {
+        color: $navbar-white-disabled-color;
+      }
+    }
+
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      color: $navbar-white-active-color;
+    }
+  }
+
+  .navbar-toggler {
+    color: $navbar-white-color;
+    border-color: $navbar-white-toggler-border-color;
+  }
+
+  .navbar-toggler-icon {
+    background-image: $navbar-white-toggler-icon-bg;
+  }
+
+  .navbar-text {
+    color: $navbar-white-color;
+    a {
+      color: $navbar-white-active-color;
+
+      @include hover-focus {
+        color: $navbar-white-active-color;
+      }
+    }
+  }
+}
