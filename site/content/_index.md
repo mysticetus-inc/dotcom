@@ -21,7 +21,7 @@ Icons:
 -->
 {{< components/three-up
 	title= "Mysticetus System Solves Real-World Problems"
-	subTitle= "Our system enable teams make real time, intelligent, data-driven decisions. It standardizes data collection and systematic reporting."
+	subTitle= "Our system enable teams to make real time, intelligent, data-driven decisions. It standardizes mitigation decisions, data collection and reporting."
 	image1= "img/industry/energy.svg"
 	text1= "Energy"
 	link1= "industry/energy"
@@ -36,9 +36,9 @@ Icons:
 {{< components/page-line >}}
 
 {{< components/feature-highlight
-	title="Make better decisions"
-	subTitle="Data driven mitigation"
-	text="Prevent unnecessary operational delays and shutdowns. Mysticetus builds a comprehensive, crystal clear picture for all project oberservers - whether on vessel, in aircraft, or stationed on land - to see the same picture, in real time."
+	title="Mysticetus Command Center"
+	subTitle="Monitor All Your Operations from Anywhere"
+	text="Command Center displays heads-up map views of all the moving parts of your project: vessels, aircraft, even drones. Real-time, real-world knowledge, and decision making from a centralized location. Follow, support, and drive operations from anywhere on the planet."
 	image="mysticetus-data-driven-decisions.png"
 	buttonText="Learn more"
 	buttonLink="/feature/mitigation/"
