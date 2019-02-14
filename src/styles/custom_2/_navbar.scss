@@ -1,6 +1,7 @@
 // Contents
 //
 // Navbar transition
+// Responsive navbar
 // Navbar themes
 
 
@@ -8,6 +9,62 @@
 .navbar {
 	transition: background $navbar-transition, color $navbar-transition;
 }
+
+// Responsive navbar
+//
+// Custom styles for responsive collapsing and toggling of navbar contents.
+// Ported over directly from Now UI Kit (https://demos.creative-tim.com/now-ui-kit/index.html)
+
+@include media-breakpoint-down(md) { 
+	.sidebar-collapse {
+		@include navbar-collapse();
+	
+		&.menu-on-left{
+				.navbar-collapse{
+						right: auto;
+						left: 0;
+						transform: translateX(-300px);
+				}
+		}
+	
+		.nav-open &{
+				.navbar-collapse{
+					visibility: visible;
+					opacity: 1;
+					display: block;
+					transform: translateX(0);
+				}
+			
+				.wrapper{
+					transform: translateX(-150px);
+				}
+			
+				.navbar-translate{
+					transform: translateX(-300px);
+				}
+			
+				&.menu-on-left{
+						.navbar-collapse{
+							transform: translateX(0);
+						}
+					
+						.navbar-translate{
+							transform: translateX(300px);
+						}
+					
+						.wrapper{
+							transform: translateX(150px);
+						}
+					
+						#bodyClick{
+								right: auto;
+								left: 300px;
+						}
+				}
+		}
+	}
+}
+
 
 // Navbar themes
 //

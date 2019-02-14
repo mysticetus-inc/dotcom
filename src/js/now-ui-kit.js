@@ -16,6 +16,99 @@
 
  */
 
+(function () {
+	const config = {
+		classList: {
+			navbar: {
+				transparent: 'navbar-transparent',
+				color: ['navbar-white', 'bg-white']
+			}
+		},
+		throttle: (func, wait, options ={}) => {
+			var context, args, result;
+			var timeout = null;
+			var previous = 0;
+	
+			var later = function() 
+			{
+				previous = options.leading === false ? 0 : Date.now();
+				timeout = null;
+				result = func.apply(context, args);
+				if (!timeout)
+				{
+					context = args = null;
+				}
+			};
+			return function() {
+				var now = Date.now();
+				if (!previous && options.leading === false)
+				{
+					previous = now;
+				}
+				var remaining = wait - (now - previous);
+				context = this;
+				args = arguments;
+				if (remaining <= 0 || remaining > wait) 
+				{
+					if (timeout) 
+					{
+						clearTimeout(timeout);
+						timeout = null;
+					}
+					previous = now;
+					result = func.apply(context, args);
+					if (!timeout)
+					{
+						context = args = null;
+					}
+				}
+				else if (!timeout && options.trailing !== false)
+				{
+					timeout = setTimeout(later, remaining);
+				}
+				return result;
+			};
+		},
+		navbar: {
+			element: document.getElementById('navbar-fixed'),
+			threshold: document.getElementById('navbar-fixed').getAttribute('color-on-scroll') || 0
+		}
+	};
+
+	const mysticetus = {
+		updateNavbar: () => {
+			const scrollTop = document.documentElement.scrollTop,
+						{ element: navbar, threshold} = config.navbar,
+						{ transparent, color } = config.classList.navbar;
+			
+			const isNavTransparent = navbar.classList.contains(transparent);
+
+			if (scrollTop > threshold) {
+				if (isNavTransparent) {
+					navbar.classList.add(...color);
+					navbar.classList.remove(transparent);
+				}
+			} else {
+				if (!isNavTransparent) {
+					navbar.classList.remove(...color);
+					navbar.classList.add(transparent);
+				}
+			}
+		},
+		init: () => {
+			if (config.navbar.element) {
+				mysticetus.updateNavbar();
+				window.addEventListener('scroll', config.throttle(mysticetus.updateNavbar.bind(this), 100));
+			}
+
+			// is collapsable nav button visible?
+			// if yes, setup click event for toggling mobile nav
+		}
+	}
+
+	mysticetus.init();
+}());
+
 var transparent = true;
 
 var transparentDemo = true;
@@ -23,86 +116,17 @@ var fixedTop = false;
 
 var navbar_initialized,
     backgroundOrange = false,
-    toggle_initialized = false;
+		toggle_initialized = false;
 
-$(document).ready(function() {
-    //  Activate the Tooltips
-    $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
+window.addEventListener('load', () => {
+	// $navbar = $('.navbar[color-on-scroll]');
+	// scroll_distance = $navbar.attr('color-on-scroll') || 500;
 
-    // Activate Popovers and set color for popovers
-    $('[data-toggle="popover"]').each(function() {
-        color_class = $(this).data('color');
-        $(this).popover({
-            template: '<div class="popover popover-' + color_class + '" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
-        });
-    });
-
-    // Activate the image for the navbar-collapse
-    nowuiKit.initNavbarImage();
-
-    $navbar = $('.navbar[color-on-scroll]');
-    scroll_distance = $navbar.attr('color-on-scroll') || 500;
-
-    // Check if we have the class "navbar-color-on-scroll" then add the function to remove the class "navbar-transparent" so it will transform to a plain color.
-
-    if ($('.navbar[color-on-scroll]').length != 0) {
-        nowuiKit.checkScrollForTransparentNavbar();
-        $(window).on('scroll', nowuiKit.checkScrollForTransparentNavbar)
-    }
-
-    $('.form-control').on("focus", function() {
-        $(this).parent('.input-group').addClass("input-group-focus");
-    }).on("blur", function() {
-        $(this).parent(".input-group").removeClass("input-group-focus");
-    });
-
-    // Activate bootstrapSwitch
-    $('.bootstrap-switch').each(function() {
-        $this = $(this);
-        data_on_label = $this.data('on-label') || '';
-        data_off_label = $this.data('off-label') || '';
-
-        $this.bootstrapSwitch({
-            onText: data_on_label,
-            offText: data_off_label
-        });
-    });
-
-    if ($(window).width() >= 992) {
-        big_image = $('.page-header-image[data-parallax="true"]');
-
-        $(window).on('scroll', nowuiKitDemo.checkScrollForParallax);
-    }
-
-    // Activate Carousel
-    $('.carousel').carousel({
-        interval: 4000
-    });
-
-    $('.date-picker').each(function() {
-        $(this).datepicker({
-            templates: {
-                leftArrow: '<i class="now-ui-icons arrows-1_minimal-left"></i>',
-                rightArrow: '<i class="now-ui-icons arrows-1_minimal-right"></i>'
-            }
-        }).on('show', function() {
-            $('.datepicker').addClass('open');
-
-            datepicker_color = $(this).data('datepicker-color');
-            if (datepicker_color.length != 0) {
-                $('.datepicker').addClass('datepicker-' + datepicker_color + '');
-            }
-        }).on('hide', function() {
-            $('.datepicker').removeClass('open');
-        });
-    });
-
-
-});
-
-$(window).on('resize', function() {
-    nowuiKit.initNavbarImage();
-});
+	// if ($('.navbar[color-on-scroll]').length != 0) {
+	// 		nowuiKit.checkScrollForTransparentNavbar();
+	// 		$(window).on('scroll', nowuiKit.checkScrollForTransparentNavbar)
+	// }
+})
 
 $(document).on('click', '.navbar-toggler', function() {
     $toggle = $(this);
@@ -154,71 +178,7 @@ nowuiKit = {
 									.addClass('navbar-transparent');
             }
         }
-    }, 17),
-
-    initNavbarImage: function() {
-        var $navbar = $('.navbar').find('.navbar-translate').siblings('.navbar-collapse');
-        var background_image = $navbar.data('nav-image');
-
-        if ($(window).width() < 991 || $('body').hasClass('burger-menu')) {
-            if (background_image != undefined) {
-                $navbar.css('background', "url('" + background_image + "')")
-                    .removeAttr('data-nav-image')
-                    .css('background-size', "cover")
-                    .addClass('has-image');
-            }
-        } else if (background_image != undefined) {
-            $navbar.css('background', "")
-                .attr('data-nav-image', '' + background_image + '')
-                .css('background-size', "")
-                .removeClass('has-image');
-        }
-    },
-
-    initSliders: function() {
-        // Sliders for demo purpose in refine cards section
-        var slider = document.getElementById('sliderRegular');
-
-        noUiSlider.create(slider, {
-            start: 40,
-            connect: [true, false],
-            range: {
-                min: 0,
-                max: 100
-            }
-        });
-
-        var slider2 = document.getElementById('sliderDouble');
-
-        noUiSlider.create(slider2, {
-            start: [20, 60],
-            connect: true,
-            range: {
-                min: 0,
-                max: 100
-            }
-        });
-    }
-}
-
-
-var big_image;
-
-// Javascript just for Demo purpose, remove it from your project
-nowuiKitDemo = {
-    checkScrollForParallax: debounce(function() {
-        var current_scroll = $(this).scrollTop();
-
-        oVal = ($(window).scrollTop() / 3);
-        big_image.css({
-            'transform': 'translate3d(0,' + oVal + 'px,0)',
-            '-webkit-transform': 'translate3d(0,' + oVal + 'px,0)',
-            '-ms-transform': 'translate3d(0,' + oVal + 'px,0)',
-            '-o-transform': 'translate3d(0,' + oVal + 'px,0)'
-        });
-
-    }, 6)
-
+    }, 17)
 }
 
 // Returns a function, that, as long as it continues to be invoked, will not
