@@ -3,7 +3,7 @@
 		<div class="row justify-content-center">
 			<div class="column col-md-9 text-center">
 				{{ if .title }}
-					{{ $headingVars := dict "size" "5" "title" .title }}
+					{{ $headingVars := dict "size" "4" "title" .title }}
 					{{ partial "components/heading.html" $headingVars }}
 				{{ end }}
 				{{ if .subTitle }}
@@ -13,14 +13,14 @@
 		</div>
 		<div class="row justify-content-center mt-4">
 			<div class="col-lg-9">
-				<ul class="nav nav-pills nav-pills-neutral nav-fill" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
-					<li class="nav-item">
+				<ul class="nav nav-pills-white nav-fill" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
+					<li class="nav-item bg-dark">
 						<a class="nav-link active" id="v-pills-energy-tab" data-toggle="pill" href="#v-pills-energy" role="tab" aria-controls="v-pills-energy" aria-selected="true">Energy</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item bg-dark">
 						<a class="nav-link" id="v-pills-pso-provider-tab" data-toggle="pill" href="#v-pills-pso-provider" role="tab" aria-controls="v-pills-pso-provider" aria-selected="false">PSO Provider</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item bg-dark">
 							<a class="nav-link" id="v-pills-academia-tab" data-toggle="pill" href="#v-pills-academia" role="tab" aria-controls="v-pills-academia" aria-selected="false">Academia</a>
 					</li>
 				</ul>

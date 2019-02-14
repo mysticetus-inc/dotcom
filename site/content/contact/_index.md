@@ -4,7 +4,7 @@ title: "Contact"
 
 {{< components/sub-hero
 	static="true"
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Mysticetus Support"
 	subTitle="Get answers to technical questions about Mysticetus."

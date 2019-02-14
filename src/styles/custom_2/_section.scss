@@ -16,4 +16,10 @@
 	&.section-extra-large {
 		padding: $section-padding-y-xl $section-padding-x-xl;
 	}
+
+	&.content {
+		img {
+			max-width: 100%;
+		}
+	}
 }
