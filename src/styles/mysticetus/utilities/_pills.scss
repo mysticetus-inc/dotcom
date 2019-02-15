@@ -1,0 +1,6 @@
+@each $color, $value in $theme-colors {
+	@include pills-variant(".nav-pills-#{$color}", $value);
+}
+
+@include pills-variant(".nav-pills-white", $white);
+@include pills-variant(".nav-pills-black", $black);

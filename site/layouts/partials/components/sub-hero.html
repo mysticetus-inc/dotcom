@@ -1,17 +1,17 @@
-<section class="section{{ if .size }} section-{{ .size }}{{ end }}{{ if .backgroundImg }} has-image{{ end }}" {{ if .backgroundImg }}style="background-image: url('{{ .backgroundImg }}');"{{end}}>
+<section class="section{{ if .size }} section-{{ .size }}{{ end }}{{ if .backgroundImg }} overlay text-white{{ end }}" {{ if .backgroundImg }}style="background-image: url('{{ .backgroundImg }}');"{{end}}>
 	<div class="container{{ if .centered }} text-center{{ end }}">
 		<div class="row justify-content-center mt-5">
 			<div class="col-lg-8">
 				{{ if eq .size "full" }}
-					<h1 class="{{if .bold}}bold{{end}}">{{ .title }}</h1>
+					<h1 class="{{if .bold}}font-weight-bold{{end}}">{{ .title }}</h1>
 				{{ else if eq .size "large" }}
-					<h1 class="{{if .bold}}bold{{end}}">{{ .title }}</h2>
+					<h1 class="{{if .bold}}font-weight-bold{{end}}">{{ .title }}</h2>
 				{{ else if eq .size "small" }}
-					<h3 class="{{if .bold}}bold{{end}}">{{ .title }}</h2>
+					<h3 class="{{if .bold}}font-weight-bold{{end}}">{{ .title }}</h2>
 				{{ else if eq .size "extra-small" }}
-					<h4 class="{{if .bold}}bold{{end}}">{{ .title }}</h4>
+					<h4 class="{{if .bold}}font-weight-bold{{end}}">{{ .title }}</h4>
 				{{ else }}
-					<h2 class="{{if .bold}}bold{{end}}">{{ .title }}</h2>
+					<h2 class="{{if .bold}}font-weight-bold{{end}}">{{ .title }}</h2>
 				{{ end }}
 				{{ if .subTitle }}
 					<p class="lead">{{.subTitle}}</p>

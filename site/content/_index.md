@@ -3,7 +3,6 @@ title: "Mysticetus"
 ---
 
 {{< components/hero
-	size="full"
 	backgroundImg="mysticetus.jpg"
 	title="Monitor. Mitigate. Protect."
 	subTitle="Protect your permit, your operations, and your bottom line."

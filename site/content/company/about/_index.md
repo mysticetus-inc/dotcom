@@ -12,7 +12,7 @@ title: "About"
 
 {{< components/sub-hero
 	title="Meet the Team"
-	size="extra-small"
+	size="small"
 	centered="true"
 >}}
 
@@ -37,7 +37,7 @@ title: "About"
 
 {{< components/sub-hero
 	static="true"
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Request a personalized walk-through from one of our team members to see how Mysticetus can help in your next Anthropogenic operation."

@@ -7,7 +7,7 @@ title: "Data Collection"
 >}}
 
 {{< components/sub-hero
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Data Recording - Secure, Auditable, Replayable"
 	subTitle="Data collection customized to client requirements, state-of-the-art audit log"
@@ -78,7 +78,7 @@ _Identify and fix the crazy stuff_
 
 {{< components/sub-hero
 	static="true"
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Let us show you how Mysticetus can greatly improve your next project with a personalized walk-through."

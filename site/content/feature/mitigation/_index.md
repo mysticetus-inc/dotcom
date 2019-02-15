@@ -7,7 +7,7 @@ title: "Mitigation"
 >}}
 
 {{< components/sub-hero
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Mysticetus Command Center"
 	subTitle="Monitor and manage all remote operations in real-time from anywhere."
@@ -39,7 +39,7 @@ _Everything_ that happens in the field - vessel movement, workboat operational s
 
 {{< components/sub-hero
 	static="true"
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Let us show you how Mysticetus can greatly improve your next research project with a personalized walk-through."
