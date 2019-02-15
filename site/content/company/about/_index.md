@@ -5,14 +5,13 @@ title: "About"
 {{< components/sub-hero
 	title="About Mysticetus"
 	subTitle="Our team is dedicated to providing the most intelligent tracking, mitigation, and reporting technology on the market for Anthropogneic operations. Mysticetus is changing the way teams observe, protect, and manage operations near protected marine wildlife."
-	size="small"
 	bold="true"
 	centered="true"
 >}}
 
 {{< components/sub-hero
 	title="Meet the Team"
-	size="extra-small"
+	size="small"
 	centered="true"
 >}}
 
@@ -37,7 +36,7 @@ title: "About"
 
 {{< components/sub-hero
 	static="true"
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Request a personalized walk-through from one of our team members to see how Mysticetus can help in your next Anthropogenic operation."

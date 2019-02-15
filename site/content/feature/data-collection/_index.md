@@ -7,7 +7,7 @@ title: "Data Collection"
 >}}
 
 {{< components/sub-hero
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Data Collection"
 	subTitle="Collect crystal clear data and identifications with common and predefined formatting."
@@ -63,7 +63,7 @@ _Identify and fix the crazy stuff_
 
 {{< components/sub-hero
 	static="true"
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Let us show you how Mysticetus can greatly improve your next research project with a personalized walk-through."

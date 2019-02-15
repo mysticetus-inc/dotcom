@@ -1,47 +1,31 @@
-<section class="page-header{{ if .backgroundImg }} has-image{{ end }}{{ if .size }} page-header-{{ .size }}{{ end }}">
-	{{ if .backgroundImg }}
-		<div class="page-header-image" style="background-image: url('{{ .backgroundImg }}');">
-		</div>
-	{{ end }}
+<section class="d-flex align-items-center vh-100 {{if .backgroundImg}} overlay text-white{{end}}"{{if .backgroundImg}}style="background-image: url('{{ .backgroundImg }}');"{{end}}>
 	<div class="container">
-		{{ if eq .static "true" }}
-		<div class="row justify-content-center mt-5">
-			<div class="col-9">
-		{{ else }}
-		<div class="content-center">
-		{{ end }}
-			{{ if eq .size "full" }}
-				<h1 class="bold">{{ .title }}</h1>
-			{{ else if eq .size "large" }}
-				<h2 class="bold">{{ .title }}</h2>
-			{{ else if eq .size "small" }}
-				<h3 class="bold">{{ .title }}</h2>
-			{{ else if eq .size "extra-small" }}
-				<h4 class="bold">{{ .title }}</h4>
-			{{ else }}
-				<h2 class="bold">{{ .title }}</h2>
-			{{ end }}
-			{{ if .subTitle }}
-				<p class="lead">{{.subTitle}}</p>
-			{{ end }}
-			{{ if or .buttonText .supportingText }}
+		<div class="row justify-content-center">
+			<div class="col-md-9 text-center">
+				<h1 class="display-4 mb-3 font-weight-bold">
+					{{ .title }}
+				</h1>
+				{{ if .subTitle }}
+				<p class="lead mb-3">
+					{{.subTitle}}
+				</p>
+				{{ end }}
+				{{ if or .buttonText .supportingText }}
 				<div class="mt-4">
 					{{ if .buttonText }}
 						{{ $buttonVars := dict "text" .buttonText "url" .buttonUrl "style" "primary" "size" "lg"}}
 						{{ partial "components/button.html" $buttonVars }}
 					{{ end }}
 					{{ if .supportingText}}
-						<p>
-							<small class="text-muted">{{.supportingText}}</small>
-						</p>
+					<p class="mt-1">
+						<small class="text-muted">
+							{{.supportingText}}
+						</small>
+					</p>
 					{{end}}
 				</div>
-			{{ end }}
-			{{ if eq .static "true" }}
-				</div>
+				{{ end }}
 			</div>
-			{{ else }}
-			</div>
-			{{ end }}
+		</div>
 	</div>
 </section>

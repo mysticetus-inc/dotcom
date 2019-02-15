@@ -7,7 +7,7 @@ title: "Mitigation"
 >}}
 
 {{< components/sub-hero
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Data Driven Mitigation"
 	subTitle="Build a comprehensive, crystal clear picture for all project oberservers to see the same picture, in real time."
@@ -39,7 +39,7 @@ The MMOs can now collectively see that the right decision is to keep the operati
 
 {{< components/sub-hero
 	static="true"
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Let us show you how Mysticetus can greatly improve your next research project with a personalized walk-through."

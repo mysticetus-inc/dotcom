@@ -1,0 +1,15 @@
+// Pills
+
+@mixin pills-variant($parent, $color) {
+	#{$parent} {
+		.nav-link {
+			color: $color;
+
+			&.active,
+			&.show > .nav-link {
+				color: $black;
+				background-color: $color;
+			}
+		}
+	}
+}
