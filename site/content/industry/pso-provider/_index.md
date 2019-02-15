@@ -5,7 +5,7 @@ title: "Pso Provider"
 {{< components/sub-hero
 	centered="true"
 	backgroundImg="pso-provider.jpg"
-	title="Simplify data collection and gain intelligent support for your mitigation decisions"
+	title="Simplify data collection, save time on reporting, and gain intelligent support for your mitigation decisions"
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Requesting a demo is easy and only takes 30 seconds."
@@ -37,7 +37,7 @@ title: "Pso Provider"
 {{< components/social-proof 
 	title = "Customers see the value in Mysticetus"
 	subTitle = "Experience the difference in your next anthropogenic operation with the dedicated Mysticetus team by your side."
-	testimonialText = "We had operational issues at 4:30 in the morning. The Mysticetus team immediately responded to our call and helped us address our issues quickly."
+	testimonialText = "We had operational issues at 2:30 in the morning. The Mysticetus team immediately responded to our call and helped us address our issues quickly."
 	testimonialName = "Rick, Seismic Operations Director"
 	testimonialImage = "img/testimonials/rick.jpg"
 >}}
