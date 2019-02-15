@@ -20,7 +20,7 @@ Icons:
 -->
 {{< components/three-up
 	title= "Mysticetus System Solves Real-World Problems"
-	subTitle= "Our system enable teams to make real time, intelligent, data-driven decisions. It standardizes mitigation decisions, data collection, and reporting."
+	subTitle= "We enable teams to make real time, intelligent, data-driven decisions - standardizing and enforcing consistency across mitigation, data collection, and reporting."
 	image1= "img/industry/energy.svg"
 	text1= "Energy"
 	link1= "industry/energy"
@@ -37,7 +37,7 @@ Icons:
 {{< components/feature-highlight
 	title="Mysticetus Command Center"
 	subTitle="Monitor All Your Operations from Anywhere"
-	text="View heads-up display maps of all the moving parts of your project, including your vessel locations, animal sightings, project status. Real-time, real-world knowledge, and decision making from a centralized location. Follow, manage, and support operations from anywhere on the planet."
+	text="View heads-up display maps of all the moving parts of your project, including your vessel locations, animal sightings, and project status. Real-time, real-world knowledge, and decision making from a centralized location. Follow, manage, and support operations from anywhere on the planet."
 	image="mysticetus-data-driven-decisions.png"
 	buttonText="Learn more"
 	buttonLink="/feature/mitigation/"
@@ -48,7 +48,7 @@ Icons:
 {{< components/feature-highlight
 	title="Protect Your Permit"
 	subTitle="Insurance Against Bad Actors"
-	text="All it takes is one claim of violation and you may lose your very permit to operate. If you walk into court with an Excel spreadsheet, the opposing lawyer is just going to laugh. Mysticetus securely encrypts and records all data using industry standard techniques. Nothing can be changed without knowing it was changed and by whom. Quickly refute illegitimate claims of permit violation."
+	text="All it takes is one claim of violation and you may lose your very permit to operate. If you walk into court with an Excel spreadsheet, the opposing lawyer is just going to laugh. Mysticetus securely encrypts and records all data using industry standard techniques. Nothing can be changed without knowing precisely when it was changed and by whom. Quickly refute illegitimate claims of permit violation."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
@@ -60,7 +60,7 @@ Icons:
 {{< components/feature-highlight
 	title="Protect Your Bottom Line"
 	subTitle="Reduce Human Errors, Standardize Reporting"
-	text="Human errors can cripple an operation. Mysticetus catches and fixes PSO errors in the field, preventing unnecessary shutdowns and delays. Back on shore, generate repeatable, consistent, and publication ready reports in seconds - not hours. Save time, standardize across all PSO providers, and eliminate dependencies on expensive GIS services."
+	text="Human errors and inefficiencies can cripple an operation. Mysticetus catches and fixes PSO errors in the field, preventing unnecessary shutdowns and delays. Back on shore, generate repeatable, consistent, and publication-ready reports in seconds - not hours. Save time, standardize across all PSO providers, and eliminate dependencies on expensive GIS services."
 	image="mysticetus-reporting.png"
 	buttonText="Learn more"
 	buttonLink="/feature/reporting/"
