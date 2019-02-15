@@ -1,23 +1,7 @@
-/* Sass imports
+/* Sass - Mysticetus / framework styling (includes Bootstrap)
 ========================================================= */
+import './styles/mysticetus.scss';
 
-// Bootstrap @import
-// import 'bootstrap/scss/bootstrap.scss';
-
-// Now UI Kit and Overrides
-// import './styles/styles.scss';
-import './styles/styles_2.scss';
-
-
-/* javascript imports
+/* javascript - Mysticetus (custom) / plugins / vendors (including Bootstrap)
 ========================================================= */
-
-// Bootstrap JS
-import 'popper.js';
-import 'bootstrap';
-
-// Custom Scroll Reveal
-import './js/plugins/scroll-reveal';
-
-// Now UI Kit js
-import './js/now-ui-kit';
+import './js/mysticetus';

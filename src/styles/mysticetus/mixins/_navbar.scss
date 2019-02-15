@@ -25,7 +25,6 @@
 					margin: 0 1rem;
 					margin-bottom: 15px;
 					padding-top: 0;
-					height: 150px;
 					overflow-y: scroll;
 
 					&:before{
@@ -61,9 +60,7 @@
 					-ms-flex-align: center;
 					align-items: center;
 					transform: translateX(0px);
-					// @include transform-translate-x(0px);
 					transition: .5s cubic-bezier(0.685, 0.0473, 0.346, 1);
-					// @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
 			}
 
 			.navbar-toggler-bar{
@@ -147,6 +144,10 @@
 
 	[class*="navbar-expand-"] .navbar-collapse {
 			width: 300px;
+	}
+
+	.wrapper {
+		transition: 0.50s cubic-bezier(0.685, 0.0473, 0.346, 1);
 	}
 
 	#bodyClick{
