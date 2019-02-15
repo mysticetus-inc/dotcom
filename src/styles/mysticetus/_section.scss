@@ -1,0 +1,25 @@
+.section {
+	padding: $section-padding-y $section-padding-x;
+
+	&.section-extra-small {
+		padding: $section-padding-y-xs $section-padding-x-xs;
+	}
+	
+	&.section-small {
+		padding: $section-padding-y-sm $section-padding-x-sm;
+	}
+
+	&.section-large {
+		padding: $section-padding-y-lg $section-padding-x-lg;
+	}
+
+	&.section-extra-large {
+		padding: $section-padding-y-xl $section-padding-x-xl;
+	}
+
+	&.content {
+		img {
+			max-width: 100%;
+		}
+	}
+}

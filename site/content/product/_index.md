@@ -7,7 +7,7 @@ title: "Product"
 >}}
 
 {{< components/sub-hero
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Mysticetus"
 	subTitle="Map vessel and marine life locations to provide situational awareness of their proximity to one another - viewable and shared across connected computers. Mysticetus provides you with a superior solution for protecting permits to operate, as well as marine life."
@@ -24,7 +24,7 @@ title: "Product"
 	title="Mysticetus is intelligent mitigation for your Anthropogenic operations"
 	subTitle="Improve the way you operate. Fast. Accurate. Suited for all industries."
 	centered="true"
-	subtitle="test 2"
+	size="large"
 >}}
 
 {{< components/feature-highlight
@@ -61,7 +61,7 @@ title: "Product"
 
 {{< components/sub-hero
 	static="true"
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Let us show you how Mysticetus can greatly improve your next research project with a personalized walk-through."

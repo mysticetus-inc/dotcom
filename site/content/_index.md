@@ -3,7 +3,6 @@ title: "Mysticetus"
 ---
 
 {{< components/hero
-	size="full"
 	backgroundImg="mysticetus.jpg"
 	title="Collect. Mitigate. Protect."
 	subTitle="Intelligent mitigation for Anthropogenic operations."

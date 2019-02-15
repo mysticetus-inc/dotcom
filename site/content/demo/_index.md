@@ -4,7 +4,7 @@ title: "Demo"
 
 {{< components/sub-hero
 	static="true"
-	size="extra-small"
+	size="small"
 	centered="true"
 	title="Request a Demo"
 	subTitle="Request a personalized walk-through of Mysticetus to see how we can help in your next anthropogenic operation."

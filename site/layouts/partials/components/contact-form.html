@@ -1,7 +1,7 @@
 <section class="section section-small">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="column col-md-8">
+				<div class="column col-md-10 col-lg-8">
 					<div class="card">
 						<div class="card-header">
 							This form is for technical support only. If you'd like to learn more about Mysticetus try <a href="{{ "demo" | relURL }}">requesting a demo</a>.
@@ -43,7 +43,7 @@
 									<textarea class="form-control" id="how-can-we-help" rows="3" name="How can we help?" required></textarea>
 								</div>
 								<div class="text-center mt-5">
-									{{ $buttonVars := dict "text" "Submit support request" "type" "submit" "style" "primary" "size" "xl" }}
+									{{ $buttonVars := dict "text" "Submit support request" "type" "submit" "style" "primary" "size" "lg" }}
 									{{ partial "components/button.html" $buttonVars }}
 									<p>
 										<small class="text-muted">We will never share your info with anyone else.</small>

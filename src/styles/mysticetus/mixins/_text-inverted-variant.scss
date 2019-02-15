@@ -1,0 +1,14 @@
+// Typography
+
+@mixin text-inverted-variant($parent, $color) {
+	#{$parent} {
+		color: $body-color !important;
+	}
+
+	a#{$parent} {
+		@include hover-focus {
+			color: $color !important;
+			text-decoration: $inverted-link-hover-decoration;
+		}
+	}
+}
