@@ -11,7 +11,7 @@
 			<div class="column col-md-10 col-lg-8">
 				<div class="card bg-light">
 					<div class="card-body">
-						<form name="request-demo" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="pt-2 px-2">
+						<form name="request-demo" action="{{ "demo/thank-you" | relURL }}" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="pt-2 px-2">
 							<input type="text" name="subject" value="Someone has requested a Mysticetus Demo!" hidden>
 							<p class="hidden" hidden>
 								<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
@@ -22,7 +22,7 @@
 							</div>
 							<div class="form-group">
 								<label for="company-name">Company name</label>
-								<input type="text" class="form-control" id="company-name" name="Company Name" />
+								<input type="text" class="form-control" id="company-name" name="Company Name" required />
 							</div>
 							<div class="form-group">
 								<label for="industry">Industry</label>
