@@ -12,6 +12,8 @@
 .dropdown-menu {
 	transition: $transition-base;
 	font-size: $dropdown-item-font-size;
+	box-shadow: $dropdown-box-shadow;
+	border: $dropdown-border-width;
 
 	&:before {
 		content: "";

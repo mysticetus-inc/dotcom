@@ -125,8 +125,10 @@ $navbar-transparent-brand-hover-color:           $navbar-transparent-active-colo
 // Dropdown menu container and contents.
 
 $dropdown-item-padding-y:           .5rem;
+$dropdown-border-width:							0;
 
 $dropdown-item-font-size:           $font-size-base * .875;
+$dropdown-box-shadow:								0 .5rem 3rem 0 rgba($black, .2);
 
 
 // Sections
