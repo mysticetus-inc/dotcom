@@ -48,7 +48,7 @@ Icons:
 {{< components/feature-highlight
 	title="Protect Your Permit"
 	subTitle="Insurance Against False Claims"
-	text="All it takes is one claim of violation and you may lose your right to operate. Collected data needs repudiation to survive and challenges to authenticy. Presenting data collected via paper and spreadsheets requiring QA after the fact is difficult to defend against challenges. Mysticetus securely encrypts and records all data activity using industry standard techniques. Nothing can be changed without knowing precisely who changed it, when it was changed, and what it was and has become. Refute illegitimate claims of permit violation with confidence in your data."
+	text="All it takes is one claim of violation and you may lose your right to operate. Collected data needs repudiation to survive challenges to authenticy. Presenting data collected via paper and spreadsheets requiring QA after the fact is difficult to defend. Mysticetus securely encrypts and records all data activity using industry standard techniques. Nothing can be changed without knowing precisely who changed it, when it was changed, and what it was and has become. Easily refute illegitimate claims of permit violation with full confidence in your data source."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
@@ -59,15 +59,15 @@ Icons:
 
 {{< components/feature-highlight
 	title="Reduce Operational Costs"
-	subTitle="Eliminate Human Errors, Address QA at Point of Collection, Standardize Reporting"
-	text="Human errors and inefficiencies can cripple operational cost models. Mysticetus catches and addresses PSO errors as it is collected. Accurate calculations and immediate data visualization prevents unnecessary shutdowns and delays. Manage and generate repeatable, consistent, and publication-ready reports in seconds - not hours. Automatic reports save labor time, standardizes across all PSO providers, and eliminate dependencies on expensive GIS services."
+	subTitle="Eliminate Human Errors, Apply QA at Point of Collection, Standardize Reporting"
+	text="Human errors and inefficiencies can cripple operational cost models. Mysticetus catches and addresses PSO errors as it is collected. Accurate calculations and immediate data visualization prevents unnecessary shutdowns and delays while saving expensive post operation QA burdens. Manage and generate repeatable, consistent, and publication-ready reports in seconds - not hours/days. Automatic report generation cuts labor costs and standardizes methods across all PSO providers. Mysticetus reporting eliminates expensive dependencies on GIS services. Improve your operational costs while improving your ability to compete. Free up your employees to grow the business."
 	image="mysticetus-reporting.png"
 	buttonText="Learn more"
 	buttonLink="/feature/reporting/"
 >}}
 
 {{< components/social-proof 
-	title = "Customers see the value in Mysticetus"
+	title = "Customers see the value in Mysticetus Turn Key Solutions"
 	subTitle = "Experience the difference in your next operation with the dedicated Mysticetus team by your side."
 	testimonialText = "We had  issues at 2:30 in the morning. The Mysticetus team immediately responded to our call and helped us address our issues quickly."
 	testimonialName = "Rick, Seismic Operations Director"
@@ -75,11 +75,11 @@ Icons:
 >}}
 
 {{< components/call-to-action
-	title= "More than $1.6 million in operational costs saved in 4 months with Mysticetus."
-	subTitle= "According to a 2016 case study (Cook Inlet Seismic Survey), Mysticetus brings tremendous operational cost savings by preventing false shutdowns and delays."
+	title= "Over $1.6 million USD was save by Mysticetus in false shutdown prevention during one 4 month operation."
+	subTitle= "A 2016 case study (Cook Inlet Seismic Survey) demonstrated that Mysticetus brings tremendous operational cost savings in the prevention of false shutdowns and delays alone."
 	button1Text="Request a Demo"
 	button1Link="demo"
 	button2Text="Ask a Question"
 	button2Link="contact"
-	supportingText="Requesting a demo is easy and only takes 30 seconds."
+	supportingText="Let us demo Mysticetus tomorrow to learn how Mysticetus can positively impact your operations."
 >}}
