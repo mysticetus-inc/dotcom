@@ -47,8 +47,8 @@ Icons:
 
 {{< components/feature-highlight
 	title="Protect Your Permit"
-	subTitle="Insurance Against Bad Actors"
-	text="All it takes is one claim of violation and you may lose your right to operate. Collected data needs repudiation to survive and challenges to authenticy. Poorly collected data via paper and spreadsheets requiring QA after the fact is difficult to defend.  Mysticetus securely encrypts and records all data activity using industry standard techniques. Nothing can be changed without knowing precisely who changed it, when it was changed, adn what it was and has become. Refute illegitimate claims of permit violation with confidence in your data."
+	subTitle="Insurance Against False Claims"
+	text="All it takes is one claim of violation and you may lose your right to operate. Collected data needs repudiation to survive and challenges to authenticy. Presenting data collected via paper and spreadsheets requiring QA after the fact is difficult to defend against challenges. Mysticetus securely encrypts and records all data activity using industry standard techniques. Nothing can be changed without knowing precisely who changed it, when it was changed, and what it was and has become. Refute illegitimate claims of permit violation with confidence in your data."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
@@ -58,9 +58,9 @@ Icons:
 {{< components/page-line >}}
 
 {{< components/feature-highlight
-	title="Protect Your Bottom Line"
-	subTitle="Reduce Human Errors, Standardize Reporting"
-	text="Human errors and inefficiencies can cripple an operation. Mysticetus catches and addresses PSO errors in the field. Accurate calculations and data visualization prevents unnecessary shutdowns and delays. Back on shore, generate repeatable, consistent, and publication-ready reports in seconds - not hours. Save time, standardize across all PSO providers, and eliminate dependencies on expensive GIS services."
+	title="Reduce Operational Costs"
+	subTitle="Eliminate Human Errors, Address QA at Point of Collection, Standardize Reporting"
+	text="Human errors and inefficiencies can cripple operational cost models. Mysticetus catches and addresses PSO errors as it is collected. Accurate calculations and immediate data visualization prevents unnecessary shutdowns and delays. Manage and generate repeatable, consistent, and publication-ready reports in seconds - not hours. Automatic reports save labor time, standardizes across all PSO providers, and eliminate dependencies on expensive GIS services."
 	image="mysticetus-reporting.png"
 	buttonText="Learn more"
 	buttonLink="/feature/reporting/"
