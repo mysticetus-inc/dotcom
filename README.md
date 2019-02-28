@@ -137,3 +137,12 @@ Did something go :boom:? No worries, any previous deploy can be selected as the 
 We're using Netlify for all of our [form submissions](https://www.netlify.com/docs/form-handling/) for two reasons. 1.) We get up to 100 form submission per month for free, and 2.) They have built in [spam filtering](https://www.netlify.com/docs/form-handling/#spam-filtering) without the need for captchas
 
 There is an automatic trigger setup to alert Slack when a new form submission happens. Based on the form submitted is which channel will be notified. For example, if the "Request a Demo" for is submitted the #demo-requests Slack channel will be notified.
+
+### Images
+
+1. Feature highlight images (currently laptops) will resize to the containing area. To maintain visual aesthetic, try to keep these images more wide than they are tall. (please upload these in the corresponding content folder. For example, to update on “Energy” page, upload images in `site/content/industry/energy/` and update image urls where needed)
+2. If it’s one of the “industry” images (in the 3-up on the homepage under “Mysticetus System Solves Real-World Problems”) the images will resize to 100x100 pixels. To maintain visual aesthetic, try to keep these images square. (please upload these to `/site/static/img/industry` and update image urls where needed)
+3. Testimonial images will resize to 100 pixels wide (by whatever height). To maintain visual aesthetic, try to keep these images square or only slightly taller than wide. (please upload these to `/site/static/img/testimonials` and replace image urls where needed)
+4. The logo will resize to 50 pixels tall in the header and 60px tall in the footer (by whatever width). (please upload this to `/site/static/img/` and name it `mysticetus.png`)
+5. About images will resize to the containing area. To maintain visual aesthetic, try to keep these images more tall than they are wide. (please upload these to `/site/content/company/about/` and update image urls where needed)
+6. Background images in homepage hero or sub page hero (top section with text over image) should be at least 1920 pixels wide and about 1300 pixels tall (for homepage) or 1100 pixels tall (for sub pages). (please upload these in the corresponding content folder. For example, to update on “Energy” page, upload images in `site/content/industry/energy/` and name it `energy.jpg` or `energy.png` and update image urls where needed)
