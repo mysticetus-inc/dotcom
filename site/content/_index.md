@@ -8,7 +8,7 @@ title: "Mysticetus"
 	subTitle="Protect your permit, your operations, and your bottom line."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
-	supportingText="Let us demonstrate the power of Mysticetus System for you."
+	supportingText="Let us demonstrate the power of the Mysticetus System."
 >}}
 
 <!-- 
