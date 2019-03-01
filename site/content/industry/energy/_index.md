@@ -38,7 +38,7 @@ title: "Energy"
 {{< components/feature-highlight
 	title="Develop Your Big Data Solution"
 	subTitle="Common data collection drives future operations planning"
-	text="Mysticetus enforced data collection model quickly morphs into a planning tool as your collected data expands year over year."
+	text="Mysticetus enforced data collection model quickly morphs into a long range planning tool as your collected data expands year over year."
 	image="mysticetus-reporting.png"
 >}}
 
