@@ -15,7 +15,7 @@ title: "Pso Provider"
 {{< components/feature-highlight
 	title="Data driven mitigation"
 	subTitle="Make informed, defensible mitigation decisions"
-	text="Your client counts on you to avoid costly judgement errors. They - and governmental regulators - also count on you to document everything to prove the conditions of the permit and the law were followed. You can't do this with error-prone scribbles on paper or random notes in Excel. Mysticetus prevents unnecessary operational delays and false shutdowns. Enhance crew professionalism by eliminating guesswork. Mysticetus presents a comprehensive, crystal clear picture for all project observers - whether on vessel, in aircraft, or stationed on land - to see in real time."
+	text="Your client counts on you to avoid costly judgement errors. They - and governmental regulators - also count on you to document the conditions of the permit and the law were followed. You can't do this in a legally-defensible, auditable manner with error-prone scribbles on paper or random notes in Excel. Mysticetus prevents unnecessary operational delays and false shutdowns. Enhance crew professionalism by eliminating guesswork. Mysticetus presents a comprehensive, crystal clear picture for all project observers - whether on vessel, in aircraft, or stationed on land - to see in real time."
 	image="mysticetus-data-driven-decisions.png"
 >}}
 
