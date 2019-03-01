@@ -15,7 +15,7 @@ title: "Pso Provider"
 {{< components/feature-highlight
 	title="Data driven mitigation"
 	subTitle="Make informed, defensible mitigation decisions"
-	text="Your client counts on you to avoid costly judgement errors. They - and governmental regulators - also count on you to document the conditions of the permit and the law were followed. You can't do this in a legally-defensible, auditable manner with error-prone scribbles on paper or random notes in Excel. Mysticetus prevents unnecessary operational delays and false shutdowns. Enhance crew professionalism by eliminating guesswork. Mysticetus presents a comprehensive, crystal clear picture for all project observers - whether on vessel, in aircraft, or stationed on land - to see in real time."
+	text="Your client counts on you to avoid costly judgement errors. They - and governmental regulators - also count on you to document the conditions of the permit and the law were followed. You can't do this in a legally-defensible, auditable manner with error-prone scribbles on paper or random notes in Excel. Mysticetus prevents unnecessary shutdowns and highlights your crew's professionalism by eliminating paper or spreadsheet-driven guesswork. Mysticetus was specifically designed to be used by PSOs on mitigation operations. It presents a comprehensive, crystal clear picture for all project observers - whether on vessel, in aircraft, or stationed on land - to see in real time."
 	image="mysticetus-data-driven-decisions.png"
 >}}
 
@@ -30,7 +30,7 @@ title: "Pso Provider"
 {{< components/feature-highlight
 	title="Standardized Data Collection"
 	subTitle="Increase accuracy through your defined data collection model"
-	text="Observers consistently collect data to your defined standard. Map display of animal and vessel locations is immediately  viewable and shared across connected computers around the world. Accurate sighting data readily validated at time of entry. Mistakes are fixed on the water, not at home."
+	text="Observers consistently collect data to your defined standard. Map display of animal and vessel locations is immediately  viewable and shared across connected computers around the world. Accurate sighting data readily validated at time of entry. Mistakes are fixed on the water, not at home. Is it degrees/minutes/seconds or degrees/minutes? Mysticetus doesn't allow your PSOs to do it the wrong way - Mysticetus automatically records all the basics like date, time, distances and locations."
 	image="mysticetus-data-collection.png"
 >}}
 
