@@ -8,8 +8,16 @@ title: "Energy"
 	title="Prevent Delays. Reduce PSO errors. Protect your permit."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
-	supportingText="Requesting a demo is easy and only takes 30 seconds."
+	supportingText="Let us demonstrate Mysticetus's positive impact on your operational efficiency."
 	bold="true"
+>}}
+
+{{< components/feature-highlight
+	title="Command Center"
+	subTitle="Centralize Monitoring and Management of Operations"
+	text="Mysticetus Command Center centralizes viewing of all your operational activities, reported sightings, and integrates NOAA restricted areas."
+	image="mysticetus-data-collection.png"
+	imagePosition="right"
 >}}
 
 {{< components/feature-highlight
@@ -20,25 +28,25 @@ title: "Energy"
 >}}
 
 {{< components/feature-highlight
-	title="Reduce risks"
-	subTitle="Reduce PSO errors"
-	text="Mysticetus eliminates manual calculations for PSOs (e.g. distance to animal) reducing the likeliness of human error and increasing accurate monitoring and mitigation."
+	title="High data integrity quickly refutes false claims"
+	subTitle="Protect your permit"
+	text="Encrypted data tracking supports fast rejection of false claims against your operations. High data integrity provides insurance against activist attempts to shut you down."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 >}}
 
 {{< components/feature-highlight
-	title="Focus on what's important"
-	subTitle="Protect your permit"
-	text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet eleifend lacinia. Proin eleifend, eros a feugiat imperdiet, felis ligula cursus ante, nec malesuada purus risus ut sapien."
+	title="Develop Your Big Data Solution"
+	subTitle="Common data collection drives future operations planning"
+	text="Mysticetus enforced data style quickly morphs into a planning tool as your collected data expands year over year."
 	image="mysticetus-reporting.png"
 >}}
 
 {{< components/social-proof 
-	title = "Energy benefit from Mysticetus"
+	title = "Mysticetus Turnkey Solutions includes support"
 	subTitle = "Experience the difference in your next anthropogenic operation with the dedicated Mysticetus team by your side."
-	testimonialText = "Greatly frees me up from reviewing reports and allows me to focus on generating new business for my organization."
-	testimonialName = "Kat, Marine Researcher"
+	testimonialText = "We had operational issues at 4:30 in the morning. The Mysticetus team immediately responded to our call and helped us address what were our issues quickly."
+	testimonialName = "Ric, Operations Director"
 	testimonialImage = "img/testimonials/kat.jpg"
 >}}
 
@@ -47,7 +55,7 @@ title: "Energy"
 	size="small"
 	centered="true"
 	title="Request a Demo"
-	subTitle="Let us show you how Mysticetus can greatly improve your next Energy operation with a personalized walk-through."
+	subTitle="Let us demonstrate how Mysticetus can greatly improve your operations."
 	bold="true"
 >}}
 
