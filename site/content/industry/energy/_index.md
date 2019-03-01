@@ -31,7 +31,8 @@ title: "Energy"
 	title="High data integrity quickly refutes false claims"
 	subTitle="Protect your permit"
 	text="Encrypted data tracking supports fast rejection of false claims against your operations. High data integrity provides insurance against activist attempts to shut you down."
-	image="mysticetus-reporting.png"
+	image="mysticetus-data-collection.png"
+	imagePosition="right"
 >}}
 
 {{< components/feature-highlight
