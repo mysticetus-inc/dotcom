@@ -5,10 +5,10 @@ title: "Pso Provider"
 {{< components/sub-hero
 	centered="true"
 	backgroundImg="pso-provider.jpg"
-	title="Simplify data collection, save time on reporting, and gain intelligent support for your mitigation decisions"
+	title="Simplify data collection. Automated report generation. Intelligent support for mitigation decisions."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
-	supportingText="Requesting a demo is easy and only takes 30 seconds."
+	supportingText="Let us demonstrate how Mysticetus saves both time and money."
 	bold="true"
 >}}
 
@@ -20,18 +20,18 @@ title: "Pso Provider"
 >}}
 
 {{< components/feature-highlight
+	title="Simplify everyday operations"
+	subTitle="Reporting"
+	text="Aggregates data across days, weeks, months, etc. into a single, integrated cloud database including your pictures and sighting notes. Reports are generated with a single button push."
+	image="mysticetus-reporting.png"
+>}}
+
+{{< components/feature-highlight
 	title="Increase accuracy"
 	subTitle="Data collection"
 	text="Map animal and vessel locations, viewable and shared across connected computers around the world. Your sighting data is accurate and readily validated."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
->}}
-
-{{< components/feature-highlight
-	title="Simplify everyday operations"
-	subTitle="Reporting"
-	text="Aggregates data across days, weeks, months, etc. into a single, integrated cloud database including your pictures and sighting notes. Reports are generated with a single button push."
-	image="mysticetus-reporting.png"
 >}}
 
 {{< components/social-proof 
