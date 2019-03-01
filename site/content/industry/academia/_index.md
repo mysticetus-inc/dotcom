@@ -5,32 +5,32 @@ title: "Academia"
 {{< components/sub-hero
 	centered="true"
 	backgroundImg="academia.jpg"
-	title="Collect accurate data and instantly generate custom reports"
+	title="Collect data consistently. Q/A Data as its gathered. Fast, Automated Analysis Tools."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
-	supportingText="Requesting a demo is easy and only takes 30 seconds."
+	supportingText="Let us help you integrate Mysticetus to your research."
 	bold="true"
 >}}
 
 {{< components/feature-highlight
-	title="Focus on your research"
-	subTitle="Data collection"
-	text="Map animal locations quickly and easily without distraction. Your sighting data is accurate and readily validated."
+	title="Pre-Define Your Data Collection Model"
+	subTitle="Data collection is enforced to be consistent across all contributors."
+	text="Mysticetus template system allows predefinition of how targeted data is collected. Data is backed up to the cloud. Map animal locations quickly and easily for immediate visualization. Sighting data is viewable across all project computers."
 	image="mysticetus-reporting.png"
 >}}
 
 {{< components/feature-highlight
-	title="Simplify everyday operations"
-	subTitle="Custom Reporting"
-	text="Aggregates data across days, weeks, months, etc. into a single, integrated cloud database including your pictures and sighting notes. Reports are customized by you to meet your requirements."
+	title="Data Quality Checked as its Collected"
+	subTitle="Fix Errors Right Away, take back those nights lost to data correction."
+	text="Data errors are immediately viewable in the map display. Entry classification is consistent. Calculations are automated."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 >}}
 
 {{< components/feature-highlight
-	title="But wait... there's more!"
-	subTitle="Feature"
-	text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed rutrum sapien, vel finibus ipsum. Praesent nec sagittis odio. Ut nec commodo lacus."
+	title="Automated Analaysis and GIS Quality Mapping"
+	subTitle="Custom, Automated Analysis Capability with Professional Mapping"
+	text="Aggregates data across days, weeks, months, etc. into a single, integrated report including your pictures and sighting notes. Reports are customized by you to meet your requirements. Results exported at a click of the mouse."
 	image="mysticetus-reporting.png"
 >}}
 
