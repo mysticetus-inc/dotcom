@@ -38,7 +38,7 @@ title: "Energy"
 {{< components/feature-highlight
 	title="Develop Your Big Data Solution"
 	subTitle="Common data collection drives future operations planning"
-	text="Mysticetus enforced data style quickly morphs into a planning tool as your collected data expands year over year."
+	text="Mysticetus enforced data collection model quickly morphs into a planning tool as your collected data expands year over year."
 	image="mysticetus-reporting.png"
 >}}
 
@@ -46,7 +46,7 @@ title: "Energy"
 	title = "Mysticetus Turnkey Solutions includes support"
 	subTitle = "Experience the difference in your next anthropogenic operation with the dedicated Mysticetus team by your side."
 	testimonialText = "We had operational issues at 4:30 in the morning. The Mysticetus team immediately responded to our call and helped us address what were our issues quickly."
-	testimonialName = "Ric, Operations Director"
+	testimonialName = "Rick, Operations Director"
 	testimonialImage = "img/testimonials/kat.jpg"
 >}}
 
