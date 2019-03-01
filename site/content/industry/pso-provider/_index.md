@@ -20,15 +20,15 @@ title: "Pso Provider"
 >}}
 
 {{< components/feature-highlight
-	title="Simplify everyday operations"
-	subTitle="Reporting"
-	text="Aggregates data across days, weeks, months, etc. into a single, integrated cloud database including your pictures and sighting notes. Reports are generated with a single button push."
+	title="Automated Report Generation"
+	subTitle="Reduce cost of generating reports"
+	text="Reports are generated with a single button push. Quickly aggregate data across days, weeks, months, etc. into a single, integrated cloud database including your sighting pictures and notes."
 	image="mysticetus-reporting.png"
 >}}
 
 {{< components/feature-highlight
-	title="Increase accuracy"
-	subTitle="Data collection"
+	title="Standardized Data Collection"
+	subTitle="Increase accuracy through your defined data collection model"
 	text="Map animal and vessel locations, viewable and shared across connected computers around the world. Your sighting data is accurate and readily validated."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
