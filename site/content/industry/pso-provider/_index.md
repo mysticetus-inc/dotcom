@@ -5,7 +5,7 @@ title: "Pso Provider"
 {{< components/sub-hero
 	centered="true"
 	backgroundImg="pso-provider.jpg"
-	title="So you really think it is professional to scratch out critical information with pencil and paper? Seriously?"
+	title="So you really think it's professional to scribble critical information with pencil and paper? Seriously?"
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Let us demonstrate how Mysticetus saves both time and money."
