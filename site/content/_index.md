@@ -19,8 +19,8 @@ Icons:
 	- Academia: https://www.flaticon.com/free-icon/book_854861
 -->
 {{< components/three-up
-	title= "Mysticetus System Manages MMPA Compliance End to End"
-	subTitle= "Mysticetus enables PSO Teams make intelligent, data-driven decisions - Mysticetus data standardization forces consistency accross mitigation, data collection, and reporting."
+	title= "Mysticetus System Manages Environmental Compliance End to End"
+	subTitle= "Mysticetus enables Environmental Teams to make intelligent, data-driven decisions - Mysticetus data standardization forces consistency accross mitigation, data collection, and reporting. Secure Audit provides un-alterable proof of compliance in the face of external claims of violation."
 	image1= "img/industry/energy.svg"
 	text1= "Energy"
 	link1= "industry/energy"
@@ -46,9 +46,9 @@ Icons:
 {{< components/page-line >}}
 
 {{< components/feature-highlight
-	title="Protect Your Permit"
+	title="Paper Won't Protect Your Permit"
 	subTitle="Insurance Against False Claims"
-	text="All it takes is one claim of violation and you may lose your right to operate. Collected data must survive challenges to authenticy. Data collected via paper and spreadsheets is difficult to defend. Mysticetus securely encrypts and records all data activity using industry standard techniques. Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute illegitimate claims of permit violation with full confidence in your data."
+	text="All it takes is one claim of violation and you may lose your right to operate. Collected data must survive challenges to authenticy. Data collected via paper and spreadsheets is difficult to defend. Mysticetus securely encrypts and audits all activity using industry standard technology. Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute illegitimate claims of permit violation with full confidence in your data. Paper and Excel can't do this."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
@@ -59,8 +59,8 @@ Icons:
 
 {{< components/feature-highlight
 	title="Reduce Operational Costs"
-	subTitle="Eliminate Human Errors at Point of Collection and Standardize Reporting"
-	text="Human errors and inefficiencies can cripple your margins. Mysticetus catches and addresses PSO errors as it is collected. Accurate calculations and immediate viewing of sightings prevents unnecessary shutdowns and delays while saving expensive post operation QA burdens. Manage and generate repeatable, consistent, and publication-ready reports in seconds - not hours/days. Mysticetus reporting eliminates expensive dependencies on GIS services. Improve your operational costs and your ability to compete. Free up your employees to grow the business."
+	subTitle="Eliminate Human Errors, Standardize Reporting"
+	text="Human errors and inefficiencies can cripple your margins. Mysticetus catches and addresses PSO errors as they happen. Accurate calculations and immediate viewing of sightings prevents unnecessary shutdowns and delays while saving expensive post operation QA burdens. Manage and generate repeatable, consistent, and publication-ready reports in seconds - not hours/days. Mysticetus reporting eliminates expensive dependencies on GIS services. Improve your operational costs and your ability to compete. Free up your employees to grow the business."
 	image="mysticetus-reporting.png"
 	buttonText="Learn more"
 	buttonLink="/feature/reporting/"
