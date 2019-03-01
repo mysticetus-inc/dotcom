@@ -15,7 +15,7 @@ title: "Energy"
 {{< components/feature-highlight
 	title="Command Center"
 	subTitle="Centralize Monitoring and Management of Operations"
-	text="Mysticetus Command Center centralizes viewing of all your operations, their activities, sightings, and ."
+	text="Mysticetus Command Center centralizes viewing of all your operational activities, reported sightings, and integrates NOAA restricted areas."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 >}}
@@ -54,7 +54,7 @@ title: "Energy"
 	size="small"
 	centered="true"
 	title="Request a Demo"
-	subTitle="Let us show you how Mysticetus can greatly improve your next Energy operation with a personalized walk-through."
+	subTitle="Let us demonstrate how Mysticetus can greatly improve your operations."
 	bold="true"
 >}}
 
