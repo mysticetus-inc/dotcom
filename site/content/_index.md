@@ -20,7 +20,7 @@ Icons:
 -->
 {{< components/three-up
 	title= "Mysticetus Manages Environmental Compliance End to End"
-	subTitle= "Mysticetus enables Environmental Teams to make intelligent, data-driven decisions - Mysticetus data standardization forces consistency accross mitigation, data collection, and reporting. Secure Audit features provide un-alterable proof of compliance -  paper or Excel leave you <b>and your permit</b> vulnerable."
+	subTitle= "Mysticetus drives Environmental Teams to make consistent, data-driven decisions. Mysticetus data standardization forces consistency across mitigation, data collection, and reporting. Secure Audit features provide un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges."
 	image1= "img/industry/energy.svg"
 	text1= "Energy"
 	link1= "industry/energy"
@@ -36,8 +36,8 @@ Icons:
 
 {{< components/feature-highlight
 	title="Mysticetus Command Center"
-	subTitle="Remotely Monitor All of Your Operations"
-	text="Mysticetus heads-up display maps all of the moving parts of your project. View vessel locations, animal sightings, and project status. Real time, real-world knowledge enables decision making from a centralized location. Follow, manage, and support operations from anywhere on the planet. Connected vessels can leverage the big picture as they transit active areas."
+	subTitle="Monitor All of Your Operations - From Anywhere On The Planet"
+	text="Monitor every moving part of your project. Mysticetus heads-up display maps everything going on and shows this to you on a web page. View vessel locations, animal sightings, and project status. Real time, real-world knowledge enables decision making from a centralized location. Follow, manage, and support operations from anywhere on the planet. Connected vessels leverage the big picture as they transit active areas."
 	image="mysticetus-data-driven-decisions.png"
 	buttonText="Learn more"
 	buttonLink="/feature/mitigation/"
@@ -48,7 +48,7 @@ Icons:
 {{< components/feature-highlight
 	title="Paper Won't Protect Your Permit"
 	subTitle="Insurance Against False Claims"
-	text="All it takes is one claim of violation and you may lose your right to operate. Collected data must survive challenges to authenticy. Data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime. Mysticetus securely encrypts and audits all activity using industry standard technology. Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute illegitimate claims of permit violation with full confidence in your data. Paper and Excel can't do this."
+	text="All it takes is one claim of violation and you may lose your right to operate. Mitigation data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime and lawyers know this. Mysticetus securely encrypts and audits all activity using industry standard technology. Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute illegitimate claims of permit violation with full confidence in your mitigation data. Paper and Excel can't do this."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
@@ -60,7 +60,7 @@ Icons:
 {{< components/feature-highlight
 	title="Reduce Operational Costs"
 	subTitle="Eliminate Human Errors, Standardize Reporting"
-	text="Human errors and inefficiencies can cripple your margins. Inappropriate shutdowns. Mis-entered coordinates. Mysticetus technology catches and fixes PSO errors as they happen. Mysticetus prevents unnecessary shutdowns and costly delays while saving expensive post operation QA burdens. Manage and generate repeatable, consistent, and publication-ready reports in seconds - not hours/days. Mysticetus reporting eliminates expensive dependencies on GIS services. Improve your operational costs and your ability to compete. Free up your employees to grow the business."
+	text="Human errors and inefficiencies can cripple your margins. Inappropriate shutdowns. Mis-entered coordinates. Mysticetus technology catches and fixes PSO errors as they happen. Mysticetus prevents unnecessary shutdowns and costly delays while saving expensive post operation QA burdens. Manage and generate repeatable, consistent, and publication-ready reports in seconds - not hours/days. Mysticetus reporting eliminates expensive dependencies on GIS services. Improve your operational costs and your ability to compete. Free up your employees to grow your business."
 	image="mysticetus-reporting.png"
 	buttonText="Learn more"
 	buttonLink="/feature/reporting/"
