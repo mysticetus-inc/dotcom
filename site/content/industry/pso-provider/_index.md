@@ -13,23 +13,23 @@ title: "Pso Provider"
 >}}
 
 {{< components/feature-highlight
-	title="Make better decisions"
-	subTitle="Data driven mitigation"
-	text="Prevent unnecessary operational delays and shutdowns. Mysticetus builds a comprehensive, crystal clear picture for all project oberservers - whether on vessel, in aircraft, or stationed on land - to see the same picture, in real time."
+	title="Data driven mitigation"
+	subTitle="Make informed, defensible mitigation decisions"
+	text="Prevent unnecessary operational delays and false shutdowns. Enhance crew professionalism by eliminating guesswork. Mysticetus presents a comprehensive, crystal clear picture for all project observers - whether on vessel, in aircraft, or stationed on land - to see in real time."
 	image="mysticetus-data-driven-decisions.png"
 >}}
 
 {{< components/feature-highlight
 	title="Automated Report Generation"
 	subTitle="Reduce cost of generating reports"
-	text="Reports are generated with a single button push. Quickly aggregate data across days, weeks, months, etc. into a single, integrated cloud database including your sighting pictures and notes."
+	text="Reports are generated with a single button push. Quickly aggregate data across days, weeks, months, etc. into a single, integrated cloud database including your sighting pictures and notes. GIS service costs are eliminated in most cases. Easily export results."
 	image="mysticetus-reporting.png"
 >}}
 
 {{< components/feature-highlight
 	title="Standardized Data Collection"
 	subTitle="Increase accuracy through your defined data collection model"
-	text="Map animal and vessel locations, viewable and shared across connected computers around the world. Your sighting data is accurate and readily validated."
+	text="Observers consistently collect data to your defined standard. Map display of animal and vessel locations is immediately  viewable and shared across connected computers around the world. Accurate sighting data readily validated at time of entry. Mistakes are fixed on the water, not at home."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 >}}
