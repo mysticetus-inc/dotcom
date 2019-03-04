@@ -17,6 +17,7 @@ title: "Energy"
 	subTitle="Prevent unnecessary shutdowns; Prove permit compliance"
 	text="It just takes one observer error to destroy an entire operation. Or if you're lucky, the error will only kill your bottom line. Mysticetus takes the guesswork out of Protected Species Observer work. No more scrawled notes on paper. No more un-auditable, critical records lost in Excel. Mysticetus integrates technologies including GPS, AIS,  passive acoustic monitoring, IR cameras, real time mapping, and internet connectivity. Mysticetus double-checks and audits everything, all the time. This reduces human errors that lead to false shutdowns or even loss of your permit to operate."
 	image="mysticetus-data-collection.png"
+	imagePosition="right"
 >}}
 
 {{< components/feature-highlight
@@ -29,9 +30,10 @@ title: "Energy"
 {{< components/feature-highlight
 	title="Mysticetus Command Center"
 	subTitle="Centralize Monitoring and Management of Operations"
-	text="Mysticetus Command Center centralizes viewing of all your operational activities, vessel statuses, reported sightings, weather conditions and even and integrates NOAA restricted areas."
+	text="Mysticetus Command Center centralizes viewing of all your operational activities, vessel statuses, reported sightings, weather conditions and even and integrates NOAA Dynamic Management Areas. If you've got internet, you can watch your operation in real-time, from anywhere."
 	image="mysticetus-data-driven-decisions.png"
 	imagePosition="right"
+
 >}}
 
 {{< components/feature-highlight
@@ -39,7 +41,6 @@ title: "Energy"
 	subTitle="Common Data Collection Drives Future Operations Planning"
 	text="Quick. Where is your observer data from previous operations? What format is it? Can you use it to plan for the future? Where WERE those whales in May, anyways? Mysticetus enforces a consistent data collection model that easily becomes a long range planning tool. Year over year, Mysticetus data is automatically backed up to the cloud for long-term retention and can be exported into most standard formats for ongoing analysis and planning."
 	image="mysticetus-reporting.png"
-	imagePosition="right"
 >}}
 
 {{< components/social-proof 
