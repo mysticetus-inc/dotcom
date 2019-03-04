@@ -55,7 +55,17 @@ Icons:
 	buttonLink="/feature/reporting/"
 >}}
 
-{{< components/page-line >}}
+{{< components/feature-highlight
+	title="Mysticetus Technical Services"
+	subTitle="Fill in IT Holes"
+	text="You know that one IT project you just cant get to because everything else is always catching on fire? Yeah. We know. This isn't our first rodeo, either. Mysticetus Technical Services has a proven track record of solving critical high-tech problems in the marine industry. We specialize in hard-core software development and hardware deployment and we have a rolodex of some of the best contract software developers on the planet (well, not really an actual "Rolodex", but you get the point). Our solutions range from additional support of your environmental staff, through anti-piracy, through through geophysical/geotechnical engineering and production modules. Net-net: we augment your IT staff's technical bandwidth. Give us a call."
+	image="mysticetus-data-collection.png"
+	imagePosition="right"
+	buttonText="Learn more"
+	buttonLink="/feature/data-collection/"
+>}}
+
+{{< components/page-line >}}{{< components/page-line >}}
 
 {{< components/feature-highlight
 	title="Mysticetus Command Center"
