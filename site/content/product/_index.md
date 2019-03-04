@@ -28,9 +28,9 @@ title: "Product"
 >}}
 
 {{< components/feature-highlight
-	title="Make better decisions"
-	subTitle="Data driven mitigation"
-	text="Mysticetus Technical Services can verify your mitigation team is technically prepared and ready to support your Anthropogenic operations before you depart the dock."
+	title="Project Review of Critical Projects"
+	subTitle="Independent verification of complex projects"
+	text="Nobody likes to say HELP on a technical project. Delivering bad news on a project is not easy. Redefining a project's path is simply hard. We can review, assess, and help you recover your project and reign in costs... or simply terminate it. We tell it like is so you can make those hard decisions not avoid them."
 	image="mysticetus-data-driven-decisions.png"
 	buttonText="Learn more"
 	buttonLink="/feature/mitigation/"
