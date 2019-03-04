@@ -5,7 +5,7 @@ title: "Energy"
 {{< components/sub-hero
 	centered="true"
 	backgroundImg="energy.jpg"
-	title="Prevent Delays. Reduce PSO errors. Protect your permit."
+	title="Human Errors Can Destroy Entire Operations. Mysticetus Fixes That."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Let us demonstrate Mysticetus's positive impact on your operational efficiency."
@@ -13,38 +13,38 @@ title: "Energy"
 >}}
 
 {{< components/feature-highlight
-	title="Command Center"
+	title="Eliminate Human Error and Inefficiency"
+	subTitle="Prevent unnecessary shutdowns; Prove permit compliance"
+	text="It just takes one observer error to destroy an entire operation. Or if you're lucky, the error will only kill your bottom line. Mysticetus takes the guesswork out of Protected Species Observer work. No more scrawled notes on paper. No more un-auditable, critical records lost in Excel. Mysticetus integrates technologies including GPS, AIS,  passive acoustic monitoring, IR cameras, real time mapping, and internet connectivity. Mysticetus double-checks and audits everything, all the time. This reduces human errors that lead to false shutdowns or even loss of your permit to operate."
+	image="mysticetus-data-collection.png"
+>}}
+
+{{< components/feature-highlight
+	title="Mysticetus Audit quickly refutes false claims"
+	subTitle="High-Tech Non-Repudiation System"
+	text="Mysticetus is your insurance policy against false claims of permit violation. All it takes is one angry citizen and a blurry photo to take you down. Mysticetus time-stamps, double-checks, encrypts and securely audits EVERYTHING recorded by Protected Species Observers (your official, government-approved, onboard witnesses). Mysticetus-recorded data cannot be altered without knowing who, when, where and why it was altered. This provides strong protection from false external claims of permit violation. Paper scribbles and un-auditable Excel cannot do that."
+	image="mysticetus-data-collection.png"
+>}}
+
+{{< components/feature-highlight
+	title="Mysticetus Command Center"
 	subTitle="Centralize Monitoring and Management of Operations"
-	text="Mysticetus Command Center centralizes viewing of all your operational activities, reported sightings, and integrates NOAA restricted areas."
-	image="mysticetus-data-collection.png"
-	imagePosition="right"
->}}
-
-{{< components/feature-highlight
-	title="Increase operational efficiency"
-	subTitle="Prevent delays"
-	text="Merged technologies such as GPS integration, passive acoustic monitoring, IR cameras, real time mapping, and internet connectivity reduce false shutdowns."
+	text="Mysticetus Command Center centralizes viewing of all your operational activities, vessel statuses, reported sightings, weather conditions and even and integrates NOAA restricted areas."
 	image="mysticetus-data-driven-decisions.png"
->}}
-
-{{< components/feature-highlight
-	title="High data integrity quickly refutes false claims"
-	subTitle="Protect your permit"
-	text="Encrypted data tracking supports fast rejection of false claims against your operations. High data integrity provides insurance against activist attempts to shut you down."
-	image="mysticetus-data-collection.png"
 	imagePosition="right"
 >}}
 
 {{< components/feature-highlight
 	title="Develop Your Big Data Solution"
-	subTitle="Common data collection drives future operations planning"
-	text="Mysticetus enforced data collection model quickly morphs into a long range planning tool as your collected data expands year over year."
+	subTitle="Common Data Collection Drives Future Operations Planning"
+	text="Quick. Where is your observer data from previous operations? What format is it? Can you use it to plan for the future? Where WERE those whales in May, anyways? Mysticetus enforces a consistent data collection model that easily becomes a long range planning tool. Year over year, Mysticetus data is automatically backed up to the cloud for long-term retention and can be exported into most standard formats for ongoing analysis and planning."
 	image="mysticetus-reporting.png"
+	imagePosition="right"
 >}}
 
 {{< components/social-proof 
 	title = "Mysticetus Turnkey Solutions includes support"
-	subTitle = "Experience the difference in your next anthropogenic operation with the dedicated Mysticetus team by your side."
+	subTitle = "Experience the difference in your next operation with the dedicated Mysticetus team by your side."
 	testimonialText = "We had operational issues at 4:30 in the morning. The Mysticetus team immediately responded to our call and helped us address what were our issues quickly."
 	testimonialName = "Rick, Operations Director"
 	testimonialImage = "img/testimonials/kat.jpg"
