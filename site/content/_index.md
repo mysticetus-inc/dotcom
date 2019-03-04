@@ -35,20 +35,9 @@ Icons:
 {{< components/page-line >}}
 
 {{< components/feature-highlight
-	title="Mysticetus Command Center"
-	subTitle="Monitor All of Your Operations - From Anywhere On The Planet"
-	text="Monitor every moving part of your project. Mysticetus heads-up display maps everything going on and shows this to you on a web page. View vessel locations, animal sightings, and project status. Real time, real-world knowledge enables decision making from a centralized location. Follow, manage, and support operations from anywhere on the planet. Connected vessels leverage the big picture as they transit active areas."
-	image="mysticetus-data-driven-decisions.png"
-	buttonText="Learn more"
-	buttonLink="/feature/mitigation/"
->}}
-
-{{< components/page-line >}}
-
-{{< components/feature-highlight
 	title="Paper Won't Protect Your Permit"
 	subTitle="Insurance Against False Claims"
-	text="All it takes is one claim of violation and you may lose your right to operate. Mitigation data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime and lawyers know this. Mysticetus securely encrypts and audits all activity using industry standard technology. Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute illegitimate claims of permit violation with full confidence in your mitigation data. Paper and Excel can't do this."
+	text="All it takes is one claim of violation and you may lose your right to operate. Mitigation observer data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime - and the opposition lawyers know this. Mysticetus securely encrypts and audits all activity using industry standard technology. Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute illegitimate claims of permit violation with full confidence in your mitigation data. Paper and Excel can't do this."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
@@ -66,6 +55,16 @@ Icons:
 	buttonLink="/feature/reporting/"
 >}}
 
+{{< components/page-line >}}
+
+{{< components/feature-highlight
+	title="Mysticetus Command Center"
+	subTitle="Monitor All of Your Operations - From Anywhere On The Planet"
+	text="Monitor every moving part of your project. Mysticetus heads-up display maps everything going on and shows this to you on a web page. View vessel locations, animal sightings, and project status. Real time, real-world knowledge enables decision making from a centralized location. Follow, manage, and support operations from anywhere on the planet. Connected vessels leverage the big picture as they transit active areas."
+	image="mysticetus-data-driven-decisions.png"
+	buttonText="Learn more"
+	buttonLink="/feature/mitigation/"
+>}}
 {{< components/social-proof 
 	title = "Customers see the value in Mysticetus Turn Key Solutions"
 	subTitle = "Experience the difference in your next operation with the dedicated Mysticetus team by your side."
