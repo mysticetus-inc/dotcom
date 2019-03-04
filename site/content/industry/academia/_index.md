@@ -16,7 +16,7 @@ title: "Academia"
 	title="Pre-Define Your Data Collection Model"
 	subTitle="Data collection consistency is enforced across all contributors."
 	text="Mysticetus template system gives you the tools to customize and enforce consistent data collection. Data is automatically backed up to the cloud. Animal locations are mapped quickly and easily for immediate visualization and verification. Sighting data is viewable across all project computers."
-	image="dotcom/site/content/industry/academia/Mysticetus-theodolite-marine-survey.jpg"
+	image="Mysticetus-theodolite-marine-survey.jpg"
 >}}
 
 {{< components/feature-highlight
