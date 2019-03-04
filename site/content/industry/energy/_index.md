@@ -21,9 +21,9 @@ title: "Energy"
 >}}
 
 {{< components/feature-highlight
-	title="Mysticetus Audit quickly refutes false claims"
-	subTitle="High-Tech Non-Repudiation System"
-	text="Mysticetus is your insurance policy against false claims of permit violation. All it takes is one angry citizen and a blurry photo to take you down. Mysticetus time-stamps, double-checks, encrypts and securely audits EVERYTHING recorded by Protected Species Observers (your official, government-approved, onboard witnesses). Mysticetus-recorded data cannot be altered without knowing who, when, where and why it was altered. This provides strong protection from false external claims of permit violation. Paper scribbles and un-auditable Excel cannot do that."
+	title="Mysticetus Audit Refutes False Claims"
+	subTitle="High-Tech Non-Repudiation - Your Insurance Policy"
+	text="Paper scribbles and un-auditable Excel data are easily tossed out of court by opposing counsel. All it takes is one angry citizen and a blurry photo to take you down. Mysticetus time-stamps, double-checks, encrypts and securely audits EVERYTHING recorded by Protected Species Observers (your official, government-approved, onboard witnesses). Mysticetus-recorded data cannot be altered without knowing who, when, where and why it was altered. This provides strong protection from false external claims of permit violation."
 	image="mysticetus-data-collection.png"
 >}}
 
