@@ -55,6 +55,8 @@ Icons:
 	buttonLink="/feature/reporting/"
 >}}
 
+{{< components/page-line >}}
+
 {{< components/feature-highlight
 	title="Mysticetus Technical Services"
 	subTitle="Fill in IT Holes"
@@ -65,7 +67,7 @@ Icons:
 	buttonLink="/feature/data-collection/"
 >}}
 
-{{< components/page-line >}}{{< components/page-line >}}
+{{< components/page-line >}}
 
 {{< components/feature-highlight
 	title="Mysticetus Command Center"
@@ -75,6 +77,7 @@ Icons:
 	buttonText="Learn more"
 	buttonLink="/feature/mitigation/"
 >}}
+
 {{< components/social-proof 
 	title = "Customers see the value in Mysticetus Turn Key Solutions"
 	subTitle = "Experience the difference in your next operation with the dedicated Mysticetus team by your side."
