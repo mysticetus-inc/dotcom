@@ -5,7 +5,7 @@ title: "Academia"
 {{< components/sub-hero
 	centered="true"
 	backgroundImg="academia.jpg"
-	title="Collect data consistently. Q/A Data as its gathered. Fast, Automated Analysis Tools."
+	title="Collect Data Consistently. Q/A is Immediate. Automated Analysis Tools."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Let us help you integrate Mysticetus to your research."
@@ -21,16 +21,16 @@ title: "Academia"
 
 {{< components/feature-highlight
 	title="Data Quality Checked as its Collected"
-	subTitle="Fix Errors Right Away, take back those nights lost to data correction."
-	text="Data errors are immediately viewable in the map display. Entry classification is consistent. Calculations are automated."
+	subTitle="Fix Errors Right Away, take back those nights lost to data correction alone."
+	text="Data errors are immediately obvious in the map display. Entry classification is consistent. Calculations are automated for you. Automatically and correctly capture data from field equipment such as theodolites and your gps."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 >}}
 
 {{< components/feature-highlight
 	title="Automated Analaysis and GIS Quality Mapping"
-	subTitle="Custom, Automated Analysis Capability with Professional Mapping"
-	text="Aggregates data across days, weeks, months, etc. into a single, integrated report including your pictures and sighting notes. Reports are customized by you to meet your requirements. Results exported at a click of the mouse."
+	subTitle="Custom, Automated Analysis Capability with Professional Mapping of results"
+	text="Aggregate data across days, weeks, months, etc. into a single, integrated report including your pictures and sighting notes. Reports are customized by you to meet your requirements. Results exported at a click of the mouse."
 	image="mysticetus-reporting.png"
 >}}
 
