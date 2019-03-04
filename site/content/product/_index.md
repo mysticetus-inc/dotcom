@@ -9,9 +9,9 @@ title: "Product"
 {{< components/sub-hero
 	size="small"
 	centered="true"
-	title="Mysticetus"
-	subTitle="Map vessel and marine life locations to provide situational awareness of their proximity to one another - viewable and shared across connected computers. Mysticetus provides you with a superior solution for protecting permits to operate, as well as marine life."
-	buttonText="Request a Demo"
+	title="Mysticetus Technical Services"
+	subTitle="Mysticetus technical services is there to augment your IT bandwidth - project review, program management, app creation, cloud solutions, hardware integration, data visualization, GDPR compliance to name a few. Leverage our extensive software stack and experience to tackle your needs."
+	buttonText="Let's discuss your needs"
 	buttonUrl="/demo/"
 	bold="true"
 >}}
