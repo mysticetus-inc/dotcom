@@ -21,8 +21,8 @@ title: "Product"
 >}}
 
 {{< components/header
-	title="Mysticetus is intelligent mitigation for your Anthropogenic operations"
-	subTitle="Improve the way you operate. Fast. Accurate. Suited for all industries."
+	title="Mysticetus Technical Services can verify your mitigation team is technically prepared at the dockto support your Anthropogenic operations"
+	subTitle="Unprepared mitigation teams will delay your operations. Let us assess, correct, and verify they're ready before you sail."
 	centered="true"
 	size="large"
 >}}
