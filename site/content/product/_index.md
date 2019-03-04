@@ -10,7 +10,7 @@ title: "Product"
 	size="small"
 	centered="true"
 	title="Mysticetus Technical Services"
-	subTitle="Mysticetus technical services augments your IT bandwidth - project review, program management, app creation, cloud solutions, hardware integration, data visualization, GDPR compliance to name a few. Leverage our extensive software stack and experience to tackle your needs."
+	subTitle="Mysticetus technical services augments your IT bandwidth - project review, program management, app creation, cloud solutions, hardware integration, data visualization, GDPR compliance to name a few. Leverage our extensive software stack and experience to address your technical gaps."
 	buttonText="Let's discuss your needs"
 	buttonUrl="/demo/"
 	bold="true"
@@ -21,8 +21,8 @@ title: "Product"
 >}}
 
 {{< components/header
-	title="Mysticetus is intelligent mitigation for your Anthropogenic operations"
-	subTitle="Improve the way you operate. Fast. Accurate. Suited for all industries."
+	title="Mysticetus Technical Services can verify your mitigation team is technically prepared at the dockto support your Anthropogenic operations"
+	subTitle="Unprepared mitigation teams will delay your operations. Let us assess, correct, then verify they're ready to go before you sail."
 	centered="true"
 	size="large"
 >}}
