@@ -16,28 +16,30 @@ title: "Product"
 	bold="true"
 >}}
 
+<!-- comment out tab fields. cool functionality to play with later.
 {{< components/tabs
 	title="Industries"
 >}}
+-->
 
 {{< components/header
-	title="Mysticetus Technical Services can verify your mitigation team is technically prepared at the dockto support your Anthropogenic operations"
-	subTitle="Unprepared mitigation teams will delay your operations. Let us assess, correct, then verify they're ready to go before you sail."
+	title="MTS can verify your mitigation team's technological needs are being met. Is their electronic gear ready? Does your team know how to work it? Are the ship's systems providing adequate support?"
+	subTitle="Unprepared mitigation teams appear sloppy at a cost to the operation. Let us assess, correct, and verify they're ready to go before sailing."
 	centered="true"
 	size="large"
 >}}
 
 {{< components/feature-highlight
-	title="Project Review of Critical Projects"
-	subTitle="Independent verification of complex projects"
-	text="Nobody likes to say HELP on a technical project. Delivering bad news on a project is not easy. Redefining a project's path is simply hard. We can review, assess, and help you recover your project and reign in costs... or simply terminate it. We tell it like is so you can make those hard decisions not avoid them."
+	title="Independent Review of Critical Projects"
+	subTitle="Verification and Validation of complex projects"
+	text="Nobody likes to say HELP on a technical project. Delivering bad news on a project is never easy. Redefining a project's path to success is simply hard. We can review, assess, and help you recover your project and reign in costs... or simply terminate it. We tell it like is so you see and address hard decisions not avoid them."
 	image="mysticetus-data-driven-decisions.png"
 	buttonText="Learn more"
 	buttonLink="/feature/mitigation/"
 >}}
 
+<!-- comment out two panes 
 {{< components/page-line >}}
-
 {{< components/feature-highlight
 	title="Increase accuracy"
 	subTitle="Data collection"
@@ -47,9 +49,7 @@ title: "Product"
 	buttonText="Learn more"
 	buttonLink="/feature/data-collection/"
 >}}
-
 {{< components/page-line >}}
-
 {{< components/feature-highlight
 	title="Simplify everyday operations"
 	subTitle="Reporting"
@@ -58,13 +58,13 @@ title: "Product"
 	buttonText="Learn more"
 	buttonLink="/feature/reporting/"
 >}}
-
+-->
 {{< components/sub-hero
 	static="true"
 	size="small"
 	centered="true"
 	title="Request a Demo"
-	subTitle="Let us show you how Mysticetus can greatly improve your next research project with a personalized walk-through."
+	subTitle="Let's discuss how Mysticetus can augment your technical investments."
 	bold="true"
 >}}
 
