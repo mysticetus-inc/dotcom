@@ -27,8 +27,11 @@ title: "Product"
 	title="MTS verifies a mitigation team's technological readiness."
 	subTitle="Unprepared mitigation teams appear sloppy at great cost to any operation. "
 	text="Let us assess, correct, and verify PSO's are ready to go before sailing. Is their electronic gear ready? Does your team know how to work it? Are the ship's systems providing adequate support? Are the PSO's good to go?"
+	image="mysticetus-data-driven-decisions.png"	
+	<!--
 	centered="true"
 	size="large"
+	-->
 >}}
 
 {{< components/feature-highlight
@@ -36,8 +39,10 @@ title: "Product"
 	subTitle="Verification and Validation of complex projects"
 	text="Nobody likes to say HELP on a technical project. Delivering bad news on a project is never easy. Redefining a project's path to success is simply hard. We can review, assess, and help you recover your project and reign in costs... or simply terminate it. We tell it like is so you see and address hard decisions not avoid them."
 	image="mysticetus-data-driven-decisions.png"
+<!-- 
 	buttonText="Learn more"
-	buttonLink="/feature/mitigation/"
+	buttonLink="/feature/mitigation/" 
+-->
 >}}
 
 <!-- comment out two panes 
