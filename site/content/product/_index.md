@@ -27,7 +27,7 @@ title: "Product"
 	title="MTS verifies a mitigation team's technological readiness."
 	subTitle="Unprepared mitigation teams appear sloppy at great cost to any operation. "
 	text="Let us assess, correct, and verify PSO's are ready to go before sailing. Is their electronic gear ready? Does your team know how to work it? Are the ship's systems providing adequate support? Are the PSO's good to go?"
-	image="mysticetus-data-driven-decisions.png"	
+	image="Dockside-technical-services-Mysticetus.jpg"	
 	<!--
 	centered="true"
 	size="large"
