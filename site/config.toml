@@ -36,7 +36,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   parent = "industry"
 
 [[menu.main]]
-  name = "Product"
+  name = "Tech Services"
   url = "/product/"
   weight = 2
 	identifier = "product"
@@ -102,7 +102,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	weight = 3
 	parent = "mysticetus"
 [[menu.footer]]
-	name = "Product"
+	name = "Tech Services"
 	url = "/product/"
 	weight = 4
 	parent = "mysticetus"
