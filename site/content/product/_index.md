@@ -11,11 +11,12 @@ title: "Product"
 	centered="true"
 	title="Mysticetus Technical Services"
 	subTitle="Mysticetus technical services augments your IT bandwidth"
-	text="We do software. From project review, program management, app development, cloud solutions, hardware integration, data visualization, GDPR compliance to name a few, we do it all. Leverage our extensive software stack and experience to address your technical gaps."
+	text="We do software. Services such as project management and review, software development, cloud solutions, hardware integration, data visualization, GDPR compliance to name a few, we do it all. Leverage our extensive software stack and experience to address your technical gaps."
 	buttonText="Let's discuss your needs"
 	buttonUrl="/demo/"
 	bold="true"
 >}}
+
 {{< components/feature-highlight
 	title="Software and Hardware Development Services"
 	subTitle="Augment your RnD projects to clear critical technical debt"
