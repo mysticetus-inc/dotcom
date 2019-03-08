@@ -29,7 +29,7 @@ title: "Product"
 {{< components/feature-highlight
 	title="MTS validates your mitigation team's technological readiness."
 	subTitle="Unprepared mitigation teams appear sloppy at great cost to any operation. "
-	text="Are your PSO's good to go? Let us assess, fine-tune, and validate PSO's are ready to go before sailing. Is their electronic gear ready? Does your team know how to work it? Are the ship's systems providing adequate support?"
+	text="Are your PSO's good to go? Let us assess, fine-tune, and validate they are ready to go before sailing. Electronic gear ready? Team fully Trained? Ship's systems providing adequate support? Let us stop by and confirm team readiness before they sail."
 	image="Dockside-technical-services-Mysticetus.jpg"
 	imagePosition="right"
 
@@ -37,8 +37,8 @@ title: "Product"
 
 {{< components/feature-highlight
 	title="Independent Review of Critical Projects"
-	subTitle="Verification and Validation of complex projects"
-	text="Nobody likes to say HELP on a technical project. Delivering bad news is never easy and often is not comprehensive. Redefining a project's path to success is simply hard. We can review, assess, and help you recover your entire project and reign in costs... or help you to simply terminate it. We tell it like is so you can see and address hard decisions not avoid them."
+	subTitle="Comprehenisive Verification and Validation of Complex Projects"
+	text="Uncovering and delivering bad news is never easy and is often not comprehensive. Redefining a project's path to success is simply hard. We can review, assess, and help in the recovery of a project and reign in costs. We tell it like it is so you can see and address the hard decisions timely."
 	image="MTS-validation-verification-Mysticetus-square.png"
 	imagePosition="left"
 
