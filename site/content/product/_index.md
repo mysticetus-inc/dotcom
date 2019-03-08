@@ -16,6 +16,13 @@ title: "Product"
 	buttonUrl="/demo/"
 	bold="true"
 >}}
+{{< components/feature-highlight
+	title="Software and Hardware Development Services"
+	subTitle="Augment your RnD projects to clear critical technical debt"
+	text="Mysticetus has the background and capacity to fill your short term needs. Data visualization. App development. GDPR compliant cloud solutions. Database development and scaling. AWS, Azure. Draw on our experience today."
+	image="MTS-validation-verification-Mysticetus-square.png"
+
+>}}
 
 {{< components/feature-highlight
 	title="MTS verifies a mitigation team's technological readiness."
