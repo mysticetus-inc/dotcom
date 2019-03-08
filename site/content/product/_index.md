@@ -38,7 +38,7 @@ title: "Product"
 	title="Independent Review of Critical Projects"
 	subTitle="Verification and Validation of complex projects"
 	text="Nobody likes to say HELP on a technical project. Delivering bad news on a project is never easy. Redefining a project's path to success is simply hard. We can review, assess, and help you recover your project and reign in costs... or simply terminate it. We tell it like is so you see and address hard decisions not avoid them."
-	image="mysticetus-data-driven-decisions.png"
+	image="MTS-validation-verification-Mysticetus-square.png"
 <!-- 
 	buttonText="Learn more"
 	buttonLink="/feature/mitigation/" 
