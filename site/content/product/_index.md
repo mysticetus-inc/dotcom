@@ -22,6 +22,7 @@ title: "Product"
 	subTitle="Augment your RnD projects to clear critical technical debt"
 	text="Mysticetus has the background and capacity to fill your short term needs. Data visualization. App development. GDPR compliant cloud solutions. Database development and scaling. AWS, Azure. Draw on our experience today."
 	image="project-planning-technical-services-mysticetus.png"
+	imagePosition="left"
 
 >}}
 
@@ -29,7 +30,8 @@ title: "Product"
 	title="MTS verifies a mitigation team's technological readiness."
 	subTitle="Unprepared mitigation teams appear sloppy at great cost to any operation. "
 	text="Let us assess, correct, and verify PSO's are ready to go before sailing. Is their electronic gear ready? Does your team know how to work it? Are the ship's systems providing adequate support? Are the PSO's good to go?"
-	image="Dockside-technical-services-Mysticetus.jpg"	
+	image="Dockside-technical-services-Mysticetus.jpg"
+	imagePosition="right"
 
 >}}
 
@@ -38,6 +40,7 @@ title: "Product"
 	subTitle="Verification and Validation of complex projects"
 	text="Nobody likes to say HELP on a technical project. Delivering bad news on a project is never easy. Redefining a project's path to success is simply hard. We can review, assess, and help you recover your project and reign in costs... or simply terminate it. We tell it like is so you see and address hard decisions not avoid them."
 	image="MTS-validation-verification-Mysticetus-square.png"
+	imagePosition="left"
 
 >}}
 
