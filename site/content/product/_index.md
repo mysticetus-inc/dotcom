@@ -26,7 +26,7 @@ title: "Product"
 {{< components/header
 	title="MTS can verify your mitigation team's technological needs are being met."
 	subTitle="Unprepared mitigation teams appear sloppy at a cost to the operation. "
-	text= "Let us assess, correct, and verify PSO's are ready to go before sailing. Is their electronic gear ready? Does your team know how to work it? Are the ship's systems providing adequate support? Are the PSO's good to go?"
+	text="Let us assess, correct, and verify PSO's are ready to go before sailing. Is their electronic gear ready? Does your team know how to work it? Are the ship's systems providing adequate support? Are the PSO's good to go?"
 	centered="true"
 	size="large"
 >}}
