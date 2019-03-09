@@ -5,7 +5,7 @@ title: "Pso Provider"
 {{< components/sub-hero
 	centered="true"
 	backgroundImg="pso-provider.jpg"
-	title="So you really think it's professional to scribble critical information with pencil and paper? Seriously?"
+	title="Embrace modern digital data management. Enhance crew professionalism. Eliminate costly hours of labor 'fixing up' manually collected data. Banish pencil and paper and its associated expense once and for all."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Let us demonstrate how Mysticetus saves both time and money."
