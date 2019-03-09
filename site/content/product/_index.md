@@ -39,8 +39,7 @@ title: "Product"
 	title="Independent Review of Critical Projects"
 	subTitle="Comprehenisive Verification and Validation of Complex Projects"
 	text="Uncovering and delivering bad news is never easy and is often not comprehensive. Redefining a project's path to success is simply hard. We can review, assess, and help in the recovery of a project and reign in costs. We tell it like it is so you can see and address the hard decisions timely."
-	image="Independent-Verification-Validation-Project-Review-MTS-Mysticetus.png
-"
+	image="Independent-Verification-Validation-Project-Review-MTS-Mysticetus.png"
 	imagePosition="left"
 
 >}}
