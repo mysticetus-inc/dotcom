@@ -13,24 +13,24 @@ title: "Energy"
 >}}
 
 {{< components/feature-highlight
-	title="Eliminate Human Error and Inefficiency"
-	subTitle="Prevent unnecessary shutdowns; Prove permit compliance"
-	text="It takes just one observer error to destroy an entire operation. Or if you're lucky, the error will only kill your bottom line. Mysticetus takes the guesswork out of Protected Species Observer work. No more scrawled notes on paper. No more un-auditable, critical records lost in Excel. Mysticetus integrates GPS, AIS, passive acoustic monitoring, IR cameras, real time mapping, and internet connectivity. The system double-checks and audits everything, all the time. This reduces human errors that lead to false shutdowns or even loss of your permit to operate."
+	title="Eliminate Human Error and Inefficiencies in Data Interpretation"
+	subTitle="Prevent costly false shutdowns & Reduce startup delays"
+	text="Shutdowns are expensive. False shutdowns must be eliminated. A PSO's decision must based on high quality representation of a sighting to the vessel's exclusion zone. Mysticetus's industry leading graphic display of all aspects of an operation eliminates PSO guess work and forces immediate QA on recorded data. Mysticetus integrates GPS, AIS, passive acoustic monitoring, IR cameras, real time mapping, and internet connectivity. No more scrawled notes on paper. No more data translation errors. "
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 >}}
 
 {{< components/feature-highlight
-	title="Mysticetus Audit Refutes False Claims"
-	subTitle="High-Tech Non-Repudiation - Your Insurance Policy"
-	text="Paper scribbles and inauditable Excel data are easily tossed out of court by opposing counsel. All it takes is one angry citizen and a blurry photo to take you down. Mysticetus time-stamps, double-checks, encrypts and securely audits everything recorded by Protected Species Observers (aka: your official, government-approved, onboard witnesses). Mysticetus-recorded data cannot be altered without knowing who, when, where and why it was altered. This provides strong protection from false external claims of permit violation."
+	title="Mysticetus Audit Refutes False Claims, Keeps Operations Running Smoothly"
+	subTitle="High-Tech Non-Repudiation - Risk Reduction for Your Insurance Policy"
+	text="Mysticetus double-checks and audits every PSO action, constantly. Paper scribbles and inauditable Excel data are easily challenged by opposing counsel. A false claim can come from one angry citizen and a blurry photo or altered data. Mysticetus time-stamps, double-checks, encrypts and securely audits everything recorded by Protected Species Observers. Your official, government-approved, onboard witnesses are backed by high integrity data. Mysticetus-recorded data cannot be altered without knowing who, when, where and why it was altered. This provides strongest possible protection from false claims of permit violation."
 	image="mysticetus-data-collection.png"
 >}}
 
 {{< components/feature-highlight
 	title="Mysticetus Command Center"
 	subTitle="Centralize Monitoring and Management of Operations"
-	text="Mysticetus Command Center maps all your operational activities, vessel statuses, reported sightings, weather conditions and even and integrates NOAA Dynamic Management Areas. If you've got internet, you can watch your operation in real-time, from anywhere on the planet."
+	text="Mysticetus Command Center maps all your operational activities, vessel statuses, reported sightings, weather conditions and even and integrates NOAA Dynamic Management Areas. Animal sightings, ship locations can be seen by everyone equipped with Mysticetus on your project. If you've got internet, you can watch your operation in real-time, from anywhere on the planet."
 	image="mysticetus-data-driven-decisions.png"
 	imagePosition="right"
 >}}
