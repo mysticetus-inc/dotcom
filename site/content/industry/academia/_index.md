@@ -28,7 +28,7 @@ title: "Academia"
 >}}
 
 {{< components/feature-highlight
-	title="Automated Analaysis and Publication-Ready GIS Quality Mapping"
+	title="Automated Analysis and Publication-Ready GIS Quality Mapping"
 	subTitle="Custom, Automated Analysis with Professional Mapping of Results"
 	text="Aggregate data across days, weeks, months, etc. into a single, integrated report including your maps and sighting notes. Reports are customized by you to meet your requirements. Results exported at a click of the mouse."
 	image="mysticetus-reporting.png"
