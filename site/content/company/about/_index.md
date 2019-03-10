@@ -21,7 +21,7 @@ title: "About"
 	imagePosition="right"
 	title="Founder, Chief Executive Offer"
 	bio="Dave has been a high-level professional programmer for over 30 years. Dave’s work has ranged from video games, forestry management technology, GPS mapping, and many years with Microsoft Research working on huge-scale data systems. Dave has founded numerous startups. In the 90’s he was co-founder of Nobeltec where he invented many of the systems used to navigate vessels worldwide. In the early 2000’s CENav pushed the limits of pre-smartphone handheld computing devices. With Mysticetus, Dave’s latest entrepreneurial foray into environmental management brings to bear all his previous experience from mapping/GPS, computer networking, big data and cloud storage.<br /><br />Dave is a graduate of the University of Puget Sound with a degree in Computer Science and Mathematics. In his spare time Dave is likely splitting his time between cycling, endurance horseback riding, flying his airplane, and rock climbing."
-	image="dave.jpg"
+	image="Dave Dog and Computer - B&W.jpg"
 >}}
 
 {{< components/page-line >}}
