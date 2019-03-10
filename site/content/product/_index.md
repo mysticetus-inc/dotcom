@@ -19,7 +19,7 @@ title: "Product"
 
 {{< components/feature-highlight
 	title="Software and Hardware Development Services"
-	subTitle="Augment your RandD projects to clear critical technical debt"
+	subTitle="Augment your Research and Development projects to clear critical technical debt"
 	text="Mysticetus has the background and capacity to fill your short term needs: Data visualization, App development, GDPR compliant cloud solutions, Database development, System throughput scaling, AWS and Azure. Draw on our experience today."
 	image="project-planning-technical-services-mysticetus.png"
 	imagePosition="left"
@@ -28,7 +28,7 @@ title: "Product"
 
 {{< components/feature-highlight
 	title="MTS validates your mitigation team's technological readiness."
-	subTitle="Unprepared mitigation teams appear sloppy at great cost to any operation. "
+	subTitle="Unprepared mitigation teams will be sloppy, at great cost to your operation"
 	text="Are your PSO's good to go? Let us assess, fine-tune, and validate they are ready to go before sailing. Electronic gear ready? Team fully Trained? Ship's systems providing adequate support? Let us stop by and confirm team readiness before they sail."
 	image="Dockside-technical-services-Mysticetus.jpg"
 	imagePosition="right"
@@ -38,7 +38,7 @@ title: "Product"
 {{< components/feature-highlight
 	title="Independent Review of Critical Projects"
 	subTitle="Comprehenisive Verification and Validation of Complex Projects"
-	text="Uncovering and delivering bad news is never easy and is often not comprehensive. Redefining a project's path to success is simply hard. We can review, assess, and help in the recovery of a project and reign in costs. We tell it like it is so you can see and address the hard decisions timely."
+	text="We know how to create and deploy technology. We've spent our lives doing just that. Uncovering and delivering actionable feedback is never easy and is often not comprehensive. Redefining a project's path to success is, frankly, hard. We can review, assess, and help in the recovery of a project and reign in costs. We tell it like it is so you can see and address the hard decisions timely."
 	image="Independent-Verification-Validation-Project-Review-MTS-Mysticetus.png"
 	imagePosition="left"
 
