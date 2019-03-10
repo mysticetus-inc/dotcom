@@ -4,7 +4,7 @@ title: "About"
 
 {{< components/sub-hero
 	title="About Mysticetus"
-	subTitle="Our team is dedicated to providing the most intelligent command and control, tracking, mitigation, and reporting technology on the market for anthropogneic impactful operations. Mysticetus is changing the way teams observe, protect, and manage operations near protected marine wildlife."
+	subTitle="Mysticetus is redefining the way teams observe, protect, and manage operations near protected marine wildlife."
 	size="small"
 	bold="true"
 	centered="true"
