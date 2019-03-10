@@ -42,24 +42,24 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	identifier = "product"
 
 [[menu.main]]
-	name = "Features"
+	name = "Mysticetus"
 	weight = 3
-	identifier = "features"
+	identifier = "mysticetus_features"
 [[menu.main]]
 	name = "Automatic Reporting"
 	url = "/feature/reporting/"
 	weight = 1
-	parent = "features"
+	parent = "mysticetus_features"
 [[menu.main]]
 	name = "Data Collection"
 	url = "/feature/data-collection/"
 	weight = 1
-	parent = "features"
+	parent = "mysticetus_features"
 [[menu.main]]
 	name = "Data Driven Mitigation"
 	url = "/feature/mitigation/"
 	weight = 1
-	parent = "features"
+	parent = "mysticetus_features"
 
 [[menu.main]]
   name = "Company"
