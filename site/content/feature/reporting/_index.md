@@ -29,7 +29,7 @@ With Mysticetus automatic report generation – Reports are generated with the p
 
 Report content is defined by project managers and is standardized across all environmental contractors.
 
-**Report generation can bucketdata by any field**  
+**Report generation can bucket data by any field, at your discretion**  
 
 Reports can bucket (sum up) any recorded data item. Species, counts, juveniles, observers, environment, weather, distance to shore, mitigation states, etc. Mysticetus will sum time and distance spent in any type of effort.
 
