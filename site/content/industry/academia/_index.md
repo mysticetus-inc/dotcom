@@ -14,14 +14,14 @@ title: "Academia"
 
 {{< components/feature-highlight
 	title="Pre-Define Your Data Collection Model"
-	subTitle="Data collection consistency is enforced across all contributors."
+	subTitle="Data collection consistency is enforced across all contributors"
 	text="Mysticetus template system gives you the tools to customize and enforce consistent data collection. Data is automatically backed up to the cloud. Animal locations are mapped quickly and easily for immediate visualization and verification. Sighting data is viewable across all project computers."
 	image="mysticetus-theodolite-marine-survey.jpg"
 >}}
 
 {{< components/feature-highlight
 	title="Data Quality Checked as it is Collected"
-	subTitle="Fix Errors Right Away, take back those nights lost to QA/QC."
+	subTitle="Fix Errors Right Away, take back those nights lost to QA/QC"
 	text="Data errors are immediately obvious on the real-time map display. Entry classification is consistent. Calculations are automated for you. Automatically and correctly capture data from field equipment such as theodolites, AIS and your gps."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
