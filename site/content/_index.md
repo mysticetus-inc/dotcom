@@ -37,7 +37,7 @@ Icons:
 {{< components/feature-highlight
 	title="Paper Won't Protect Your Permit"
 	subTitle="Insurance Against False Claims"
-	text="All it takes is one claim of violation and you may lose your right to operate. Mitigation observer data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime - and the opposition lawyers know this. Mysticetus securely encrypts and audits all activity using industry standard technology. Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute illegitimate claims of permit violation with full confidence in your mitigation data. Paper and Excel can't do this."
+	text="All it takes is one claim of violation and you may lose your right to operate. Mitigation observer data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime - and the opposition lawyers know this. Paper and Excel spreadsheets will be laughed out of court. Instead, Mysticetus securely encrypts and audits all activity using high-tech industry standard technology (AES-256). Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute illegitimate claims of permit violation with full confidence in your mitigation data. Paper and Excel can't do this."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
