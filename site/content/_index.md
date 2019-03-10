@@ -5,7 +5,7 @@ title: "Mysticetus"
 {{< components/hero
 	backgroundImg="mysticetus.jpg"
 	title="Failure Is Not An Option"
-	subTitle="Mysticetus protects you from human errors that kill margins, halts permits, and discredits organizations."
+	subTitle="Mysticetus protects you from human error that kills margins, threatens permits, and discredits organizations."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Let us demonstrate the power of the Mysticetus System."
@@ -20,7 +20,7 @@ Icons:
 -->
 {{< components/three-up
 	title= "Mysticetus Manages Environmental Compliance End to End"
-	subTitle= "Mysticetus drives Environmental Teams to make consistent, data-driven decisions. Mysticetus data standardization forces consistency across mitigation, data collection, and reporting. Secure Audit features provide un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges."
+	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus data standardization forces consistency across mitigation, data collection, and reporting. Secure Audit features provide un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges."
 	image1= "img/industry/energy.svg"
 	text1= "Energy"
 	link1= "industry/energy"
@@ -49,10 +49,22 @@ Icons:
 {{< components/feature-highlight
 	title="Reduce Operational Costs"
 	subTitle="Eliminate Human Errors, Standardize Reporting"
-	text="Human errors and inefficiencies can cripple your margins. Inappropriate shutdowns. Mis-entered coordinates. Mysticetus technology catches and fixes PSO errors as they happen. Mysticetus prevents unnecessary shutdowns and costly delays while saving expensive post operation QA burdens. Manage and generate repeatable, consistent, and publication-ready reports in seconds - not hours/days. Mysticetus reporting eliminates expensive dependencies on GIS services. Improve your operational costs and your ability to compete. Free up your employees to grow your business."
+	text="Human errors and inefficiencies can destroy your margins. Inappropriate shutdowns. Mis-entered coordinates. Mysticetus technology catches and fixes PSO errors as they happen. Mysticetus prevents unnecessary shutdowns and costly delays while saving expensive post operation QA burdens. Manage and generate repeatable, consistent, and publication-ready reports in seconds - not hours/days. Mysticetus reporting eliminates expensive dependencies on GIS services. Reduce your operational costs and increase your ability to compete. Free up your employees to grow your business."
 	image="mysticetus-reporting.png"
 	buttonText="Learn more"
 	buttonLink="/feature/reporting/"
+>}}
+
+{{< components/page-line >}}
+
+{{< components/feature-highlight
+	title="Mysticetus Command Center"
+	subTitle="Monitor All of Your Operations - From Anywhere On The Planet"
+	text="Monitor every moving part of your project. Mysticetus heads-up display maps everything going on and shows this to you on a web page. View vessel locations, animal sightings, and project status. Real time, real-world knowledge enables decision making from a centralized location. Follow, manage, and support operations from anywhere on the planet. Connected vessels leverage the big picture as they transit active areas."
+	image="mysticetus-data-driven-decisions.png"
+	buttonText="Learn more"
+	buttonLink="/feature/mitigation/"
+	imagePosition="right"
 >}}
 
 {{< components/page-line >}}
@@ -65,17 +77,6 @@ Icons:
 	imagePosition="right"
 	buttonText="Learn more"
 	buttonLink="/feature/data-collection/"
->}}
-
-{{< components/page-line >}}
-
-{{< components/feature-highlight
-	title="Mysticetus Command Center"
-	subTitle="Monitor All of Your Operations - From Anywhere On The Planet"
-	text="Monitor every moving part of your project. Mysticetus heads-up display maps everything going on and shows this to you on a web page. View vessel locations, animal sightings, and project status. Real time, real-world knowledge enables decision making from a centralized location. Follow, manage, and support operations from anywhere on the planet. Connected vessels leverage the big picture as they transit active areas."
-	image="mysticetus-data-driven-decisions.png"
-	buttonText="Learn more"
-	buttonLink="/feature/mitigation/"
 >}}
 
 {{< components/social-proof 
