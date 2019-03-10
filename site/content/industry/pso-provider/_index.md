@@ -5,7 +5,7 @@ title: "Pso Provider"
 {{< components/sub-hero
 	centered="true"
 	backgroundImg="pso-provider.jpg"
-	title="Eliminate costly hours of labor 'fixing up' manually collected data. Banish illegible scrawls on paper and inauditable Excel typos once and for all."
+	title="Eliminate costly hours of labor 'fixing up' manually collected data - Banish illegible scrawls on paper and inauditable Excel typos once and for all"
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Let us demonstrate how Mysticetus saves both time and money."
