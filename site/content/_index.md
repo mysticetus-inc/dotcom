@@ -4,8 +4,8 @@ title: "Mysticetus"
 
 {{< components/hero
 	backgroundImg="mysticetus.jpg"
-	title="Failure Is Not An Option"
-	subTitle="Mysticetus protects you from human error that can hobble projects, threaten permits, and kill margins."
+	title="When Failure Is Not An Option"
+	subTitle="Mysticetus protects you from human error that can hobble projects, threaten permits, and eat margins."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Let us demonstrate the power of the Mysticetus System."
