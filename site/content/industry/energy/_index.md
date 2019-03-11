@@ -23,7 +23,7 @@ title: "Energy"
 {{< components/feature-highlight
 	title="Mysticetus Audit Refutes False Claims, Keeps Operations Running Smoothly"
 	subTitle="High-Tech Non-Repudiation - Risk Reduction for Your Insurance Policy"
-	text="Mysticetus double-checks and audits every PSO action, constantly. Paper scribbles and inauditable Excel data are easily challenged by opposing counsel. A false claim can come from one angry citizen and a blurry photo. Or perhaps a disgruntled employee and intentionally altered data. Mysticetus time-stamps, double-checks, encrypts and securely audits everything recorded by Protected Species Observers, as well as everyone who touches the data later. Your official, government-approved, onboard witnesses are backed by high integrity data. Mysticetus-recorded data cannot be altered without knowing who, when, where and why it was altered. This provides strongest possible protection from false claims of permit violation."
+	text="Protected Species Observers (PSOs) are your official, government-approved, onboard witnesses of legal compliance. Mysticetus double-checks and audits every PSO action and record. Paper scribbles and inauditable Excel data are easily challenged by opposing counsel. False claims can come from angry citizens with blurry photos. Or perhaps a disgruntled employee and intentionally altered data. Mysticetus time-stamps, encrypts and securely audits everything recorded by PSOs, as well as everyone who touches the data later. Mysticetus-recorded data cannot be altered without knowing who, when, where and why it was altered. This provides strongest possible protection from false claims of permit violation."
 	image="gavel.png"
 >}}
 
