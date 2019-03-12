@@ -60,6 +60,11 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	url = "/feature/mitigation/"
 	weight = 1
 	parent = "mysticetus_features"
+[[menu.main]]
+	name = "Download"
+	url = "/download/"
+	weight = 1
+	parent = "mysticetus_features"
 
 [[menu.main]]
   name = "Company"
