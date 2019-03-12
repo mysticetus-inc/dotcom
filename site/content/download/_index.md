@@ -1,5 +1,5 @@
 ---
-title: "Product"
+title: "Downloads"
 ---
 
 {{< components/sub-hero
@@ -9,15 +9,9 @@ title: "Product"
 {{< components/sub-hero
 	size="small"
 	centered="true"
-	title="Mysticetus Technical Services"
-	subTitle="Mysticetus technical services is there to augment your IT bandwidth - project review, program management, app creation, cloud solutions, hardware integration, data visualization, GDPR compliance to name a few. Leverage our extensive software stack and experience to tackle your needs."
-	buttonText="Let's discuss your needs"
-	buttonUrl="/demo/"
+	title="Mysticetus Downloads"
+	subTitle="We work to support you."
 	bold="true"
->}}
-
-{{< components/tabs
-	title="Industries"
 >}}
 
 [Download Mysticetus Installer](https://github.com/Entiat/mysticetusdownload/raw/master/MysticetusInstall.zip)
@@ -41,33 +35,12 @@ title: "Product"
 
 {{< components/page-line >}}
 
-{{< components/feature-highlight
-	title="Increase accuracy"
-	subTitle="Data collection"
-	text="Collect crystal clear data and identifications with common and predefined formatting. Combined with automatically collected data, like GPS and position over time, gain access to highly accurate historical and predictive positioning."
-	image="mysticetus-data-collection.png"
-	imagePosition="right"
-	buttonText="Learn more"
-	buttonLink="/feature/data-collection/"
->}}
-
-{{< components/page-line >}}
-
-{{< components/feature-highlight
-	title="Simplify everyday operations"
-	subTitle="Reporting"
-	text="Generate repeatable, consistent, and publication ready reports in seconds - not hours. Save time, eliminate data interpretation (short hand notes anyone?!), and eliminate dependencies on expensive GIS services."
-	image="mysticetus-reporting.png"
-	buttonText="Learn more"
-	buttonLink="/feature/reporting/"
->}}
-
 {{< components/sub-hero
 	static="true"
 	size="small"
 	centered="true"
 	title="Request a Demo"
-	subTitle="Let us show you how Mysticetus can greatly improve your next research project with a personalized walk-through."
+	subTitle="Let us help you kick off your project with a personalized walk-through tuned to your needs."
 	bold="true"
 >}}
 
