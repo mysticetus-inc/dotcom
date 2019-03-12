@@ -20,6 +20,8 @@ title: "Product"
 	title="Industries"
 >}}
 
+[Download Mysticetus Installer](https://github.com/Entiat/mysticetusdownload/blob/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
+
 {{< components/header
 	title="Mysticetus Technical Services can verify your mitigation team is technically prepared at the dockto support your Anthropogenic operations"
 	subTitle="Unprepared mitigation teams will delay your operations. Let us assess, correct, and verify they're ready before you sail."
