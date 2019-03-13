@@ -14,8 +14,8 @@ title: "Downloads"
 	bold="true"
 >}}
 
-## [  Download Mysticetus Installer](https://github.com/Entiat/mysticetusdownload/raw/master/MysticetusInstall.zip)
-## [  Download Mysticetus Users Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
+### [  Download Mysticetus Installer](https://github.com/Entiat/mysticetusdownload/raw/master/MysticetusInstall.zip)
+### [  Download Mysticetus Users Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
 
 {{< components/header
 	title="Mysticetus Technical Services can verify your mitigation team is technically prepared at the dockto support your Anthropogenic operations"
