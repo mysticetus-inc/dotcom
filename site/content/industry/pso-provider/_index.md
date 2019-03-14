@@ -44,13 +44,13 @@ title: "Pso Provider"
 
 {{< components/three-up
 	title= "Mysticetus Manages Environmental Compliance End to End"
-	image1="Mysticetus Aerial Survey PSO.jpg"
-	text1= "Aerial Support"
-	image2= "mysticetus-reporting.png"
-	text2= "PSO Provider"
+	image1="Mysticetus-Aerial-Survey-PSO.jpg"
+	text1= "Aerial Surveys"
+	image2= "theodolite-marine-survey-mysticetus.png"
+	text2= "Land Based Surveys"
 	link2= "industry/pso-provider"
-	image3= "img/industry/academia.svg"
-	text3= "Academia"
+	image3= "Ship-based-survey-Mysticetus.jpg"
+	text3= "Ship Based Surveys"
 	link3= "/industry/academia"
 >}}
 
