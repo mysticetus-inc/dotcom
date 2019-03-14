@@ -87,11 +87,11 @@ Icons:
 >}}
 
 {{< components/call-to-action
-	title= "Over $1.6 million USD was save by Mysticetus in false shutdown prevention during one 4 month operation."
-	subTitle= "A 2016 case study (Cook Inlet Seismic Survey) demonstrated that Mysticetus brings tremendous operational cost savings in the prevention of false shutdowns and delays alone."
+	title= "Over $1.6 million USD saved by Mysticetus was directly measured during one 4 month operation."
+	subTitle= "A 2016 case study (Cook Inlet Seismic Survey) measured a significant operational cost savings in the prevention of false shutdowns and delays alone. Imagine what Mysticetus can do for you."
 	button1Text="Request a Demo"
 	button1Link="demo"
 	button2Text="Ask a Question"
 	button2Link="contact"
-	supportingText="Let us demo Mysticetus tomorrow to learn how Mysticetus can positively impact your operations."
+	supportingText="Let us demo Mysticetus tomorrow to see how Mysticetus can positively impact your operations."
 >}}
