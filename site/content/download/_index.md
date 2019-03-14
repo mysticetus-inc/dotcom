@@ -21,6 +21,7 @@ title: "Downloads"
 - [ ] Build your template
 
 ### - [  Download Mysticetus Installer](https://github.com/Entiat/mysticetusdownload/raw/master/MysticetusInstall.zip)
+
 ### - [  Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
 
 {{< components/feature-highlight
