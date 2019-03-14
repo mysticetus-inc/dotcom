@@ -14,7 +14,7 @@ title: "Downloads"
 	bold="true"
 >}}
 
-- [ ] Download Mysticetus and install
+- [ ] Download Mysticetus Installer
 - [ ] Send us the license code and tell us how you're going to use Mysticetus
 - [ ] Read the user guide sections 1-5
 - [ ] Give Mysticetus the license code we send you
