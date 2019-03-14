@@ -13,11 +13,13 @@ title: "Downloads"
 	subTitle="We work to support you."
 	bold="true"
 >}}
+
 - [ ] Download Mysticetus and install
 - [ ] Send us the license code and tell us how you're going to use Mysticetus
 - [ ] Read the user guide sections 1-5
 - [ ] Give Mysticetus the license code we send you
 - [ ] Build your template
+
 ### [  Download Mysticetus Installer](https://github.com/Entiat/mysticetusdownload/raw/master/MysticetusInstall.zip)
 ### [  Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
 
