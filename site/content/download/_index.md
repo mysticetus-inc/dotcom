@@ -14,8 +14,8 @@ title: "Downloads"
 	bold="true"
 >}}
 
- [ ] Download Mysticetus and install
- [ ] Send us the license code and tell us how you're going to use Mysticetus
+- [ ] Download Mysticetus and install
+- [ ] Send us the license code and tell us how you're going to use Mysticetus
 - [ ] Read the user guide sections 1-5
 - [ ] Give Mysticetus the license code we send you
 - [ ] Build your template
