@@ -16,7 +16,7 @@ title: "Pso Provider"
 	title="Data driven mitigation"
 	subTitle="Make informed, defensible mitigation decisions"
 	text="Your client counts on you to avoid costly judgement errors. They - and governmental regulators - also rely on you to document the conditions of the permit and the law were followed. You can't do this in a legally-defensible fashion with error-prone scribbles on paper or random Excel notes. Mysticetus prevents unnecessary shutdowns while highlighting your crew's professionalism through their ability to make informed, clear shutdown decisions. Mysticetus was designed for PSOs on mitigation operations. It presents a comprehensive, crystal clear, real-time picture for all project observers - whether on vessel, in aircraft, or stationed on land."
-	image="false-shutdown-prevention-mysticetus.png"
+	image="mysticetus-realtime-display-mitigation.png"
 >}}
 
 {{< components/feature-highlight
