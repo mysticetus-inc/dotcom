@@ -45,7 +45,7 @@ title: "Pso Provider"
 {{< components/three-up
 	title= "Mysticetus Manages Environmental Compliance End to End"
 	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus data standardization forces consistency across mitigation, data collection, and reporting. Secure Audit features provide un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges."
-	image1=Mysticetus Aerial Survey PSO.jpg"
+	image1="Mysticetus Aerial Survey PSO.jpg"
 	text1= "Energy"
 	image2= "mysticetus-reporting.png"
 	text2= "PSO Provider"
