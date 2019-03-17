@@ -13,9 +13,9 @@ title: "Energy"
 >}}
 
 {{< components/feature-highlight
-	title="Eliminate Human Error and Inefficiencies in Data Interpretation"
+	title="Eliminate Human Error and Inefficiencies"
 	subTitle="Prevent costly false shutdowns & Reduce startup delays"
-	text="Shutdowns are expensive. False shutdowns must be eliminated. A PSO's decision must be based on high quality representation of a sighting relative to the vessel's mitigation zone(s). Mysticetus's industry-leading graphic display of all aspects of an operation eliminates PSO guess work and forces immediate QA on recorded data. Mysticetus integrates GPS, AIS, passive acoustic monitoring, IR cameras, real time mapping, and internet connectivity. No more scrawled notes on paper. No more random guesses in Excel. No more data translation errors."
+	text="Shutdowns are expensive. False shutdowns flush money down the drain. Mysticetus automates data recording, removing human error. A high-resolution graphical displays provides operational oversight in realtime, eliminating Protected Species Observer (PSO) guess work and forcing immediate QA. Mysticetus integrates GPS, AIS, passive acoustic monitoring, IR cameras, real time mapping, and internet connectivity. No more scrawled notes on paper. No more random guesses in Excel. No more data transcription errors. In one case study (Cook Inlet Seismic, 2015) Mysticetus saved $1.6 million by preventing unnecessary shutdowns."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 >}}
@@ -23,14 +23,14 @@ title: "Energy"
 {{< components/feature-highlight
 	title="Mysticetus Audit Refutes False Claims, Keeps Operations Running Smoothly"
 	subTitle="High-Tech Non-Repudiation - Risk Reduction for Your Insurance Policy"
-	text="Protected Species Observers (PSOs) are your official, government-approved, onboard witnesses of legal compliance. Mysticetus double-checks and audits every PSO action and record. Paper scribbles and inauditable Excel data are easily challenged by opposing counsel. False claims can come from angry citizens with blurry photos. Or perhaps a disgruntled employee and intentionally altered data. Mysticetus time-stamps, encrypts and securely audits everything recorded by PSOs, as well as everyone who touches the data later. Mysticetus-recorded data cannot be altered without knowing who, when, where and why it was altered. This provides strongest possible protection from false claims of permit violation."
+	text="Protected Species Observers (PSOs) are your official, government-approved, onboard witnesses of legal compliance. Mysticetus double-checks, records and audits every PSO action. Paper scribbles and inauditable Excel data are easily challenged by opposing counsel. False claims can come from angry citizens with blurry photos. Or perhaps a disgruntled employee and intentionally altered data. Mysticetus time-stamps, encrypts and securely audits everything recorded by PSOs, as well as everyone who touches the data later. Mysticetus-recorded data cannot be altered without knowing who, when, where and why it was altered. This provides strongest possible protection from false claims of permit violation."
 	image="gavel.png"
 >}}
 
 {{< components/feature-highlight
 	title="Mysticetus Command Center"
 	subTitle="Centralize Monitoring and Management of Operations"
-	text="Mysticetus Command Center maps all your operational activities, vessel statuses, reported sightings, weather conditions and even and integrates NOAA Dynamic Management Areas. Animal sightings, ship locations can be seen by everyone equipped with Mysticetus on your project. If you've got internet, you can watch your operation in real-time, from anywhere on the planet."
+	text="Mysticetus Command Center maps all your operational activities, vessel statuses, reported sightings, weather conditions and even integrates NOAA Dynamic Management Areas. Animal sightings ands ship locations are shared with everyone equipped with Mysticetus on your project. If you've got internet, you can watch your operation in real-time, from anywhere on the planet."
 	image="mysticetus-data-driven-decisions.png"
 	imagePosition="right"
 >}}
