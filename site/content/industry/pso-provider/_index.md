@@ -15,7 +15,7 @@ title: "Pso Provider"
 {{< components/feature-highlight
 	title="Data driven mitigation"
 	subTitle="Make informed, defensible mitigation decisions"
-	text="Wait. Smudges on paper or inauditable Excel notes? Isn't this the 21st century? If your Protected Species Observer (PSO) makes a mistake, it can cost your client millions of dollars. Your clients - and governmental regulators - also rely on your PSOs to document compliance with environmental laws and corporate policy. You can't do this in a legally-defensible fashion with error-prone scribbles on paper or random Excel notes that can be changed by anyone, anytime, without record of who did what, when. Mysticetus helps your PSOs make informed, clear shutdown decisions. Mysticetus preserves and audits data using high-tech industry-standard encryption systems. Mysticetus was designed for PSOs on mitigation operations and helps your professional PSOs do their job professionally. Mysticetus presents a comprehensive, crystal clear, real-time picture for all project observers - whether on vessel, in aircraft, or on land."
+	text="Wait. Smudges on paper or inauditable Excel notes? Isn't this the 21st century? If your Protected Species Observer (PSO) makes a mistake, it can cost your client millions of dollars. Your clients - and governmental regulators - also rely on your PSOs to document compliance with environmental laws and corporate policy. You can't do this in a legally-defensible fashion with error-prone scribbles on paper or random Excel notes that can be changed by anyone, anytime, without record of who did what, when. Mysticetus helps your PSOs make informed, clear shutdown decisions. Mysticetus preserves and audits data using high-tech industry-standard encryption systems.  Mysticetus presents a comprehensive, crystal clear, real-time picture for all project observers - whether on vessel, in aircraft, or on land. Mysticetus helps your professional PSOs do their job professionally."
 	image="mysticetus-realtime-display-mitigation.png"
 >}}
 
@@ -30,13 +30,13 @@ title: "Pso Provider"
 {{< components/feature-highlight
 	title="Standardized Data Collection"
 	subTitle="Increase accuracy through your defined data collection model"
-	text="Observers consistently collect data to your defined standard. Vessel and animal locations are instantly mapped, displayed and shared across connected computers around the world. Accurate sighting data validated at time of entry. Mistakes are fixed on the water, not in the office. Is it degrees/minutes/seconds or degrees/minutes? How is bearing to the sighting recorded, again? Mysticetus automatically records all the basics like date, time, distances and locations. Mysticetus doesn't allow your PSOs to do it the wrong way."
+	text="Observers consistently collect data to your defined standard. Vessel and animal locations are instantly mapped, displayed and shared across connected computers around the world. Accurate sighting data validated at time of entry. Mistakes are fixed on the water, not in the office. Common failure points are eliminated: degrees/minutes/seconds or degrees/minutes? How is bearing to the sighting recorded, again? Mysticetus simply removes these questions from the table and automatically records all the basics: date, time, distances and locations. Mysticetus doesn't allow your PSOs to do it the wrong way."
 	image="mysticetus-data-collection.png"
 >}}
 
 {{< components/social-proof 
 	title = "Customers see the value in Mysticetus"
-	subTitle = "Experience the difference in your next anthropogenic operation with the dedicated Mysticetus team by your side."
+	subTitle = "Experience the difference with the dedicated Mysticetus team by your side."
 	testimonialText = "We had operational issues at 2:30 in the morning. The Mysticetus team immediately responded to our call and helped us address our issues quickly."
 	testimonialName = "Rick, Seismic Operations Director"
 	testimonialImage = "img/testimonials/rick.jpg"
