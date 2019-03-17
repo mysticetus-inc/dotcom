@@ -27,7 +27,7 @@ Mysticetus automatically tracks (via GPS, AIS and other methods) all vessels and
 * All data is automatically time-stamped, securely encrypted and stored, recording who changed what and when (full audit capabilities).
 * Animal sightings are accurately determined, tracked and future location predicted.
 * Critical species sightings (e.g. North Atlantic Right Whale) are shared instantly among all nearby Observers. (hint: Government regulators _love_ this type of thing).
-* Observer Photos are automatically associated and recorded with the proper sighting record in the database. This simplifies species identification validation (_"was that seriously a critical species or just a humpback whale?"_).
+* Observer Photos are automatically associated and recorded with the proper sighting record in the database. This simplifies species identification validation (_"was that seriously a critical species or just another tursiops?"_).
 * Consistent [Report generation](/feature/reporting/) at the push of a button - from all environmental contractors. Mysticetus standardizes and coordinates reporting.
 * Replay functionality allows revisiting a survey during any point of time in the past. This creates the situational map at that time - confidently provide evidence of exactly what happened and when.
 
@@ -42,7 +42,7 @@ Human Error and ambiguity can cost you millions in preventable shutdowns. If an 
 
 Human errors are quickly caught, in the field, in real-time, before they can do serious, costly damage to your operation.
 
-![Mysticetus Data Collection](https://mysticetus.com/wp-content/uploads/2016/05/Mysticetus-data-sheet-image.png)
+![Mysticetus Data Collection](/mysticetus-data-collection.png)
 
 
 ##### Land, Air, Sea - nothing left to chance
