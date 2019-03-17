@@ -20,15 +20,15 @@ Icons:
 -->
 {{< components/three-up
 	title= "Mysticetus Manages Environmental Compliance End to End"
-	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus data standardization forces consistency across mitigation, data collection, and reporting. Secure Audit features provide un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges."
+	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus data standardization forces consistency across mitigation, data collection, and reporting. Secure Audit features provide un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges.\nClick the appropriate industry for more information:"
 	image1= "img/industry/energy.svg"
-	text1= "Energy"
+	text1= "For Energy"
 	link1= "industry/energy"
 	image2= "img/industry/pso-provider.svg"
-	text2= "PSO Provider"
+	text2= "For PSO/MMO Providers"
 	link2= "industry/pso-provider"
 	image3= "img/industry/academia.svg"
-	text3= "Academia"
+	text3= "For Academia and Scientific Research"
 	link3= "/industry/academia"
 >}}
 
