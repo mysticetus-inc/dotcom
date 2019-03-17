@@ -5,7 +5,7 @@ title: "Academia"
 {{< components/sub-hero
 	centered="true"
 	backgroundImg="academia.jpg"
-	title="Collect Data Consistently. Q/A is Immediate. Automated Analysis Tools."
+	title="Collect Data Consistently. Immediate Q/A. Automated Analysis Tools. Publication-ready Reports and Maps."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Let us help you integrate Mysticetus to your research."
@@ -15,14 +15,14 @@ title: "Academia"
 {{< components/feature-highlight
 	title="Pre-Define Your Data Collection Model"
 	subTitle="Data collection consistency is enforced across all contributors"
-	text="Mysticetus template system gives you the tools to customize and enforce consistent data collection. Data is automatically backed up to the cloud. Animal locations are mapped quickly and easily for immediate visualization and verification. Sighting data is viewable across all project computers."
+	text="Mysticetus' template system gives you the tools to customize and enforce consistent data collection. Data is automatically backed up to the cloud. Animal locations are mapped quickly and easily for immediate visualization and verification. Sighting data is viewable across all project computers. Mysticetus has been used on hundreds of research projects, from vessel and aerial line transect (density, abundance, presence/absense) through behavioral focal follow (from land, sea and air), and of course mitigation."
 	image="mysticetus-theodolite-marine-survey.jpg"
 >}}
 
 {{< components/feature-highlight
 	title="Data Quality Checked as it is Collected"
 	subTitle="Fix Errors Right Away, take back those nights lost to QA/QC"
-	text="Data errors are immediately obvious on the real-time map display. Entry classification is consistent. Calculations are automated for you. Automatically and correctly capture data from field equipment such as theodolites, AIS and your gps."
+	text="Data errors are immediately obvious on the real-time map display. Entry classification is consistent. Calculations are automated for you. Automatically and correctly capture data from field equipment such as theodolites (including many Sokkia/Topcon models from DT5 through DT200), AIS and your gps."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 >}}
