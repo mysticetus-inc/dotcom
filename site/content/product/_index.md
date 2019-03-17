@@ -19,17 +19,17 @@ title: "Product"
 
 {{< components/feature-highlight
 	title="Software and Hardware Development Services"
-	subTitle="Augment your Research and Development projects to clear critical technical debt"
-	text="Mysticetus has the background and capacity to fill your short term needs: Data visualization, App development, GDPR compliant cloud solutions, Database development, System throughput scaling, AWS and Azure. Draw on our experience today."
+	subTitle="Augment your Research and Development - Clear critical technical debt"
+	text="You know that high-tech project you just can't get to because everything else is on fire? Yeah. That one. We can help. Mysticetus has the background and capacity to fill your short term needs: data visualization, app development, GDPR compliant cloud solutions, database development, system throughput scaling. AWS and Azure. Github, Netlify, Hugo/Jekyll. This ain't our first high-tech rodeo."
 	image="project-planning-technical-services-mysticetus.png"
 	imagePosition="left"
 
 >}}
 
 {{< components/feature-highlight
-	title="MTS validates your mitigation team's technological readiness."
-	subTitle="Unprepared mitigation teams will be sloppy, at great cost to your operation"
-	text="Are your PSO's good to go? Let us assess, fine-tune, and validate they are ready to go before sailing. Electronic gear ready? Team fully Trained? Ship's systems providing adequate support? Let us stop by and confirm team readiness before they sail."
+	title="MTS validates your mitigation team's technological readiness"
+	subTitle="Unprepared mitigation teams will be sloppy and expensive"
+	text="Are your Protected Species Observers (PSOs) good to go? Let us assess, fine-tune, and validate they are ready to go before sailing. Electronic gear ready? Team fully trained? Ship's systems providing adequate support? Let us stop by and confirm team readiness before they sail."
 	image="Dockside-technical-services-Mysticetus.jpg"
 	imagePosition="right"
 
@@ -37,8 +37,8 @@ title: "Product"
 
 {{< components/feature-highlight
 	title="Independent Review of Critical Projects"
-	subTitle="Comprehenisive Verification and Validation of Complex Projects"
-	text="We know how to create and deploy technology. We've spent our lives doing just that. Uncovering and delivering actionable feedback is never easy and is often not comprehensive. Redefining a project's path to success is, frankly, hard. We can review, assess, and help in the recovery of a project and reign in costs. We tell it like it is so you can see and address the hard decisions timely."
+	subTitle="Comprehenisive Verification and Validation of Complex - or out of control - Projects"
+	text="We know how to create and deploy technology. We've spent our lives doing just that. Redefining a project's path to success is, frankly, hard - and depends on blunt, actionable feedback. We can review, assess, and help in the recovery of an project and reign in costs. Unlike internal teams, we don't have a horse in your corporate race. We'll tell it like it is so you can make the hard decisions."
 	image="Independent-Verification-Validation-Project-Review-MTS-Mysticetus.png"
 	imagePosition="left"
 
