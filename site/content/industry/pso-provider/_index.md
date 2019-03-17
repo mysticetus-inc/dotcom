@@ -48,10 +48,8 @@ title: "Pso Provider"
 	text1= "Aerial Based"
 	image2= "theodolite-marine-survey-mysticetus.png"
 	text2= "On Land"
-	link2= "industry/pso-provider"
 	image3= "Mysticetus-vessel-based-surveys-mitigation.jpg"
 	text3= "At Sea"
-	link3= "/industry/academia"
 >}}
 
 {{< components/sub-hero
