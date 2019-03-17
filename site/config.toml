@@ -186,8 +186,8 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	industry = "industry"
 
 [params]
-#	logo = "/img/mysticetus.png"
+	logo = "/img/mysticetus.png"
 	fullName = "Mysticetus, LLC."
 	cta_text = "Request a Demo"
 	footerLogo = "/img/mysticetus.png"
-	footerText = "Changing the way teams observe, protect, and manage Anthropogenic operations near protected marine wildlife."
+	footerText = "Changing the way teams observe, protect, and manage operations near protected marine wildlife."
