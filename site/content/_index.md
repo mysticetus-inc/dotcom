@@ -60,7 +60,7 @@ Icons:
 {{< components/feature-highlight
 	title="Mysticetus Command Center"
 	subTitle="Monitor All of Your Operations - From Anywhere On The Planet"
-	text="Monitor every moving part of your project. Mysticetus heads-up display maps everything going on and shows this to you on a web page. View vessel locations, animal sightings, and project status. Real time, real-world knowledge enables decision making from a centralized location. Follow, manage, and support operations from anywhere on the planet. Connected vessels leverage the big picture as they transit active areas."
+	text="Monitor every moving part of your project. Mysticetus maps and displays everything going on in real-time, on a web page. View vessel locations, animal sightings, and operational status. Follow and manage operations from anywhere on the planet. Everyone sees the same thing on their screen."
 	image="mysticetus-data-driven-decisions.png"
 	buttonText="Learn more"
 	buttonLink="/feature/mitigation/"
@@ -72,14 +72,14 @@ Icons:
 {{< components/feature-highlight
 	title="Mysticetus Technical Services (MTS)"
 	subTitle="Address your technical deficits"
-	text="You know that one IT project you just cant get to because everything else is always catching on fire? Yeah. We know. This isn't our first rodeo, either. Mysticetus Technical Services has a proven track record of solving critical high-tech problems in the marine industry. We specialize in hard-core software development and hardware deployment and we have a rolodex of some of the best contract software developers on the planet (well, not really an actual \"Rolodex\", but you get the point). Our solutions range from additional support of your environmental staff, through anti-piracy, through through geophysical/geotechnical engineering and production modules. Net-net: we augment your IT staff's technical bandwidth. Give us a call."
+	text="You know that one IT project you just can't get to because everything else is on fire? Yeah. We know. This isn't our first rodeo, either. Mysticetus Technical Services has a proven track record of solving critical high-tech problems in the marine industry. We specialize in hard-core software development and hardware deployment. We have a rolodex of top contract software developers. Our solutions include support of your environmental staff, anti-piracy technology, geophysical/geotechnical engineering, and production modules. Net-net: we augment your IT staff's technical bandwidth. Give us a call."
 	image="Theodolite-survey-height-calculations-technical-services-pythogoras-cetacean-Math-square.jpg"
 	buttonText="Learn more"
 	buttonLink="/product/"
 >}}
 
 {{< components/social-proof 
-	title = "Customers see the value in Mysticetus Turn Key Solutions"
+	title = "Customers value Mysticetus turnkey solutions"
 	subTitle = "Experience the difference in your next operation with the dedicated Mysticetus team by your side."
 	testimonialText = "Greatly frees me up from reviewing reports and allows me to focus on generating new business for my organization. Training for new observers is simple and straight forward allowing us to leverage help from a diverse set of backgrounds."
 	testimonialName = "Kat, Marine Sciences Director"
@@ -87,8 +87,8 @@ Icons:
 >}}
 
 {{< components/call-to-action
-	title= "Over $1.6 million USD savings was directly measured during one 4 month operation."
-	subTitle= "A 2016 case study on Mysticetus use (Cook Inlet Seismic Survey) measured a significant operational cost savings in the prevention of false shutdowns and delays alone. Imagine what Mysticetus can do for you."
+	title= "Over $1.6 million USD savings directly measured during one 4-month operation"
+	subTitle= "A 2015 case study on Mysticetus use (Cook Inlet Seismic Survey) demonstrated $1.6 million saved by preventing false shutdowns and delays. Imagine what Mysticetus can do for you."
 	button1Text="Request a Demo"
 	button1Link="demo"
 	button2Text="Ask a Question"
