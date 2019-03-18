@@ -24,7 +24,7 @@ Icons:
 	image1= "img/industry/energy.svg"
 	text1= "Click for O&G, Wind, DoD"
 	link1= "industry/energy"
-	image2= "img/industry/pso-provider.svg"
+	image2= "img/industry/pso-provider.png"
 	text2= "Click for PSO/MMO Providers"
 	link2= "industry/pso-provider"
 	image3= "img/industry/academia.svg"
