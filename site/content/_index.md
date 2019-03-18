@@ -4,8 +4,8 @@ title: "Mysticetus"
 
 {{< components/hero
 	backgroundImg="mysticetus.jpg"
-	title="When Failure Is Not An Option"
-	subTitle="Mysticetus protects you from human error that can hobble projects, threaten permits, and eat margins."
+	title="Failure Is Not An Option"
+	subTitle="Mysticetus protects you from human error that can cripple projects, threaten permits, and reduce margins."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Let us demonstrate the power of the Mysticetus System."
@@ -20,7 +20,7 @@ Icons:
 -->
 {{< components/three-up
 	title= "Mysticetus Manages Environmental Compliance End to End"
-	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus data standardization forces consistency across mitigation, data collection, and reporting. Secure Audit features provide un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges."
+	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus enforces data standardization across mitigation, collection, and reporting. Secure Audit provides un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges."
 	image1= "img/industry/energy.svg"
 	text1= "Click for O&G, Wind, DoD"
 	link1= "industry/energy"
@@ -37,7 +37,7 @@ Icons:
 {{< components/feature-highlight
 	title="Paper Won't Protect Your Permit"
 	subTitle="Insurance Against False Claims"
-	text="All it takes is one claim of violation and you may lose your right to operate. Protected Species Observer (PSO) data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime - and lawyers know this. Paper and Excel spreadsheets will be quickly dismissed in court. Mysticetus securely encrypts and audits all data activity using high-tech industry standard technology (AES-256). Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute illegitimate claims of permit violation with full confidence in your mitigation data. Paper and Excel can't do this."
+	text="All it takes is one claim of violation and you may lose your right to operate. Protected Species Observer (PSO) data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime - and lawyers know this. Paper and Excel spreadsheets will be quickly dismissed in court. Mysticetus securely encrypts and audits all data exceeding industry security standards (AES-256). Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute unfounded claims of permit violation. Paper and Excel can't do this."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
