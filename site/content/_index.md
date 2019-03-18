@@ -73,7 +73,7 @@ Icons:
 	title="Mysticetus Technical Services (MTS)"
 	subTitle="Address your technical deficits"
 	text="You know that one IT project you just can't get to because everything else is on fire? Yeah. We know. This isn't our first rodeo, either. Mysticetus Technical Services has a proven track record of solving critical high-tech problems in the marine industry. We specialize in hard-core software development and hardware deployment. We have a rolodex of top contract software developers. Our solutions include support of your environmental staff, anti-piracy technology, geophysical/geotechnical engineering, and production modules. Net-net: we augment your IT staff's technical bandwidth. Give us a call."
-	image="Theodolite-survey-height-calculations-technical-services-pythogoras-cetacean-Math-square.jpg"
+	image="project-planning-technical-services-mysticetus.jpg"
 	buttonText="Learn more"
 	buttonLink="/product/"
 >}}
