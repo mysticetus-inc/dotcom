@@ -31,7 +31,7 @@ Environmental Mitigation is Legal Business. If you do it wrong, you could lose y
 
 _Everything_ that happens in the field - vessel movement, workboat operational status, animal sightings, environmental mitigations - is time stamped and recorded with state-of-the-art AES-256 encryption in a replayable and unalterable audit log. All data edits are logged and audited. Should it ever become necessary to prove something happened - or did not happen - Mysticetus gives you the ability. Easily forged Excel spreadsheets and paper forms provide no such audit capability, and will be laughed out of court. 
 
-![Data Driven Mitigation](https://mysticetus.com/wp-content/uploads/2016/02/Mysticetus-map-view.png)
+![Data Driven Mitigation](mitigation.png)
 
 {{% /components/section-container %}}
 
