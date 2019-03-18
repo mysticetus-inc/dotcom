@@ -5,7 +5,7 @@ title: "Mysticetus"
 {{< components/hero
 	backgroundImg="mysticetus.jpg"
 	subTitle="Mysticetus protects you from human error that can cripple projects, threaten permits, and reduce margins"
-	title="High tech error prevention, state-of-the-art auditing, modern automatic data archival, easy-as-pie report generation"
+	title="High tech error prevention, state-of-the-art auditing"
 	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Scroll down to get more information."
