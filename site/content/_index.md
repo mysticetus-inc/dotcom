@@ -47,9 +47,9 @@ Icons:
 {{< components/page-line >}}
 
 {{< components/feature-highlight
-	title="Reduce Operational Costs"
+	title="Dramatically Reduce Operational Costs"
 	subTitle="Eliminate Human Errors, Standardize Reporting"
-	text="Human errors and inefficiencies can destroy your margins: Inappropriate shutdowns, mis-entered coordinates, erroneous calculations. Mysticetus technology catches, highlights and fixes PSO errors as they happen. Mysticetus prevents unnecessary shutdowns and costly delays while saving expensive post-operation QA burdens. Manage and generate repeatable, consistent, and publication-ready reports in seconds - not hours/days. Mysticetus reporting eliminates expensive dependencies on GIS services. Reduce your operational costs and increase your ability to compete. Free up your employees to grow your business."
+	text="Human errors and inefficiencies can destroy your margins: Inappropriate shutdowns, mis-entered coordinates, erroneous distance calculations. Mysticetus technology catches, highlights and fixes PSO errors as they happen. Mysticetus prevents unnecessary shutdowns and costly delays. Mysticetus slashes expensive post-operation QA burdens. Manage and generate repeatable, consistent reports in seconds - not hours/days. Mysticetus replaces expensive GIS services. Free up your employees to grow your business."
 	image="mysticetus-reporting.png"
 	buttonText="Learn more"
 	buttonLink="/feature/reporting/"
