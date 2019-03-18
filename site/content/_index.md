@@ -37,7 +37,7 @@ Icons:
 {{< components/feature-highlight
 	title="Paper Won't Protect Your Permit"
 	subTitle="Insurance Against False Claims"
-	text="All it takes is one claim of violation and you may lose your right to operate. Protected Species Observer (PSO) data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime - and lawyers know this. Paper and Excel spreadsheets will be quickly dismissed in court. <br>Mysticetus securely encrypts and audits all data exceeding industry security standards (AES-256). Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute unfounded claims of permit violation. Paper and Excel can't do this."
+	text="All it takes is one claim of violation and you may lose your right to operate. Protected Species Observer (PSO) data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime - and lawyers know this. Paper and Excel spreadsheets will be quickly dismissed in court. <br/>Mysticetus securely encrypts and audits all data exceeding industry security standards (AES-256). Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute unfounded claims of permit violation. Paper and Excel can't do this."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
