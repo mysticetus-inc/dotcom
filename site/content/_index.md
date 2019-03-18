@@ -8,7 +8,7 @@ title: "Mysticetus"
 	subTitle="Mysticetus protects you from human error that can cripple projects, threaten permits, and reduce margins."
 	buttonText="Request a Demo"
 	buttonUrl="demo"
-	supportingText="Let us demonstrate the power of the Mysticetus System."
+	supportingText="Scroll down to get more information."
 >}}
 
 <!-- 
