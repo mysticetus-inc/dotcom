@@ -26,7 +26,7 @@ Regulatory agencies such as NMFS and BOEM have started to require weekly reports
 
 Seriously. We'll bet you a dollar your Excel formulas for calculating effort/environmental totals are wrong. For example, good luck writing an Excel formula to iterate over thousands of GPS trackmarks and apply those geo-locations to effort states constrained by lease area geo-polygons to get total time/distance in lease area, broken down by effort and environmental state.
 
-But that's one of the things Mysticetus does, accurately. Isn't it awesome living in the future?
+But that's one of the things Mysticetus does, accurately.
 
 **Mysticetus automates and standardizes the report generation process**  
 With Mysticetus automatic report generation – Reports are generated with the press of a single button. Mysticetus’s report generation feature also eliminates dependencies on expensive GIS services during post processing in most cases.
