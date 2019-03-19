@@ -41,7 +41,7 @@ Any field you record, you can report on it. Mysticetus will count up anything, b
 
 Heck, if you record how many cups of coffee your MMOs drink, you can report on that and associate that data with sighting counts. It is totally up to the project managers.
 
-Here is a sample effort report breaking down time and distance by Bft, visibility and vessel activity:
+Here is a sample effort report breaking down time and distance by Beaufort sea state, visibility and vessel activity:
 
 ![Mysticetus Report Example](https://mysticetus.blob.core.windows.net/web/mysticetus-report-sample.png "Mysticetus Report Example")
 
