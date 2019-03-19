@@ -6,8 +6,8 @@ title: "Contact"
 	static="true"
 	size="small"
 	centered="true"
-	title="Mysticetus Support"
-	subTitle="Get answers to technical questions about Mysticetus."
+	title="Contact Mysticetus"
+	subTitle="Go ahead. Ask us anything."
 	bold="true"
 >}}
 
