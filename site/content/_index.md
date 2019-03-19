@@ -4,7 +4,7 @@ title: "Mysticetus"
 
 {{< components/hero
 	backgroundImg="mysticetus.jpg"
-	title="Set Higher Standards"
+	title="Demand Higher Standards"
 	subTitle="Mysticetus protects you from human error that can cripple projects, threaten permits, and reduce margins"
 	buttonText="Request a Demo"
 	buttonUrl="demo"
