@@ -8,13 +8,13 @@ title: "About"
 	size="small"
 	bold="true"
 	centered="true"
-	backgroundImg="Dave and Paul Selfie.jpg"
 >}}
 
 {{< components/sub-hero
 	title="Meet the Team"
 	size="small"
 	centered="true"
+	backgroundImg="Dave and Paul Selfie.jpg"
 >}}
 
 {{< components/team-highlight
