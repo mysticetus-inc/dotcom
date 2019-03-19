@@ -14,11 +14,9 @@ title: "About"
 	title="Meet the Team"
 	size="small"
 	centered="true"
-	backgroundImg="Dave and Paul Selfie.jpg"
 >}}
 
-![Paul and Dave](Dave and Paul Selfie.jpg)
-
+<center>{{< figure src="Dave and Paul Selfie.jpg" title="Paul and Dave" >}}</center>
 
 {{< components/team-highlight
 	name="Dave Steckler"
