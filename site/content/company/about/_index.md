@@ -8,6 +8,7 @@ title: "About"
 	size="small"
 	bold="true"
 	centered="true"
+	backgroundImg="Dave and Paul Selfie.jpg"
 >}}
 
 {{< components/sub-hero
