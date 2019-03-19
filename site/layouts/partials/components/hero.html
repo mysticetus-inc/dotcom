@@ -27,10 +27,10 @@
 				{{ end }}
 			</div>
 		</div>
+		{{ if eq .downArrow "true" }}
+			<div class="align-text-bottom">
+				<img src="img/down-arrow.png" height="38" width="60">
+			</div>
+		{{ end }}
 	</div>
-	{{ if eq .downArrow "true" }}
-		<div class="align-text-bottom">
-			<img src="img/down-arrow.png" height="38" width="60">
-		</div>
-	{{ end }}
 </section>
