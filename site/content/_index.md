@@ -6,7 +6,6 @@ title: "Mysticetus"
 	backgroundImg="mysticetus.jpg"
 	title="Demand Higher Standards"
 	subTitle="Mysticetus protects you from human error that can cripple projects, deplete margins and threaten your very ability to opperate."
-#	buttonText="Request a Demo"
 	buttonUrl="demo"
 	supportingText="Scroll down to see what Mysticetus can do for you."
 >}}
