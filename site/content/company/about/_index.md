@@ -16,6 +16,8 @@ title: "About"
 	centered="true"
 >}}
 
+<center>{{< figure src="Dave and Paul Selfie.jpg" title="Paul and Dave" >}}</center>
+
 {{< components/team-highlight
 	name="Dave Steckler"
 	imagePosition="right"
