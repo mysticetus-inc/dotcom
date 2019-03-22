@@ -5,7 +5,7 @@ title: "Mysticetus"
 {{< components/hero
 	backgroundImg="mysticetus.jpg"
 	title="Mysticetus Manages Environmental Compliance End to End"
-	subTitle="Demand Higher Standards"
+	subTitle="Mysticetus protects you from human error that can cripple projects, deplete margins, and threaten your very ability to operate"
 	buttonUrl="demo"
 	supportingText="Scroll down to see what Mysticetus can do for you."
 	downArrow="true"
@@ -19,7 +19,7 @@ Icons:
 	- Academia: https://www.flaticon.com/free-icon/book_854861
 -->
 {{< components/three-up
-	title= "Mysticetus protects you from human error that can cripple projects, deplete margins, and threaten your very ability to operate"
+	title= "Demand Higher Standards"
 	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus enforces data standardization across mitigation, collection, and reporting. Secure Audit provides un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges."
 	image1= "img/industry/energy.svg"
 	text1= "Click for O&G, Wind, DoD"
