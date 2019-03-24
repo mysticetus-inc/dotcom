@@ -29,11 +29,21 @@
 		</div>
 		{{ if eq .downArrow "true" }}
 			<div class="align-text-bottom text-center">
-				<a style="scroll-behavior: smooth;" href="#belowHero">
-				<img src="img/down-arrow.png" height="38" width="60">
+				<style>
+					html {
+					  scroll-behavior: smooth;
+					 }
+
+					 #down {
+					  margin-top: 100%;
+					  padding-bottom: 25%;
+					 }
+				</style>
+				<a href="#down">
+					<img src="img/down-arrow.png" height="38" width="60">
 				</a>
 			</div>
+			<div id="down"></div>
 		{{ end }}
 	</div>
-<div id="belowHero"></div>
 </section>
