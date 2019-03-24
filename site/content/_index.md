@@ -4,7 +4,7 @@ title: "Mysticetus"
 
 {{< components/hero
 	backgroundImg="mysticetus.jpg"
-	title="Mysticetus Manages Environmental Compliance End to End"
+	title="Manage Environmental Compliance End to End"
 	subTitle="Mysticetus protects you from human error that can cripple projects, deplete margins, and threaten your very ability to operate"
 	buttonUrl="demo"
 	supportingText="Scroll down to see what Mysticetus can do for you."
