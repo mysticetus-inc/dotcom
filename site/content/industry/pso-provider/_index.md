@@ -37,8 +37,8 @@ title: "Pso Provider"
 {{< components/social-proof 
 	title = "Customers see the value in Mysticetus"
 	subTitle = "Experience the difference with the dedicated Mysticetus team by your side."
-	testimonialText = "We had operational issues at 2:30 in the morning. The Mysticetus team immediately responded to our call and helped us address our issues quickly."
-	testimonialName = "Rick, Seismic Operations Director"
+	testimonialText = "Our team began using Mysticetus for our right whale aerial surveys in 2017, which also happened to be a record year. We documented close to 200 right whales in a single survey, and without Mysticetus our data collection and post processing would not have been as efficient nor as clean. We customized templates for three different surveys and it is now a vital part of our operations. We value Mysticetus in real time data collection mode because of the interface and map, allowing us to quickly see where we have circled prior and what we have found, as well as afterwards in editing mode utilizing effort reports and sightings summaries. Dave and Paul have been very responsive troubleshooting issues, fulfilling features requests, and assisting us to get the most of out of Mysticetus' capabilities."
+	testimonialName = "Brigid, Survey Operations Director"
 	testimonialImage = "img/testimonials/rick.jpg"
 >}}
 
