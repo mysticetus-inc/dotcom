@@ -7,7 +7,4 @@ title: "Ørsted Map"
 	centered="true"
 	title="Mysticetus Command Center"
 	subTitle="Monitor and manage all remote operations in real-time from anywhere."
-	buttonText="Request a Demo"
-	buttonUrl="/demo/"
-	bold="true"
 >}}
