@@ -18,14 +18,15 @@ title: "Downloads"
 
 ### [Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
 
+
 {{< components/page-line >}}
 
 {{< components/sub-hero
 	static="true"
 	size="small"
 	centered="true"
-	title="Request a Demo"
-	subTitle="Let us help you kick off your project with a personalized walk-through tuned to your needs."
+	title="Request Mysticeuts Demo"
+	subTitle="Start with a demo to kick off your project with a personalized walk-through tuned to your needs."
 	bold="true"
 >}}
 
