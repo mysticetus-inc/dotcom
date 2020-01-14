@@ -27,8 +27,8 @@ title: "Product"
 >}}
 
 {{< components/feature-highlight
-	title="MTS validates your mitigation team's technological readiness"
-	subTitle="Unprepared mitigation teams will be sloppy and expensive"
+	title="Techincal Services to validate your team's technological readiness"
+	subTitle="Unprepared mitigation teams will be present poorly and be expensive"
 	text="Are your Protected Species Observers (PSOs) good to go? Let us assess, fine-tune, and validate they are ready to go before sailing. Electronic gear ready? Team fully trained? Ship's systems providing adequate support? Let us stop by and confirm team readiness before they sail."
 	image="Dockside-technical-services-Mysticetus.jpg"
 	imagePosition="right"
