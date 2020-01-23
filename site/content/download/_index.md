@@ -26,7 +26,7 @@ title: "Downloads"
 	size="small"
 	centered="true"
 	title="Request Mysticetus Demo"
-	subTitle="Start with a personalized demo to kick off your project with a  walk-through tuned to your needs."
+	subTitle="Start with a personalized demo tuned to your needs to kick off your project."
 	bold="true"
 >}}
 
