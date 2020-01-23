@@ -20,7 +20,7 @@ title: "Downloads"
 
 {{% components/section-container %}}
 **Contact us for a sample template to get your project going**  
-Templates can be tricky to get right from scratch. We have many examples where one will meet your needs. Save yourself time, email us for your start point. You know the email alias - Info@ 
+Templates can be tricky to get right from scratch. We have many examples where one will meet your needs. Save yourself time, email us for your starting point. You know the email alias - Info@ 
 {{% components/section-container %}}
 
 {{< components/page-line >}}
@@ -30,7 +30,7 @@ Templates can be tricky to get right from scratch. We have many examples where o
 	size="small"
 	centered="true"
 	title="Request Mysticetus Demo"
-	subTitle="Start with a personalized demo tuned to your needs to kick off your project."
+	subTitle="Start with a personalized demo tuned to the needs of your project."
 	bold="true"
 >}}
 
