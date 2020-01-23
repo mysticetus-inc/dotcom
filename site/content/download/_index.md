@@ -18,6 +18,10 @@ title: "Downloads"
 
 ### [Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
 
+{{% components/section-container %}}
+**Contact us for a sample template to get your project going**  
+Templates can be tricky to get right from scratch. We have many examples where one will meet your needs. Save yourself time, email us for your start point. You know the email alias - Info@ 
+{{% components/section-container %}}
 
 {{< components/page-line >}}
 
