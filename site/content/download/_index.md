@@ -14,9 +14,9 @@ title: "Downloads"
 	bold="true"
 >}}
 
-### [Download Mysticetus Installer](https://github.com/Entiat/mysticetusdownload/raw/master/MysticetusInstall.zip)
+## [Download Mysticetus Installer](https://github.com/Entiat/mysticetusdownload/raw/master/MysticetusInstall.zip)
 
-### [Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
+## [Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
 
 {{% components/section-container %}}
 **Contact us for a sample template to get your project going**  
