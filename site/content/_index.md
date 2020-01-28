@@ -20,7 +20,7 @@ Icons:
 -->
 {{< components/three-up
 	title= "Demand Higher Standards"
-	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus enforces data standardization across mitigation, collection, and reporting. Secure Audit provides un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges."
+	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus enforces data standardization across mitigation, collection, and reporting. Secure Audit provides un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges. Integration with external tools such as lazor range finders, IR cameras, and theodolites provide exact data capture without human interaction."
 	image1= "img/industry/energy.svg"
 	text1= "Click for O&G, Wind, DoD"
 	link1= "industry/energy"
@@ -37,7 +37,7 @@ Icons:
 {{< components/feature-highlight
 	title="Paper Won't Protect Your Permit"
 	subTitle="Insurance Against False Claims"
-	text="All it takes is one claim of violation and you may lose your right to operate. Protected Species Observer (PSO) data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime - and lawyers know this. Paper and Excel spreadsheets will be quickly dismissed in court. Mysticetus securely encrypts and audits all data in compliance with security industry standards (AES-256). Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute unfounded claims of permit violation. Paper and Excel can't do this."
+	text="All it takes is one claim of violation and you may lose your right to operate. Protected Species Observer (PSO) data collected via paper and spreadsheets cannot be defended - they can be altered by anyone, anytime - and lawyers know this. Paper and Excel spreadsheets will be quickly dismissed in court. Mysticetus securely encrypts and audits all data in compliance with security industry standards (AES-256) forming your basis of nonrepudiation. Nothing can be changed without knowing precisely who, when, and how it was changed. Quickly refute unfounded claims of permit violation. Paper and Excel can't do this."
 	image="mysticetus-data-collection.png"
 	imagePosition="right"
 	buttonText="Learn more"
@@ -49,7 +49,7 @@ Icons:
 {{< components/feature-highlight
 	title="Dramatically Reduce Operational Costs"
 	subTitle="Eliminate Human Errors, Standardize Reporting"
-	text="Human errors and inefficiencies can destroy your margins: Inappropriate shutdowns, mis-entered coordinates, erroneous distance calculations. Mysticetus technology catches, highlights and fixes PSO errors as they happen. Mysticetus prevents unnecessary shutdowns and costly delays. Mysticetus slashes expensive post-operation QA burdens. Manage and generate repeatable, consistent reports in seconds - not hours/days. Mysticetus replaces expensive GIS services. Free up your employees to grow your business."
+	text="Human errors and inefficiencies can destroy your margins: Inappropriate shutdowns, mis-entered coordinates, erroneous distance calculations. Mysticetus template system enforces consistent data collection. Mysticetus technology catches, highlights and fixes PSO errors as they happen. Mysticetus prevents unnecessary shutdowns and costly delays. Mysticetus slashes expensive post-operation QA burdens. Manage and generate repeatable, consistent reports in seconds - not hours/days. Mysticetus replaces expensive GIS services."
 	image="mysticetus-reporting.png"
 	buttonText="Learn more"
 	buttonLink="/feature/reporting/"
@@ -60,7 +60,7 @@ Icons:
 {{< components/feature-highlight
 	title="Mysticetus Command Center"
 	subTitle="Monitor All of Your Operations - From Anywhere On The Planet"
-	text="Monitor every moving part of your project. Mysticetus maps and displays everything going on in real-time, on a web page. View vessel locations, animal sightings, and operational status. Follow and manage operations from anywhere on the planet. Everyone sees the same thing on their screen."
+	text="Automatically share sightings between vessels in your operation. View and monitor every survey vessel and stations that are part of your project via a web interface. Vessel locations, animal sightings, and operational status can all be seen. Dynamic management areas are displayed automatically for your observers.  Everyone sees the same thing at the same time. Situational awareness leverages the power of the cloud."
 	image="mysticetus-data-driven-decisions.png"
 	buttonText="Learn more"
 	buttonLink="/feature/mitigation/"
