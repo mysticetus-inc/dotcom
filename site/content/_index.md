@@ -20,7 +20,7 @@ Icons:
 -->
 {{< components/three-up
 	title= "Demand Higher Standards"
-	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus enforces data standardization across mitigation, collection, and reporting. Secure Audit provides un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges. Integration with external tools such as lazor range finders, IR cameras, and theodolites provide exact data capture without human interaction."
+	subTitle= "Mysticetus drives Environmental Teams to make logical, data-driven decisions. Mysticetus enforces data standardization across mitigation, collection, and reporting. Secure Audit provides un-alterable proof of compliance -  paper or Excel leaves your operation and your permit vulnerable to legal challenges. Integration with external tools such as laser range finders, IR cameras, and theodolites provide exact data capture without human interaction."
 	image1= "img/industry/energy.svg"
 	text1= "Click for O&G, Wind, DoD"
 	link1= "industry/energy"
