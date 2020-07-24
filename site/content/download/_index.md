@@ -10,7 +10,7 @@ title: "Downloads"
 	size="small"
 	centered="true"
 	title="Mysticetus Downloads"
-	subTitle="We work to support you."
+	subTitle="Useful downloads to support you."
 	bold="true"
 >}}
 
@@ -20,7 +20,7 @@ title: "Downloads"
 
 #### [Download Mysticetus Project Managers Operations Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20Project%20Manager%20QA%20QC%20Guide.pdf)
 
-### [To really dig in: Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
+##### [To really dig in: Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
 
 {{% components/section-container %}}
 **Contact us for a sample template to get your project going**  
