@@ -20,11 +20,11 @@ title: "Downloads"
 
 #### [Download Mysticetus Project Managers Operations Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20Project%20Manager%20QA%20QC%20Guide.pdf)
 
-##### [To really dig in: Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
+###### [To really dig in: Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
 
 {{% components/section-container %}}
 **Contact us for a sample template to get your project going**  
-Templates can be tricky to get right from scratch. We have many examples where one will meet your needs. Save yourself time, email us for your starting point. You know the email alias - Info@ 
+Getting your template file correct is important and can be tricky to get right from scratch. We have many examples where one will meet your needs. Save yourself time, email us for your starting point and a tutorial. You know the email alias - Infoatmystecetusdotcom 
 {{% components/section-container %}}
 
 {{< components/page-line >}}
