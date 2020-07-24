@@ -18,7 +18,7 @@ title: "Downloads"
 
 #### [Download Mysticetus PSO/Lead PSO Operations Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20PSO%20and%20Lead%20PSO%20QA%20QC%20Guide.pdf)
 
-#### [Download Mysticetus Project Managers Operations Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20Project%20Manager%20QA%20QC%20Guide.pdf)
+#### [Download Mysticetus Project Manager Operations Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20Project%20Manager%20QA%20QC%20Guide.pdf)
 
 ###### [To really dig in: Download Mysticetus User Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20System%20Users%20Guide%20V2.pdf)
 
