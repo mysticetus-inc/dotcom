@@ -24,7 +24,7 @@ title: "Downloads"
 
 {{% components/section-container %}}
 **Contact us for a sample template to get your project going**  
-Mysticetus data collection requires a "template" to structure your data. Getting your template file correct is important and can be tricky. We have many examples that will likely meet your needs. Save yourself time and speed up your learning curve; email us for a starting point to work from plus a tutorial. You know the email alias - Infoatmystecetusdotcom 
+Mysticetus data collection requires a "template" to structure your data. Getting your template file correct is important and can be tricky. We have many examples that will likely meet your needs. Save yourself time and speed up your learning curve; email us for a starting point to work from plus a tutorial. You know the email alias - Infoatmysticetusdotcom 
 {{% components/section-container %}}
 
 {{< components/page-line >}}
