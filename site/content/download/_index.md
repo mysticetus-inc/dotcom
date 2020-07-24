@@ -20,6 +20,8 @@ title: "Downloads"
 
 #### [Download Mysticetus PSO/Lead PSO Operations Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20PSO%20and%20Lead%20PSO%20QA%20QC%20Guide.pdf)
 
+#### [Download Mysticetus Project Managers Operations Guide](https://github.com/Entiat/mysticetusdownload/raw/master/Mysticetus%20Project%20Manager%20QA%20QC%20Guide.pdf)
+
 {{% components/section-container %}}
 **Contact us for a sample template to get your project going**  
 Templates can be tricky to get right from scratch. We have many examples where one will meet your needs. Save yourself time, email us for your starting point. You know the email alias - Info@ 
